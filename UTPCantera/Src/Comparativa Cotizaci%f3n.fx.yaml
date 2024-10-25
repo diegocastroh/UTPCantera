@@ -352,7 +352,7 @@
             Format: ='DatePickerCanvas.Format'.Short
             Height: =32
             PCFTeamsTheme: ="default"
-            SelectedDate: =Now()
+            SelectedDate: =Gallery2.Selected.fecha_envio
             Width: =320
             X: =158
             Y: =141
