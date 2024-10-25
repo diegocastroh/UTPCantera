@@ -349,6 +349,14 @@
                 "InvariantPropertyName": "IconStyle",
                 "IsLockable": false,
                 "NameMapSourceSchema": "?"
+              },
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "BasePaletteColor",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
               }
             ],
             "ControlUniqueId": "688",
@@ -389,6 +397,12 @@
                 "Category": "Data",
                 "InvariantScript": "'ButtonCanvas.IconStyle'.Filled",
                 "Property": "IconStyle",
+                "RuleProviderType": "Unknown"
+              },
+              {
+                "Category": "Data",
+                "InvariantScript": "",
+                "Property": "BasePaletteColor",
                 "RuleProviderType": "Unknown"
               },
               {
@@ -1574,7 +1588,7 @@
       "Imagen",
       "Respuesta"
     ],
-    "LastModifiedTimestamp": "638654278145643566",
+    "LastModifiedTimestamp": "638654279837362699",
     "Name": "PopUp",
     "Rules": [
       {
@@ -1694,7 +1708,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638654278145643566",
+  "LastModifiedTimestamp": "638654279837362699",
   "Name": "9bc85487de7344ec8cdfe34ceffdac48",
   "OverridableProperties": {},
   "Version": "1.0"

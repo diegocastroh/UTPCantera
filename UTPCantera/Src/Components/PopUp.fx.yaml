@@ -52,6 +52,7 @@ PopUp As CanvasComponent:
 
         ButtonCanvas8 As Botón:
             Appearance: ='ButtonCanvas.Appearance'.Transparent
+            BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
             Icon: ="Dismiss"

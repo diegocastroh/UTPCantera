@@ -320,6 +320,14 @@
           "InvariantPropertyName": "IconStyle",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "BasePaletteColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -354,6 +362,11 @@
         {
           "Category": "Data",
           "PropertyName": "IconStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "BasePaletteColor",
           "RuleProviderType": "Unknown"
         },
         {

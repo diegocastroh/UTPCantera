@@ -116,7 +116,7 @@ Base As screen:
                 ZIndex: =2
 
     PopUp_1 As PopUp:
-        Visible: =popup_visible || Respuesta <> 2
+        Visible: =popup_visible && Respuesta = 100
         ZIndex: =4
 
     ButtonCanvas17 As Botón:
