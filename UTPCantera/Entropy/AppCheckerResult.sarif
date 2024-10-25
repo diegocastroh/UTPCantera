@@ -1814,6 +1814,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Background.'Header and Footer_11'.Header_12.Avatar1_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Background.'Header and Footer_11'.Header_12.Avatar1_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Background",
+                "type": "Background.'Header and Footer_11'.Header_12.Avatar1_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Base.ButtonCanvas17.AccessibleLabel"
                 }
               ],
@@ -4016,6 +4046,36 @@
                 "member": "AccessibleLabel",
                 "module": "Cotización",
                 "type": "Cotización.Container14.ButtonCanvas5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Background.'Header and Footer_11'.Toolbar2_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Background.'Header and Footer_11'.Toolbar2_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Background",
+                "type": "Background.'Header and Footer_11'.Toolbar2_9"
               }
             }
           ],

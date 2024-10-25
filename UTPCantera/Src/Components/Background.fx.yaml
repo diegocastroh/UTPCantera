@@ -1,8 +1,170 @@
 Background As CanvasComponent:
+    Back():
+        ThisProperty:
+            Default: ="Texto"
+    Home():
+        ThisProperty:
+            Default: ="Texto"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
     Width: =1366
     X: =0
     Y: =0
     ZIndex: =1
+
+    "'Header and Footer_11' As groupContainer.manualLayoutContainer":
+        DropShadow: =DropShadow.Light
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =1
+
+        Header_12 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Semilight
+            Height: =80
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            ZIndex: =1
+
+            Image1_12 As image:
+                BorderColor: =App.Theme.Colors.Darker40
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Height: =80
+                Image: =logo
+                Width: =187
+                X: =20
+                ZIndex: =1
+
+            Avatar1_12 As Avatar:
+                DisplayMode: =DisplayMode.Edit
+                Height: =56
+                Image: =User().Image
+                Name: =User().FullName
+                PCFTeamsTheme: ="default"
+                Width: =64
+                X: =1278
+                Y: =12
+                ZIndex: =2
+
+            TextCanvas1_12 As Texto:
+                Align: ='TextCanvas.Align'.End
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Text: =Proper(User().FullName)
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =449
+                X: =811
+                Y: =0
+                ZIndex: =3
+
+            TextCanvas5_12 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: ="|"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =24
+                X: =227
+                Y: =0
+                ZIndex: =4
+
+            TextCanvas6_12 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: =App.ActiveScreen.Name
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =468
+                X: =251
+                Y: =0
+                ZIndex: =5
+
+        Footer_11 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =60
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            Y: =708
+            ZIndex: =2
+
+            TextCanvas3_22 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =60
+                PCFTeamsTheme: ="default"
+                Text: ="Version "& App.StudioVersion
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =311
+                X: =20
+                Y: =0
+                ZIndex: =1
+
+            TextCanvas3_23 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =60
+                PCFTeamsTheme: ="default"
+                Text: ="Copyrigth "& Year(Today()) &"© | Todos los derechos reservados "
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =355
+                X: =1009
+                Y: =0
+                ZIndex: =2
+
+        Toolbar2_9 As Toolbar.pcfdataset:
+            DisplayMode: =DisplayMode.Edit
+            FontSize: =21
+            Height: =54
+            Items: |-
+                =Table(
+                    {
+                        ItemKey: "back",
+                        ItemDisplayName: "Atrás",
+                        ItemIconName: "ArrowLeft",
+                        ItemAppearance: "Subtle",
+                        ItemIconStyle: "Regular",
+                        ItemTooltip: "Regresar"
+                    },
+                    {
+                        ItemKey: "home",
+                        ItemDisplayName: "Edit",
+                        ItemIconName: "Home",
+                        ItemAppearance: "Subtle",
+                        ItemIconStyle: "Filled",
+                        ItemTooltip: "Volver a Casa"
+                    }
+                )
+            Layout: ='Toolbar.Layout'.IconOnly
+            OnSelect: |-
+                =Switch(
+                    Self.Selected.ItemKey,/* Action for Key 'new' */
+                    "back",
+                    Background.Back(),/* Action for 'edit' */
+                    "home",
+                    Background.Home(),/* Action for 'delete' */
+                    "delete",
+                    Notify("Delete clicked"),/* Action for 'info' */
+                    "info",
+                    Notify("Info clicked"),/* Default action */
+                    Notify("Unrecognized button clicked")
+                )
+            PCFTeamsTheme: ="default"
+            Width: =100
+            X: =0
+            Y: =80
+            ZIndex: =3
 
