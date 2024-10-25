@@ -132,7 +132,7 @@ Base As screen:
         ZIndex: =5
 
     Toggle1 As Alternancia:
-        Checked: =popup_visible && Respuesta = 100
+        Checked: =popup_visible && Respuesta = 100 || Respuesta = 2
         DisplayMode: =DisplayMode.Edit
         Height: =35
         OnCheck: =false
