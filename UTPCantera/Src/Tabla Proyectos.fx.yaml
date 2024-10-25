@@ -597,10 +597,11 @@
                 BorderColor: =App.Theme.Colors.Darker40
                 DelayItemLoading: =true
                 Height: =473
-                Items: |
+                Items: |-
                     =Filter(
                         Proyectos_1,
-                        IsBlank(ComboboxCanvas8_1.SelectedItems)|| id_categoria in ComboboxCanvas8_1.SelectedItems
+                        IsEmpty(ComboboxCanvas8_1.SelectedItems) || 
+                        !IsEmpty(Filter(ComboboxCanvas8_1.SelectedItems, id_categoria = id_categoria))
                     )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
