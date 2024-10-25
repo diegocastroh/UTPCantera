@@ -81,7 +81,7 @@
                 ZIndex: =6
 
         ButtonCanvas8_2 As Botón:
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =If(CountIf(Gallery3_1.AllItems, CheckboxCanvas1_1.Checked)>0, DisplayMode.Edit, DisplayMode.Disabled)
             Height: =32
             Icon: ="Send"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled

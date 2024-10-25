@@ -1,0 +1,4 @@
+"'Comparativa Cotización' As screen":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
