@@ -1,6 +1,9 @@
 PopUp As CanvasComponent:
+    Descripcion: ="Texto"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
+    Imagen: =SampleImage
+    Respuesta: =true
     Titulo: ="Texto"
     Width: =1366
     X: =0
@@ -40,7 +43,7 @@ PopUp As CanvasComponent:
             Height: =60
             PCFTeamsTheme: ="default"
             Size: =30
-            Text: =T
+            Text: =PopUp.Titulo
             Weight: ='TextCanvas.Weight'.Bold
             Width: =551
             X: =0
@@ -66,6 +69,9 @@ PopUp As CanvasComponent:
             Height: =32
             Icon: ="Checkmark"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: |-
+                =Set(Respuesta, true);
+                Set(Visible,false)
             PCFTeamsTheme: ="default"
             Text: ="Aceptar"
             Width: =100
@@ -79,6 +85,7 @@ PopUp As CanvasComponent:
             Height: =32
             Icon: ="Dismiss"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: =Set(Respuesta, false)
             PCFTeamsTheme: ="default"
             Text: ="Cancelar"
             Width: =100
@@ -92,7 +99,7 @@ PopUp As CanvasComponent:
             Height: =126
             PCFTeamsTheme: ="default"
             Size: =16
-            Text: ="Text"
+            Text: =PopUp.Descripcion
             VerticalAlign: ='TextCanvas.VerticalAlign'.Top
             Width: =475
             X: =37
@@ -103,6 +110,7 @@ PopUp As CanvasComponent:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        Image: =PopUp.Imagen
         X: =633
         Y: =264
         ZIndex: =3

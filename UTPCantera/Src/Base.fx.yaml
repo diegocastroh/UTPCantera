@@ -115,3 +115,6 @@ Base As screen:
                 Y: =0
                 ZIndex: =2
 
+    PopUp_1 As PopUp:
+        ZIndex: =4
+
