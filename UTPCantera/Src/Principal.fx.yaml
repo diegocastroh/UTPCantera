@@ -152,6 +152,7 @@ Principal As screen:
 
         ButtonCanvas20 As Botón:
             Appearance: ='ButtonCanvas.Appearance'.Subtle
+            BasePaletteColor: =RGBA(189, 178, 176, 50%)
             DisplayMode: =DisplayMode.Edit
             Height: =241
             PCFTeamsTheme: ="default"
