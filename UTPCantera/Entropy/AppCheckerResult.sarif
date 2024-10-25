@@ -4033,36 +4033,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Respuesta"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Respuesta",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Respuesta",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.Visible"
                 }
               ],
