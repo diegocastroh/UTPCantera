@@ -18,7 +18,7 @@
         Y: =139
         ZIndex: =3
 
-        Gallery1_1 As gallery.BrowseLayout_Vertical_ThreeTextVariant_pcfCore:
+        Gallery2 As gallery.BrowseLayout_Vertical_ThreeTextVariant_pcfCore:
             BorderColor: =App.Theme.Colors.Darker40
             DelayItemLoading: =true
             Height: =501
@@ -27,15 +27,14 @@
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
             TemplateSize: =74
-            Transition: =Transition.Pop
             Width: =256
             Y: =60
-            ZIndex: =2
+            ZIndex: =1
 
-            Rectangle11_1 As rectangle:
+            Rectangle22 As rectangle:
                 BorderColor: =App.Theme.Colors.Darker40
                 DisabledFill: =RGBA(0,0,0,0)
-                Fill: =If(ThisItem.IsSelected, RGBA(0,0,0,10%),RGBA(255,255,255,1))
+                Fill: =RGBA(0,0,0,0)
                 Height: =Parent.TemplateHeight
                 HoverFill: =RGBA(0,0,0,0)
                 OnSelect: =Select(Parent)
@@ -44,7 +43,7 @@
                 Width: =Parent.TemplateWidth
                 ZIndex: =1
 
-            Title2_1 As Etiqueta:
+            Title4 As Etiqueta:
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =10.5
                 FontWeight: =FontWeight.Semibold
@@ -53,14 +52,13 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
-                Text: =ThisItem.codigo_proyecto
                 VerticalAlignment: =VerticalAlign.Top
                 Width: =Parent.TemplateWidth - 24
                 X: =12
                 Y: =((Parent.TemplateHeight - 52) / 2) - 4
                 ZIndex: =2
 
-            Subtitle2_1 As Etiqueta:
+            Subtitle4 As Etiqueta:
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =9
                 FontWeight: =FontWeight.Normal
@@ -69,14 +67,13 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
-                Text: =ThisItem.codigo_proyecto
                 VerticalAlignment: =VerticalAlign.Top
-                Width: =Title2_1.Width
-                X: =Title2_1.X
-                Y: =Title2_1.Y + Title2_1.Height - 6
+                Width: =Title4.Width
+                X: =Title4.X
+                Y: =Title4.Y + Title4.Height - 6
                 ZIndex: =3
 
-            Body3_1 As Etiqueta:
+            Body5 As Etiqueta:
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =9
                 FontWeight: =FontWeight.Normal
@@ -85,10 +82,9 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
-                Text: =ThisItem.id_usuario_responsable.matricula
                 VerticalAlignment: =VerticalAlign.Top
-                Width: =Title2_1.Width
-                X: =Title2_1.X
+                Width: =Title4.Width
+                X: =Title4.X
                 Y: =50
                 ZIndex: =4
 
@@ -438,6 +434,7 @@
             ZIndex: =5
 
         "ComboboxCanvas11_1 As 'Cuadro combinado'.pcfdataset":
+            DefaultSelectedItems: =Gallery1_1.Selected.id_proveedor
             DisplayMode: =DisplayMode.Edit
             Height: =33
             Items: =Proveedores
