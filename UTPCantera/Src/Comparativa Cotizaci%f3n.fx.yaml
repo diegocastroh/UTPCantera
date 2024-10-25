@@ -22,7 +22,7 @@
             BorderColor: =App.Theme.Colors.Darker40
             DelayItemLoading: =true
             Height: =501
-            Items: =cotizaciones
+            Items: =comparar_cotizaciones
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0

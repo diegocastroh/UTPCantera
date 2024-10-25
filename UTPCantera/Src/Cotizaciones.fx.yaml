@@ -505,7 +505,7 @@ Cotizaciones As screen:
                 "info",
                 Notify("Info clicked"),/* Default action */
                 "comparativa",
-                Navigate('Comparativa Cotización', Transition.Push, {cotizaciones: Filter(Gallery.AllItems, CheckboxCanvas1_1.Checked = true)}),/* Default action */
+                Navigate('Comparativa Cotización', Transition.Push, {comparar_cotizaciones: Filter(Gallery.AllItems, CheckboxCanvas1.Checked = true)}),/* Default action */
                 Notify("Unrecognized button clicked")
             )
         PCFTeamsTheme: ="default"
