@@ -92,6 +92,7 @@
                 Navigate('Publicar Cotización')
             PCFTeamsTheme: ="default"
             Text: ="Publicar Cotización"
+            Visible: =If(user_in.rol = 3, true, false)
             Width: =186
             X: =1148
             Y: =120
