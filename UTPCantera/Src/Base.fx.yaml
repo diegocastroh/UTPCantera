@@ -118,7 +118,7 @@ Base As screen:
     PopUp_1 As PopUp:
         Aceptar: ="Texto"
         Cancelar: ="Texto"
-        Visible: =popup_visible && Respuesta = 100
+        Visible: =popup_visible
         ZIndex: =4
 
     ButtonCanvas17 As Botón:
