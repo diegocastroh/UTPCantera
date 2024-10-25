@@ -4093,6 +4093,366 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas2_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas2_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas2_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas2_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas2_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.NumberInput1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.NumberInput1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container9_2.NumberInput1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.DatePickerCanvas3_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.DatePickerCanvas3_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container9_2.DatePickerCanvas3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.DropdownCanvas1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.DropdownCanvas1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container9_2.DropdownCanvas1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.ComboboxCanvas5_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.ComboboxCanvas5_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container9_2.ComboboxCanvas5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.ButtonCanvas13_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.ButtonCanvas13_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container9_2.ButtonCanvas13_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.ButtonCanvas14_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.ButtonCanvas14_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.ButtonCanvas14_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.ButtonCanvas1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.ButtonCanvas1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.ButtonCanvas1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.WhatsApp Image 2024-08-31 at 7.41.43 PM"
                 }
               ],
@@ -4117,6 +4477,216 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.popup_monto_excesivo"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.popup_monto_excesivo",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "popup_monto_excesivo",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas1_2.DefaultSelectedItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas1_2.DefaultSelectedItems",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "DefaultSelectedItems",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas2_2.DefaultSelectedItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas2_2.DefaultSelectedItems",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "DefaultSelectedItems",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.ComboboxCanvas2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas4_1.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas4_1.Value",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas1_2.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas1_2.Value",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas2_7.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas2_7.Value",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container8_4.TextInputCanvas2_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.TextCanvas34_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.Container9_2.TextCanvas34_1.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'.Container7_3.Container9_2.TextCanvas34_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
         }
       ],
       "tool": {
@@ -4249,6 +4819,40 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "No hay ninguna fórmula de control que haga referencia a este archivo multimedia, por lo que no es necesario. Si se quita, mejorará el rendimiento."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Variable no utilizada"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Quite la variable no utilizada."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Esta variable está declarada, pero ningún control hace referencia a ella, por lo que no es necesaria."
+              }
+            },
+            {
+              "id": "app-InefficientDelayLoading",
+              "messageStrings": {
+                "issue": {
+                  "text": "Retraso de carga ineficiente"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Use variables, colecciones y contexto de navegación para compartir el estado entre pantallas en su lugar."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Los controles que hacen referencia a controles en otras pantallas pueden ralentizar la carga y la navegación de la aplicación. Al hacer esto, puede que se fuerce a la aplicación a cargar las otras pantallas de inmediato, en lugar de esperar hasta que el usuario navegue a esa pantalla."
               }
             }
           ],
