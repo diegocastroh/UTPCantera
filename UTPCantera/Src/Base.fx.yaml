@@ -116,8 +116,10 @@ Base As screen:
                 ZIndex: =2
 
     PopUp_1 As PopUp:
-        Aceptar: ="Texto"
-        Cancelar: ="Texto"
+        Aceptar: |-
+            =UpdateContext({popup_visible: false})
+        Cancelar: |-
+            =UpdateContext({popup_visible: false})
         Visible: =popup_visible
         ZIndex: =4
 

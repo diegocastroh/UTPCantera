@@ -63,6 +63,7 @@ PopUp As CanvasComponent:
             Height: =32
             Icon: ="Dismiss"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: =PopUp.Cancelar()
             PCFTeamsTheme: ="default"
             Text: =
             Width: =37
