@@ -40,7 +40,7 @@ PopUp As CanvasComponent:
             Height: =60
             PCFTeamsTheme: ="default"
             Size: =30
-            Text: =
+            Text: =T
             Weight: ='TextCanvas.Weight'.Bold
             Width: =551
             X: =0
