@@ -25,13 +25,16 @@
             Items: =comparar_cotizaciones
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
+            ShowNavigation: =true
+            TemplateFill: =If(ThisItem.IsSelected, RGBA(0,0,0,0.05), RGBA(0,0,0,0))
             TemplatePadding: =0
             TemplateSize: =74
+            Transition: =Transition.Pop
             Width: =256
             Y: =60
             ZIndex: =1
 
-            Rectangle22 As rectangle:
+            Rectangle25 As rectangle:
                 BorderColor: =App.Theme.Colors.Darker40
                 DisabledFill: =RGBA(0,0,0,0)
                 Fill: =RGBA(0,0,0,0)
@@ -43,7 +46,7 @@
                 Width: =Parent.TemplateWidth
                 ZIndex: =1
 
-            Title4 As Etiqueta:
+            Title8 As Etiqueta:
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =10.5
                 FontWeight: =FontWeight.Semibold
@@ -59,7 +62,7 @@
                 Y: =((Parent.TemplateHeight - 52) / 2) - 4
                 ZIndex: =2
 
-            Subtitle4 As Etiqueta:
+            Subtitle8 As Etiqueta:
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =9
                 FontWeight: =FontWeight.Normal
@@ -68,14 +71,14 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
-                Text: =Gallery2.Selected.id_proyecto.codigo_proyecto
+                Text: =ThisItem.id_proyecto.codigo_proyecto
                 VerticalAlignment: =VerticalAlign.Top
-                Width: =Title4.Width
-                X: =Title4.X
-                Y: =Title4.Y + Title4.Height - 6
+                Width: =Title8.Width
+                X: =Title8.X
+                Y: =Title8.Y + Title8.Height - 6
                 ZIndex: =3
 
-            Body5 As Etiqueta:
+            Body6 As Etiqueta:
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =9
                 FontWeight: =FontWeight.Normal
@@ -84,10 +87,10 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
-                Text: =Gallery2.Selected.monto
+                Text: =ThisItem.monto
                 VerticalAlignment: =VerticalAlign.Top
-                Width: =Title4.Width
-                X: =Title4.X
+                Width: =Title8.Width
+                X: =Title8.X
                 Y: =50
                 ZIndex: =4
 

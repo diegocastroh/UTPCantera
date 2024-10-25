@@ -4363,19 +4363,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Comparativa Cotización'.Container2_3.Gallery2.Rectangle22.AccessibleLabel"
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container2_3.Gallery2.Rectangle25.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Comparativa Cotización'.Container2_3.Gallery2.Rectangle22.AccessibleLabel",
+                  "fullyQualifiedName": "'Comparativa Cotización'.Container2_3.Gallery2.Rectangle25.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Comparativa Cotización",
-                "type": "'Comparativa Cotización'.Container2_3.Gallery2.Rectangle22"
+                "type": "'Comparativa Cotización'.Container2_3.Gallery2.Rectangle25"
               }
             }
           ],
