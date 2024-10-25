@@ -52,6 +52,7 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
+                Text: =ThisItem.'id cotizacion'
                 VerticalAlignment: =VerticalAlign.Top
                 Width: =Parent.TemplateWidth - 24
                 X: =12
@@ -67,6 +68,7 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
+                Text: =Gallery2.Selected.id_proyecto.codigo_proyecto
                 VerticalAlignment: =VerticalAlign.Top
                 Width: =Title4.Width
                 X: =Title4.X
@@ -82,6 +84,7 @@
                 OnSelect: =Select(Parent)
                 PCFTeamsTheme: ="default"
                 TabIndex: =-1
+                Text: =Gallery2.Selected.monto
                 VerticalAlignment: =VerticalAlign.Top
                 Width: =Title4.Width
                 X: =Title4.X
@@ -165,7 +168,7 @@
             DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
-            Value: =Gallery1_1.Selected.codigo_proyecto
+            Value: =Gallery2.Selected.id_proyecto.codigo_proyecto
             Width: =320
             X: =24
             Y: =92
@@ -197,7 +200,7 @@
             Height: =68
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
-            Value: =Gallery1.Selected.descripcion
+            Value: =Gallery2.Selected.id_proyecto.descripcion
             Width: =320
             X: =705
             Y: =92
@@ -253,7 +256,7 @@
             DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
-            Value: =Gallery1.Selected.id_categoria.nombre_categoria
+            Value: =Gallery2.Selected.id_proyecto.id_categoria.nombre_categoria
             Width: =320
             X: =364
             Y: =92
@@ -434,7 +437,7 @@
             ZIndex: =5
 
         "ComboboxCanvas11_1 As 'Cuadro combinado'.pcfdataset":
-            DefaultSelectedItems: =Gallery1_1.Selected.id_proveedor
+            DefaultSelectedItems: =Gallery2.Selected.id_proveedor
             DisplayMode: =DisplayMode.Edit
             Height: =33
             Items: =Proveedores
