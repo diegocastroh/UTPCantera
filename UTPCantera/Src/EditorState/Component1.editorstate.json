@@ -54,7 +54,7 @@
       "MetaDataIDKey": "",
       "Name": "ButtonCanvas8",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -497,7 +497,7 @@
       "MetaDataIDKey": "",
       "Name": "Rectangle14",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
