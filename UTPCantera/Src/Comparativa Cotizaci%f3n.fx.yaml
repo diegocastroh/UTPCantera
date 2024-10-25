@@ -341,7 +341,7 @@
             PCFTeamsTheme: ="default"
             Precision: ='NumberInput.Precision'.'2'
             Step: =0
-            Value: =0
+            Value: =Gallery2.Selected.monto
             Width: =320
             X: =158
             Y: =84
@@ -441,7 +441,7 @@
 
         "ComboboxCanvas11_1 As 'Cuadro combinado'.pcfdataset":
             DefaultSelectedItems: =Gallery2.Selected.id_proveedor
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.Disabled
             Height: =33
             Items: =Proveedores
             PCFTeamsTheme: ="default"
@@ -527,14 +527,4 @@
             X: =168
             Y: =163
             ZIndex: =8
-
-        Icon1_1 As Icono:
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            Icon: ="Search"
-            PCFTeamsTheme: ="default"
-            Width: =32
-            X: =383
-            Y: =66
-            ZIndex: =9
 
