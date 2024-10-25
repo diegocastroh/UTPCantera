@@ -92,7 +92,7 @@
                 Navigate('Publicar Cotización')
             PCFTeamsTheme: ="default"
             Text: ="Publicar Cotización"
-            Visible: =If(user_in.rol = 3, true, false)
+            Visible: =user_in.rol = 'rol (Usuarios)'.PROV
             Width: =186
             X: =1148
             Y: =120
@@ -227,7 +227,7 @@
             )
         OnSelect: =Switch(Self.Selected.ItemKey,/* Action for Key 'new' */"new",Notify("New clicked"),/* Action for 'edit' */"edit",Notify("Edit clicked"),/* Action for 'delete' */ "delete",Notify("Delete clicked"),/* Action for 'info' */ "info",Notify("Info clicked"), /* Default action */  Notify("Unrecognized button clicked"))
         PCFTeamsTheme: ="default"
-        Visible: =false
+        Visible: =user_in.rol = 'rol (Usuarios)'.ADMI
         Width: =446
         X: =892
         Y: =112
