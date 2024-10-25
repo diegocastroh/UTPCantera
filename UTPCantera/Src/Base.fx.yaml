@@ -116,6 +116,8 @@ Base As screen:
                 ZIndex: =2
 
     PopUp_1 As PopUp:
+        Aceptar: ="Texto"
+        Cancelar: ="Texto"
         Visible: =popup_visible && Respuesta = 100
         ZIndex: =4
 

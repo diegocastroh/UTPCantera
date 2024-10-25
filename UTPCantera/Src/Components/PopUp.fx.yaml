@@ -1,4 +1,10 @@
 PopUp As CanvasComponent:
+    Aceptar():
+        ThisProperty:
+            Default: ="Texto"
+    Cancelar():
+        ThisProperty:
+            Default: ="Texto"
     Descripcion: ="Texto"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
@@ -70,9 +76,7 @@ PopUp As CanvasComponent:
             Height: =32
             Icon: ="Checkmark"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
-            OnSelect: |-
-                =Set(Respuesta, 1);
-                Set(Visible,false)
+            OnSelect: =PopUp.Aceptar()
             PCFTeamsTheme: ="default"
             Text: ="Aceptar"
             Width: =100
@@ -86,7 +90,7 @@ PopUp As CanvasComponent:
             Height: =32
             Icon: ="Dismiss"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
-            OnSelect: =Set(Respuesta, 2)
+            OnSelect: =PopUp.Cancelar()
             PCFTeamsTheme: ="default"
             Text: ="Cancelar"
             Width: =100

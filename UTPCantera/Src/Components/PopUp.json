@@ -927,7 +927,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(Respuesta, 2)",
+                "InvariantScript": "PopUp.Cancelar()",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -1100,7 +1100,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(Respuesta, 1);\nSet(Visible,false)",
+                "InvariantScript": "PopUp.Aceptar()",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -1586,9 +1586,11 @@
       "Titulo",
       "Descripcion",
       "Imagen",
-      "Respuesta"
+      "Respuesta",
+      "Aceptar",
+      "Cancelar"
     ],
-    "LastModifiedTimestamp": "638654308142742618",
+    "LastModifiedTimestamp": "638654311887090923",
     "Name": "PopUp",
     "Rules": [
       {
@@ -1650,6 +1652,18 @@
         "InvariantScript": "1",
         "Property": "ZIndex",
         "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Behavior",
+        "InvariantScript": "\"Texto\"",
+        "Property": "Aceptar",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Behavior",
+        "InvariantScript": "\"Texto\"",
+        "Property": "Cancelar",
+        "RuleProviderType": "System"
       }
     ]
   },
@@ -1698,6 +1712,32 @@
       "PropertyDataTypeKey": "Number",
       "Tooltip": "Propiedad personalizada",
       "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "Aceptar",
+      "Hidden": false,
+      "Name": "Aceptar",
+      "PropertyDataTypeKey": "String",
+      "PropertyScopeKey": {
+        "PropertyScopeRuleNamespaceKey": "4",
+        "PropertyScopeRulesKey": []
+      },
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "Cancelar",
+      "Hidden": false,
+      "Name": "Cancelar",
+      "PropertyDataTypeKey": "String",
+      "PropertyScopeKey": {
+        "PropertyScopeRuleNamespaceKey": "4",
+        "PropertyScopeRulesKey": []
+      },
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -1708,7 +1748,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638654308142742618",
+  "LastModifiedTimestamp": "638654311887090923",
   "Name": "9bc85487de7344ec8cdfe34ceffdac48",
   "OverridableProperties": {},
   "Version": "1.0"
