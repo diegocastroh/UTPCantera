@@ -4567,66 +4567,6 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.TextInputCanvas13_1.Value"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.TextInputCanvas13_1.Value",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Value",
-                "module": "Comparativa Cotización",
-                "type": "'Comparativa Cotización'.Container7_3.TextInputCanvas13_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.TextInputCanvas8_1.Value"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Comparativa Cotización'.Container7_3.TextInputCanvas8_1.Value",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Value",
-                "module": "Comparativa Cotización",
-                "type": "'Comparativa Cotización'.Container7_3.TextInputCanvas8_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -4759,23 +4699,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "No hay ninguna fórmula de control que haga referencia a este archivo multimedia, por lo que no es necesario. Si se quita, mejorará el rendimiento."
-              }
-            },
-            {
-              "id": "app-InefficientDelayLoading",
-              "messageStrings": {
-                "issue": {
-                  "text": "Retraso de carga ineficiente"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Use variables, colecciones y contexto de navegación para compartir el estado entre pantallas en su lugar."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Los controles que hacen referencia a controles en otras pantallas pueden ralentizar la carga y la navegación de la aplicación. Al hacer esto, puede que se fuerce a la aplicación a cargar las otras pantallas de inmediato, en lugar de esperar hasta que el usuario navegue a esa pantalla."
               }
             }
           ],

@@ -222,7 +222,7 @@
             DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
-            Value: =Gallery1.Selected.nombre_proyecto
+            Value: =Gallery2.Selected.id_proyecto.nombre_proyecto
             Width: =320
             X: =24
             Y: =176
@@ -278,7 +278,7 @@
             DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
-            Value: =Gallery1.Selected.id_orden.cod_orden
+            Value: =Gallery2.Selected.id_proyecto.id_orden.cod_orden
             Width: =320
             X: =364
             Y: =176
