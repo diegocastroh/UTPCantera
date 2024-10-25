@@ -913,7 +913,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(Respuesta, false)",
+                "InvariantScript": "Set(Respuesta, 2)",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -1086,7 +1086,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(Respuesta, true);\r\nSet(Visible,false)",
+                "InvariantScript": "Set(Respuesta, 1);\r\nSet(Visible,false)",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -1574,7 +1574,7 @@
       "Imagen",
       "Respuesta"
     ],
-    "LastModifiedTimestamp": "638654245740401483",
+    "LastModifiedTimestamp": "638654272017210352",
     "Name": "PopUp",
     "Rules": [
       {
@@ -1597,7 +1597,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "true",
+        "InvariantScript": "100",
         "Property": "Respuesta",
         "RuleProviderType": "System"
       },
@@ -1681,9 +1681,9 @@
       "DisplayName": "Respuesta",
       "Hidden": true,
       "Name": "Respuesta",
-      "PropertyDataTypeKey": "Boolean",
+      "PropertyDataTypeKey": "Number",
       "Tooltip": "Propiedad personalizada",
-      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]}}"
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -1694,7 +1694,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638654245740401483",
+  "LastModifiedTimestamp": "638654272017210352",
   "Name": "9bc85487de7344ec8cdfe34ceffdac48",
   "OverridableProperties": {},
   "Version": "1.0"

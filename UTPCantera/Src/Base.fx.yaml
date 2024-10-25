@@ -116,6 +116,16 @@ Base As screen:
                 ZIndex: =2
 
     PopUp_1 As PopUp:
-        Visible: =PopUp_1.Respuesta
+        Visible: =PopUp_1.Respuesta = 2
         ZIndex: =4
+
+    ButtonCanvas17 As Botón:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =Set(PopUp_1.)
+        PCFTeamsTheme: ="default"
+        Width: =96
+        X: =244
+        Y: =348
+        ZIndex: =5
 
