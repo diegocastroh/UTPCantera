@@ -486,7 +486,7 @@ Cotizaciones As screen:
                     ItemIconStyle: "Filled"
                 },
                 {
-                    ItemKey: "info",
+                    ItemKey: "comparativa",
                     ItemDisplayName: "Comparar",
                     ItemIconName: "Info",
                     ItemAppearance: "Subtle",

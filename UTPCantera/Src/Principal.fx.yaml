@@ -155,6 +155,7 @@ Principal As screen:
             BasePaletteColor: =RGBA(189, 178, 176, 0.5)
             DisplayMode: =DisplayMode.Edit
             Height: =241
+            OnSelect: =Navigate(Cotizaciones)
             PCFTeamsTheme: ="default"
             Text: =
             Width: =184
