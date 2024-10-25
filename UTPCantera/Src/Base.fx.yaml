@@ -116,13 +116,14 @@ Base As screen:
                 ZIndex: =2
 
     PopUp_1 As PopUp:
-        Visible: =PopUp_1.Respuesta = 2
+        Visible: =popup_visible
         ZIndex: =4
 
     ButtonCanvas17 As Botón:
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =Set(PopUp_1.)
+        OnSelect: |-
+            =UpdateContext({popup_visible: true})
         PCFTeamsTheme: ="default"
         Width: =96
         X: =244
