@@ -2,3 +2,7 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
+    Background_1 As Background:
+        Back: =Back()
+        Home: =Navigate(Principal)
+
