@@ -19,7 +19,7 @@
       "appinsightserrortracing": true,
       "appinstrumentationcorrelationtracing": true,
       "autocreateenvironmentvariables": false,
-      "behaviorpropertyui": false,
+      "behaviorpropertyui": true,
       "blockmovingcontrol": true,
       "cdsdataformatting": false,
       "classiccontrols": false,
