@@ -128,30 +128,6 @@ Principal As screen:
         Y: =263
         ZIndex: =2
 
-        Button1_1 As Botón:
-            DisplayMode: =DisplayMode.Edit
-            FillColor: =RGBA(255, 255, 255, 1)
-            Height: =241
-            OnChange: =false
-            PCFTeamsTheme: ="default"
-            Text: =
-            Width: =183
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-        TextCanvas7_1 As Texto:
-            Align: ='TextCanvas.Align'.Center
-            DisplayMode: =DisplayMode.Edit
-            Height: =81
-            PCFTeamsTheme: ="default"
-            Text: ="Cotizaciones"
-            Weight: ='TextCanvas.Weight'.Semibold
-            Width: =183
-            X: =0
-            Y: =160
-            ZIndex: =2
-
         Image2 As image:
             BorderColor: =App.Theme.Colors.Darker40
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -160,6 +136,30 @@ Principal As screen:
             X: =41
             Y: =41
             ZIndex: =3
+
+        ButtonCanvas19 As Botón:
+            Appearance: ='ButtonCanvas.Appearance'.Subtle
+            DisplayMode: =DisplayMode.Edit
+            Height: =100
+            Icon: =
+            Layout: ='ButtonCanvas.Layout'.IconAfter
+            PCFTeamsTheme: ="default"
+            Text: ="Cotizaciones"
+            Width: =183
+            X: =0
+            Y: =141
+            ZIndex: =4
+
+        ButtonCanvas20 As Botón:
+            Appearance: ='ButtonCanvas.Appearance'.Subtle
+            DisplayMode: =DisplayMode.Edit
+            Height: =241
+            PCFTeamsTheme: ="default"
+            Text: =
+            Width: =184
+            X: =0
+            Y: =0
+            ZIndex: =5
 
     btn_Servicios As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Regular
