@@ -57,7 +57,7 @@ PopUp As CanvasComponent:
             ZIndex: =2
 
         ButtonCanvas8 As Botón:
-            Appearance: ='ButtonCanvas.Appearance'.Transparent
+            Appearance: ='ButtonCanvas.Appearance'.Subtle
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -67,8 +67,8 @@ PopUp As CanvasComponent:
             PCFTeamsTheme: ="default"
             Text: =
             Width: =37
-            X: =512
-            Y: =0
+            X: =505
+            Y: =10
             ZIndex: =3
 
         ButtonCanvas15 As Botón:

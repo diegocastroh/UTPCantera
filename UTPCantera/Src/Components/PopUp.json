@@ -312,8 +312,22 @@
             "Children": [],
             "ControlPropertyState": [
               "PCFTeamsTheme",
-              "X",
-              "Y",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "X",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "Y",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "Width",
               "Height",
               "DisplayMode",
@@ -397,7 +411,7 @@
               },
               {
                 "Category": "Data",
-                "InvariantScript": "'ButtonCanvas.Appearance'.Transparent",
+                "InvariantScript": "'ButtonCanvas.Appearance'.Subtle",
                 "Property": "Appearance",
                 "RuleProviderType": "Unknown"
               },
@@ -421,13 +435,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "512",
+                "InvariantScript": "505",
                 "Property": "X",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "0",
+                "InvariantScript": "10",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
@@ -1604,7 +1618,7 @@
       "Aceptar",
       "Cancelar"
     ],
-    "LastModifiedTimestamp": "638654314649560567",
+    "LastModifiedTimestamp": "638654315908086769",
     "Name": "PopUp",
     "Rules": [
       {
@@ -1762,7 +1776,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638654314649560567",
+  "LastModifiedTimestamp": "638654315908086769",
   "Name": "9bc85487de7344ec8cdfe34ceffdac48",
   "OverridableProperties": {},
   "Version": "1.0"
