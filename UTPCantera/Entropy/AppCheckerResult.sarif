@@ -3913,19 +3913,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Component1.Container20.ButtonCanvas8.AccessibleLabel"
+                  "fullyQualifiedName": "PopUp.Container20.ButtonCanvas8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Component1.Container20.ButtonCanvas8.AccessibleLabel",
+                  "fullyQualifiedName": "PopUp.Container20.ButtonCanvas8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Component1",
-                "type": "Component1.Container20.ButtonCanvas8"
+                "module": "PopUp",
+                "type": "PopUp.Container20.ButtonCanvas8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PopUp.Container20.ButtonCanvas15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PopUp.Container20.ButtonCanvas15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PopUp",
+                "type": "PopUp.Container20.ButtonCanvas15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PopUp.Container20.ButtonCanvas16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PopUp.Container20.ButtonCanvas16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PopUp",
+                "type": "PopUp.Container20.ButtonCanvas16"
               }
             }
           ],
