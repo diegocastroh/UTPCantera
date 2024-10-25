@@ -169,7 +169,7 @@
             DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
-            Value: =Gallery1_1.Selected.'id proyecto'.nombre
+            Value: =Gallery1_1.Selected.codigo_proyecto
             Width: =320
             X: =24
             Y: =92
