@@ -600,8 +600,7 @@
                 Items: |-
                     =Filter(
                         Proyectos_1,
-                        IsEmpty(ComboboxCanvas8_1.SelectedItems) || 
-                        !IsEmpty(Filter(ComboboxCanvas8_1.SelectedItems, id_categoria = id_categoria))
+                        IsEmpty(ComboboxCanvas8_1.SelectedItems) || ComboboxCanvas8_1.SelectedItems in id_categoria
                     )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
