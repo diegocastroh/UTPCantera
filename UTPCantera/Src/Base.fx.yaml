@@ -116,5 +116,6 @@ Base As screen:
                 ZIndex: =2
 
     PopUp_1 As PopUp:
+        Visible: =PopUp_1.Respuesta
         ZIndex: =4
 
