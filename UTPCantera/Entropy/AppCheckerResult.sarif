@@ -4483,6 +4483,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Comparativa Cotización'.cotizaciones"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparativa Cotización'.cotizaciones",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "cotizaciones",
+                "module": "Comparativa Cotización",
+                "type": "'Comparativa Cotización'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Comparativa Cotización'.popup_monto_excesivo"
                 }
               ],

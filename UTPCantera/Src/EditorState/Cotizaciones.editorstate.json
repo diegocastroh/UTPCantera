@@ -6510,7 +6510,14 @@
         "Width",
         "Height",
         "DisplayMode",
-        "OnSelect",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Switch(Self.Selected.ItemKey,/* Action for Key 'new' */\"new\",Notify(\"New clicked\"),/* Action for 'edit' */\"edit\",Notify(\"Edit clicked\"),/* Action for 'delete' */ \"delete\",Notify(\"Delete clicked\"),/* Action for 'info' */ \"info\",Notify(\"Info clicked\"), /* Default action */  Notify(\"Unrecognized button clicked\"))",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ZIndex",
         {
           "AFDDataSourceName": "",
@@ -6583,7 +6590,7 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnSelect",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         }
       ],
       "StyleName": "",

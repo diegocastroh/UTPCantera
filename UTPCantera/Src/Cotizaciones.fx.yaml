@@ -493,7 +493,21 @@ Cotizaciones As screen:
                     ItemIconStyle: "Regular"
                 }
             )
-        OnSelect: =Switch(Self.Selected.ItemKey,/* Action for Key 'new' */"new",Notify("New clicked"),/* Action for 'edit' */"edit",Notify("Edit clicked"),/* Action for 'delete' */ "delete",Notify("Delete clicked"),/* Action for 'info' */ "info",Notify("Info clicked"), /* Default action */  Notify("Unrecognized button clicked"))
+        OnSelect: |-
+            =Switch(
+                Self.Selected.ItemKey,/* Action for Key 'new' */
+                "new",
+                Notify("New clicked"),/* Action for 'edit' */
+                "edit",
+                Notify("Edit clicked"),/* Action for 'delete' */
+                "delete",
+                Notify("Delete clicked"),/* Action for 'info' */
+                "info",
+                Notify("Info clicked"),/* Default action */
+                "comparativa",
+                Navigate('Comparativa Cotización', Transition.Push, {cotizaciones: Filter(Gallery.AllItems, CheckboxCanvas1_1.Checked = true)}),/* Default action */
+                Notify("Unrecognized button clicked")
+            )
         PCFTeamsTheme: ="default"
         Visible: =true
         Width: =696
