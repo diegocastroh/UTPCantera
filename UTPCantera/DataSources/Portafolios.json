@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_portafolios",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_portafolio",
+    "MaxGetRowsCount": 500,
+    "Name": "Portafolios",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_certificaciones": "certificaciones",
+      "crd9d_descripcion": "descripcion",
+      "crd9d_id_proveedor": "id_proveedor",
+      "crd9d_idportafolio": "id portafolio",
+      "crd9d_portafolio_AsyncOperations": "Trabajos del sistema",
+      "crd9d_portafolio_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_portafolio_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_portafolio_ProcessSession": "Sesiones de proceso",
+      "crd9d_portafolioid": "Portafolio",
+      "crd9d_proyectos_realizados": "proyectos_realizados",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Portafolios",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Portafolios (Vistas)",
+    "Name": "_crd9d_portafolio_views",
+    "RelatedEntityName": "Portafolios",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "20944350-088e-4a2f-8691-8c3c678cc45e": "Portafolios inactivo",
+      "47c5dfce-253b-45f1-b652-9cffbd5aea63": "Vista asociada de Portafolio",
+      "c5611dc3-3311-4b83-a120-c70c331be477": "Vista de búsqueda de Portafolio",
+      "d828f1cb-7e42-473e-a5bb-466750fe28e6": "Vista de búsqueda avanzada de Portafolio",
+      "e868eba0-0173-4455-834d-5f0a995df39d": "Portafolios activo"
+    }
+  },
+  {
+    "DisplayName": "Estado (Portafolios)",
+    "Name": "crd9d_portafolio_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Portafolios"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Portafolios",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Portafolios)",
+    "Name": "crd9d_portafolio_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Portafolios"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Portafolios",
+    "Type": "OptionSetInfo"
+  }
+]

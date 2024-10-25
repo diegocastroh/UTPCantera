@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_ordeneses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_ordenes",
+    "MaxGetRowsCount": 500,
+    "Name": "Ordenes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_cod_orden": "cod_orden",
+      "crd9d_idorden": "id orden",
+      "crd9d_nombre": "nombre",
+      "crd9d_ordenes_AsyncOperations": "Trabajos del sistema",
+      "crd9d_ordenes_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_ordenes_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_ordenes_ProcessSession": "Sesiones de proceso",
+      "crd9d_ordenesid": "Ordenes",
+      "crd9d_ppto_total": "ppto_total",
+      "crd9d_Proyectos_id_orden_crd9d_Ordenes": "Proyectos",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Ordenes",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Ordenes (Vistas)",
+    "Name": "_crd9d_ordenes_views",
+    "RelatedEntityName": "Ordenes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "09707f90-ac96-4ac4-9fee-e96a934e2668": "Vista asociada de Ordenes",
+      "214c2ffb-169e-4f3b-b7b8-8eb3f8d47666": "Ordenes inactivo",
+      "665fd0ea-a475-47eb-b482-74eb60f4296d": "Ordenes activo",
+      "77d8be05-201b-4fd1-95ab-749e74fa94dc": "Vista de búsqueda avanzada de Ordenes",
+      "a931d30d-9be4-4732-b5c8-1bf6c23bbf31": "Vista de búsqueda de Ordenes"
+    }
+  },
+  {
+    "DisplayName": "Estado (Ordenes)",
+    "Name": "crd9d_ordenes_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Ordenes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Ordenes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Ordenes)",
+    "Name": "crd9d_ordenes_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Ordenes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Ordenes",
+    "Type": "OptionSetInfo"
+  }
+]

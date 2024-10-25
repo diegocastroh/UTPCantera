@@ -1,0 +1,1193 @@
+"'Mantenimiento Usuarios' As screen.'teamsHeroApp_ver1.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: |-
+        =UpdateContext({ varStyle: { topBarHeight:52, topBarTitleSize:12, topBarTitleLeftPadding:12, topBarIconRightPadding:12, topBarTitleLeftPaddingWithButton:8, iconSize:16, largeIconSize:50, iconPadding:12, spaceBetweenIcons:8, deletePageSideMargins:200, galleryBarHeight:70, searchBarHeight:32, deleteTextHeight:120, deleteConfirmButtonHeight:40, iconButtonFill:RGBA(0,0,0,0.2), iconButtonSmallWidth:30, iconFill: ColorValue("#6264A7"), dividerFill: ColorValue("#EAE9E8"), formLabelFontSize: 10.5, focusBorderColor: ColorValue("#000000"), focusBorderThickness: 2, borderStyle: BorderStyle.Dashed }});
+
+    "'Header and Footer_4' As groupContainer.manualLayoutContainer":
+        DropShadow: =DropShadow.Light
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =1
+
+        Header_5 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Semilight
+            Height: =80
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            ZIndex: =1
+
+            Image1_5 As image:
+                BorderColor: =App.Theme.Colors.Darker40
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Height: =80
+                Image: =logo
+                Width: =187
+                X: =20
+                ZIndex: =1
+
+            Avatar1_5 As Avatar:
+                DisplayMode: =DisplayMode.Edit
+                Height: =56
+                Image: =User().Image
+                Name: =User().FullName
+                PCFTeamsTheme: ="default"
+                Width: =64
+                X: =1278
+                Y: =12
+                ZIndex: =2
+
+            TextCanvas1_5 As Texto:
+                Align: ='TextCanvas.Align'.End
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Text: =Proper(User().FullName)
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =449
+                X: =811
+                Y: =0
+                ZIndex: =3
+
+            TextCanvas5_5 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: ="|"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =24
+                X: =227
+                Y: =0
+                ZIndex: =4
+
+            TextCanvas6_5 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: =App.ActiveScreen.Name
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =468
+                X: =251
+                Y: =0
+                ZIndex: =5
+
+        Footer_5 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =60
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            Y: =708
+            ZIndex: =2
+
+            TextCanvas3_10 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =60
+                PCFTeamsTheme: ="default"
+                Text: ="Version "& App.StudioVersion
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =311
+                X: =20
+                Y: =0
+                ZIndex: =1
+
+            TextCanvas3_11 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =60
+                PCFTeamsTheme: ="default"
+                Text: ="Copyrigth "& Year(Today()) &"© | Todos los derechos reservados "
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =355
+                X: =1009
+                Y: =0
+                ZIndex: =2
+
+    LeftContainer1 As groupContainer:
+        DropShadow: =DropShadow.Light
+        Height: =573
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Visible: =Self.Width <> 0
+        Width: =Switch(Parent.Size, ScreenSize.Small, If(Or(newMode, editMode, itemSelected), 0, Parent.Width), 280)
+        Y: =136
+        ZIndex: =2
+
+        BrowseGallery1 As gallery.BrowseLayout_Vertical_ThreeTextVariant_pcfCore:
+            BorderColor: =App.Theme.Colors.Darker40
+            Default: =CurrentItem
+            DelayItemLoading: =true
+            DisplayMode: =If(Or(newMode,editMode,deleteMode), DisplayMode.Disabled, DisplayMode.Edit)
+            Height: =Parent.Height - 2 * varStyle.topBarHeight
+            Items: =Usuarios
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            OnSelect: |-
+                =UpdateContext({ itemSelected: true, CurrentItem: ThisItem })
+            TabIndex: =0
+            TemplateFill: =If(ThisItem.IsSelected, RGBA(0,0,0,0.05), RGBA(0,0,0,0))
+            TemplatePadding: =0
+            TemplateSize: =74
+            Width: =Parent.Width
+            Y: =LeftControlContainer1.Y + LeftControlContainer1.Height
+            ZIndex: =1
+
+            Rectangle7 As rectangle:
+                BorderColor: =App.Theme.Colors.Darker40
+                DisabledFill: =RGBA(0,0,0,0)
+                Fill: =RGBA(0,0,0,0)
+                Height: =Parent.TemplateHeight
+                HoverFill: =RGBA(0,0,0,0)
+                OnSelect: =Select(Parent)
+                PressedFill: =RGBA(0,0,0,0)
+                TabIndex: =0
+                Width: =Parent.TemplateWidth
+                ZIndex: =1
+
+            Title3 As Etiqueta:
+                DisplayMode: =DisplayMode.Edit
+                FontSize: =10.5
+                FontWeight: =FontWeight.Semibold
+                Height: =24
+                OnChange: =false
+                OnSelect: =Select(Parent)
+                PCFTeamsTheme: ="default"
+                TabIndex: =-1
+                Text: =ThisItem.matricula
+                VerticalAlignment: =VerticalAlign.Top
+                Width: =Parent.TemplateWidth - 24
+                X: =12
+                Y: =((Parent.TemplateHeight - 52) / 2) - 4
+                ZIndex: =2
+
+            Subtitle3 As Etiqueta:
+                DisplayMode: =DisplayMode.Edit
+                FontSize: =9
+                FontWeight: =FontWeight.Normal
+                Height: =24
+                OnChange: =false
+                OnSelect: =Select(Parent)
+                PCFTeamsTheme: ="default"
+                TabIndex: =-1
+                Text: =ThisItem.nombre
+                VerticalAlignment: =VerticalAlign.Top
+                Width: =Title3.Width
+                X: =Title3.X
+                Y: =Title3.Y + Title3.Height - 6
+                ZIndex: =3
+
+            Body1 As Etiqueta:
+                DisplayMode: =DisplayMode.Edit
+                FontSize: =9
+                FontWeight: =FontWeight.Normal
+                Height: =24
+                OnChange: =false
+                OnSelect: =Select(Parent)
+                PCFTeamsTheme: ="default"
+                TabIndex: =-1
+                Text: =ThisItem.rol
+                VerticalAlignment: =VerticalAlign.Top
+                Width: =Title3.Width
+                X: =Title3.X
+                Y: =50
+                ZIndex: =4
+
+        TopBar_LeftContainer1 As groupContainer:
+            DropShadow: =DropShadow.Light
+            Height: =varStyle.topBarHeight
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =Parent.Width
+            ZIndex: =3
+
+            AppNameLabel1 As label:
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                FontWeight: =FontWeight.Semibold
+                Height: =Parent.Height
+                Role: =TextRole.Heading1
+                Size: =12
+                Text: ="Usuarios"
+                Width: =Parent.Width - varStyle.topBarTitleLeftPadding
+                X: =varStyle.topBarTitleLeftPadding
+                ZIndex: =4
+
+        LeftControlContainer1 As groupContainer:
+            DropShadow: =DropShadow.Light
+            Height: =varStyle.topBarHeight
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =Parent.Width
+            Y: =TopBar_LeftContainer1.Y + TopBar_LeftContainer1.Height
+            ZIndex: =5
+
+            IconButton_Add1 As groupContainer:
+                DropShadow: =DropShadow.Light
+                Height: =varStyle.searchBarHeight
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                Width: =Parent.Width -  varStyle.topBarIconRightPadding
+                Y: =(Parent.Height -  Self.Height) / 2
+                ZIndex: =6
+
+                IconButton_Add_Icon1 As icon.Add:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =App.Theme.Colors.Darker30
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledColor: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =If(Or(newMode,editMode,deleteMode), DisplayMode.Disabled, DisplayMode.Edit)
+                    Height: =varStyle.largeIconSize
+                    Icon: =Icon.Add
+                    PaddingBottom: =varStyle.iconPadding
+                    PaddingTop: =varStyle.iconPadding
+                    Width: =varStyle.largeIconSize - 2 * varStyle.iconPadding
+                    X: =12
+                    Y: =(Parent.Height -  Self.Height) / 2
+                    ZIndex: =7
+
+                IconButton_Add_Label1 As label:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(0, 0, 0, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =If(Or(newMode,editMode,deleteMode), DisplayMode.Disabled, DisplayMode.Edit)
+                    Font: =App.Theme.Font
+                    Height: =Parent.Height
+                    Size: =13
+                    Text: ="Nuevo registro"
+                    Width: =Parent.Width - IconButton_Add_Icon1.X - IconButton_Add_Icon1.Width
+                    X: =IconButton_Add_Icon1.X + IconButton_Add_Icon1.Width
+                    ZIndex: =8
+
+                TouchTarget_New1 As rectangle:
+                    AccessibleLabel: =Self.Tooltip
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =varStyle.borderStyle
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    DisplayMode: =If(Or(newMode,editMode,deleteMode), DisplayMode.Disabled, DisplayMode.Edit)
+                    Fill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderColor: =varStyle.focusBorderColor
+                    FocusedBorderThickness: =varStyle.focusBorderThickness
+                    Height: =Parent.Height
+                    HoverFill: =varStyle.iconButtonFill
+                    OnSelect: |-
+                        =NewForm(EditForm1); UpdateContext({newMode: true});
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    TabIndex: =0
+                    Tooltip: ="Nuevo registro"
+                    Width: =Parent.Width
+                    ZIndex: =9
+
+    LeftRightDivider1 As rectangle:
+        BorderColor: =App.Theme.Colors.Darker40
+        Fill: =varStyle.dividerFill
+        Height: =628
+        Width: =1
+        X: =LeftContainer1.Width
+        Y: =81
+        ZIndex: =3
+
+    RightContainer1 As groupContainer:
+        DropShadow: =DropShadow.Light
+        Height: =465
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Visible: =Self.Width <> 0
+        Width: =Parent.Width - Self.X
+        X: =LeftContainer1.Width
+        Y: =244
+        ZIndex: =4
+
+        TopBar_RightContainer1 As groupContainer:
+            DropShadow: =DropShadow.Light
+            Height: =varStyle.topBarHeight
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =Parent.Width
+            ZIndex: =13
+
+            TimerCancel1 As timer:
+                BorderColor: =App.Theme.Colors.Primary
+                Color: =App.Theme.Colors.PrimaryForeground
+                DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Duration: =200
+                Fill: =App.Theme.Colors.Primary
+                Font: =App.Theme.Font
+                Height: =0
+                HoverBorderColor: =App.Theme.Colors.Darker10
+                HoverColor: =App.Theme.Colors.PrimaryForeground
+                HoverFill: =App.Theme.Colors.Darker10
+                OnTimerEnd: =SetFocus(IconButton_Cancel1)
+                PressedBorderColor: =App.Theme.Colors.Darker40
+                PressedColor: =Self.Color
+                PressedFill: =App.Theme.Colors.Darker40
+                Start: =Or(editMode, newMode)
+                TabIndex: =-1
+                Text: =""
+                Visible: =false
+                Width: =0
+                ZIndex: =14
+
+            TimerDeleteCancelled1 As timer:
+                BorderColor: =App.Theme.Colors.Primary
+                Color: =App.Theme.Colors.PrimaryForeground
+                DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Duration: =200
+                Fill: =App.Theme.Colors.Primary
+                Font: =App.Theme.Font
+                Height: =0
+                HoverBorderColor: =App.Theme.Colors.Darker10
+                HoverColor: =App.Theme.Colors.PrimaryForeground
+                HoverFill: =App.Theme.Colors.Darker10
+                OnTimerEnd: |-
+                    =SetFocus(IconButton_Delete1); UpdateContext({deleteCancelled:false});
+                PressedBorderColor: =App.Theme.Colors.Darker40
+                PressedColor: =Self.Color
+                PressedFill: =App.Theme.Colors.Darker40
+                Start: =deleteCancelled
+                TabIndex: =-1
+                Text: =""
+                Visible: =false
+                Width: =0
+                ZIndex: =15
+
+            IconButton_Back1 As icon.ChevronLeft:
+                AccessibleLabel: =Self.Tooltip
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Color: =App.Theme.Colors.Darker30
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =varStyle.largeIconSize
+                Icon: =Icon.ChevronLeft
+                OnSelect: |-
+                    =UpdateContext({itemSelected:false})
+                PaddingBottom: =varStyle.iconPadding
+                PaddingLeft: =varStyle.iconPadding
+                PaddingRight: =varStyle.iconPadding
+                PaddingTop: =varStyle.iconPadding
+                TabIndex: =0
+                Tooltip: ="Atrás"
+                Visible: =If(App.ActiveScreen.Size = ScreenSize.Small, And(!editMode, !newMode, !deleteMode), false)
+                Width: =varStyle.largeIconSize
+                X: =varStyle.topBarTitleLeftPadding
+                Y: =(Parent.Height -  Self.Height) / 2
+                ZIndex: =20
+
+            IconButton_Delete1 As icon.Trash:
+                AccessibleLabel: =Self.Tooltip
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Color: =App.Theme.Colors.Darker30
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =varStyle.largeIconSize
+                Icon: =Icon.Trash
+                OnSelect: |-
+                    =UpdateContext({deleteMode:true, deleteCancelled:false, selectedRecord: BrowseGallery1.Selected })
+                PaddingBottom: =varStyle.iconPadding
+                PaddingLeft: =varStyle.iconPadding
+                PaddingRight: =varStyle.iconPadding
+                PaddingTop: =varStyle.iconPadding
+                TabIndex: =0
+                Tooltip: ="Eliminar"
+                Visible: =And(!editMode, !newMode, !deleteMode)
+                Width: =varStyle.largeIconSize
+                X: =IconButton_Edit1.X - varStyle.spaceBetweenIcons - Self.Width
+                Y: =(Parent.Height -  Self.Height) / 2
+                ZIndex: =22
+
+            IconButton_Edit1 As icon.Edit:
+                AccessibleLabel: =Self.Tooltip
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Color: =App.Theme.Colors.Darker30
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =varStyle.largeIconSize
+                Icon: =Icon.Edit
+                OnSelect: |-
+                    =UpdateContext({selectedRecord: BrowseGallery1.Selected, editMode:true})
+                PaddingBottom: =varStyle.iconPadding
+                PaddingLeft: =varStyle.iconPadding
+                PaddingRight: =varStyle.iconPadding
+                PaddingTop: =varStyle.iconPadding
+                TabIndex: =0
+                Tooltip: ="Editar"
+                Visible: =And(!editMode, !newMode, !deleteMode)
+                Width: =varStyle.largeIconSize
+                X: =Parent.Width - Self.Width - varStyle.topBarTitleLeftPadding
+                Y: =(Parent.Height -  Self.Height) / 2
+                ZIndex: =23
+
+            IconButton_Cancel1 As icon.Cancel:
+                AccessibleLabel: =Self.Tooltip
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Color: =App.Theme.Colors.Darker30
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =varStyle.largeIconSize
+                Icon: =Icon.Cancel
+                OnSelect: |-
+                    =ResetForm(EditForm1); UpdateContext({editMode: false, newMode: false});
+                PaddingBottom: =varStyle.iconPadding
+                PaddingLeft: =varStyle.iconPadding
+                PaddingRight: =varStyle.iconPadding
+                PaddingTop: =varStyle.iconPadding
+                TabIndex: =0
+                Tooltip: ="Cancelar"
+                Visible: =Or(editMode, newMode)
+                Width: =varStyle.largeIconSize
+                X: =IconButton_Accept1.X - varStyle.spaceBetweenIcons - Self.Width
+                Y: =(Parent.Height -  Self.Height) / 2
+                ZIndex: =24
+
+            IconButton_Accept1 As icon.Check:
+                AccessibleLabel: =Self.Tooltip
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Color: =App.Theme.Colors.Darker30
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =varStyle.largeIconSize
+                Icon: =Icon.Check
+                OnSelect: |-
+                    =If(
+                        !IsMatch(
+                            DataCardValue2.Value,
+                            "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                        ),
+                        Notify(
+                            "Por favor, ingresa un correo electrónico válido.",
+                            NotificationType.Error
+                        ),
+                        SubmitForm(EditForm1);
+                        Notify(
+                            "Se ha registrado un usuario correctamente",
+                            NotificationType.Success
+                        )
+                    )
+                PaddingBottom: =varStyle.iconPadding
+                PaddingLeft: =varStyle.iconPadding
+                PaddingRight: =varStyle.iconPadding
+                PaddingTop: =varStyle.iconPadding
+                TabIndex: =0
+                Tooltip: ="Guardar registro"
+                Visible: =Or(editMode, newMode)
+                Width: =varStyle.largeIconSize
+                X: =Parent.Width - Self.Width - varStyle.topBarTitleLeftPadding
+                Y: =(Parent.Height -  Self.Height) / 2
+                ZIndex: =25
+
+        DeleteConfirmOverlay1 As groupContainer:
+            DropShadow: =DropShadow.Light
+            Height: =Parent.Height
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =If(deleteMode, true, false)
+            Width: =Parent.Width
+            X: =(Parent.Width - Self.Width) / 2
+            Y: =(Parent.Height - Self.Height) / 2
+            ZIndex: =16
+
+            TimerSetFocus1 As timer:
+                BorderColor: =App.Theme.Colors.Primary
+                Color: =App.Theme.Colors.PrimaryForeground
+                DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Duration: =If(LeftContainer1.Width = 0, 2500, 200)
+                Fill: =App.Theme.Colors.Primary
+                Font: =App.Theme.Font
+                Height: =0
+                HoverBorderColor: =App.Theme.Colors.Darker10
+                HoverColor: =App.Theme.Colors.PrimaryForeground
+                HoverFill: =App.Theme.Colors.Darker10
+                OnTimerEnd: =SetFocus(DeleteCancelBtn1)
+                PressedBorderColor: =App.Theme.Colors.Darker40
+                PressedColor: =Self.Color
+                PressedFill: =App.Theme.Colors.Darker40
+                Start: =deleteMode
+                TabIndex: =-1
+                Text: =""
+                Visible: =false
+                Width: =0
+                ZIndex: =17
+
+            TimerShowDeleteText1 As timer:
+                BorderColor: =App.Theme.Colors.Primary
+                Color: =App.Theme.Colors.PrimaryForeground
+                DisabledBorderColor: =RGBA(244, 244, 244, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Duration: =200
+                Fill: =App.Theme.Colors.Primary
+                Font: =App.Theme.Font
+                Height: =0
+                HoverBorderColor: =App.Theme.Colors.Darker10
+                HoverColor: =App.Theme.Colors.PrimaryForeground
+                HoverFill: =App.Theme.Colors.Darker10
+                OnTimerEnd: |-
+                    =UpdateContext({deletePromptString:"¿Seguro que desea eliminar este registro?"})
+                OnTimerStart: |-
+                    =UpdateContext({deletePromptString:""})
+                PressedBorderColor: =App.Theme.Colors.Darker40
+                PressedColor: =Self.Color
+                PressedFill: =App.Theme.Colors.Darker40
+                Start: =deleteMode
+                TabIndex: =-1
+                Text: =""
+                Visible: =false
+                Width: =0
+                ZIndex: =18
+
+            DeleteText1 As label:
+                Align: =Align.Center
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                Height: =120
+                Live: =Live.Assertive
+                Text: =deletePromptString
+                Width: =Min(350, Parent.Width * 0.8) 
+                X: =(Parent.Width - Self.Width) / 2
+                Y: =(Parent.Height - (Self.Height + varStyle.iconPadding + DeleteConfirmBtn1.Height)) / 2
+                ZIndex: =19
+
+            DeleteConfirmBtn1 As button:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Fill: =App.Theme.Colors.Primary
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =32
+                OnSelect: |-
+                    =Remove(
+                        Usuarios,
+                        selectedRecord
+                    );
+                    If(
+                        IsEmpty(
+                            Errors(
+                                Usuarios,
+                                selectedRecord
+                            )
+                        ),
+                        UpdateContext(
+                            {
+                                CurrentItem: First(Usuarios),
+                                itemSelected: false,
+                                editMode: false,
+                                newMode: false,
+                                deleteMode: false
+                            }
+                        )
+                    );
+                    Notify("Se ha eliminado el Usuario",NotificationType.Information)
+                RadiusBottomLeft: =3
+                RadiusBottomRight: =3
+                RadiusTopLeft: =3
+                RadiusTopRight: =3
+                Text: ="Eliminar"
+                Width: =96
+                X: =(Parent.Width - (Self.Width * 2 + varStyle.iconPadding)) / 2 + DeleteCancelBtn1.Width + varStyle.iconPadding
+                Y: =DeleteText1.Y + DeleteText1.Height+varStyle.iconPadding
+                ZIndex: =26
+
+            DeleteCancelBtn1 As button:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =varStyle.borderStyle
+                Fill: =App.Theme.Colors.Primary
+                FocusedBorderColor: =varStyle.focusBorderColor
+                FocusedBorderThickness: =varStyle.focusBorderThickness
+                Height: =32
+                OnSelect: |-
+                    =UpdateContext({deleteMode:false, deleteCancelled:true})
+                RadiusBottomLeft: =3
+                RadiusBottomRight: =3
+                RadiusTopLeft: =3
+                RadiusTopRight: =3
+                Text: ="Cancelar"
+                Width: =96
+                X: =(Parent.Width - (Self.Width * 2 + varStyle.iconPadding)) / 2
+                Y: =DeleteText1.Y + DeleteText1.Height+varStyle.iconPadding
+                ZIndex: =27
+
+        EditForm1 As form:
+            BorderColor: =App.Theme.Colors.Darker40
+            DataSource: =Usuarios
+            DefaultMode: =If(newMode, FormMode.New, If(editMode, FormMode.Edit, FormMode.View))
+            Height: =RightContainer1.Height - TopBar_RightContainer1.Height
+            Item: =If(BrowseGallery1.DisplayMode = DisplayMode.Disabled, selectedRecord, BrowseGallery1.Selected)
+            OnFailure: =Notify("No se puede guardar. Compruebe si hay errores en el formulario.",NotificationType.Error)
+            OnSuccess: |-
+                =UpdateContext({ CurrentItem: Self.LastSubmit, editMode: false, newMode: false })
+            Visible: =!deleteMode
+            Width: =Parent.Width
+            Y: =TopBar_RightContainer1.Y + TopBar_RightContainer1.Height
+            ZIndex: =21
+
+            correo_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="crd9d_correo"
+                Default: =ThisItem.correo
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,crd9d_correo)
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@Usuarios], DataSourceInfo.MaxLength, crd9d_correo)
+                Required: =false
+                Update: =DataCardValue2.Value
+                Width: =362
+                WidthFit: =true
+                X: =0
+                Y: =0
+                ZIndex: =32
+
+                DataCardKey2 As Etiqueta:
+                    AutoHeight: =true
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =22
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.DisplayName
+                    Tooltip: =Parent.DisplayName
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =10
+                    ZIndex: =33
+
+                "DataCardValue2 As 'Cuadro de texto'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    FontSize: =10.5
+                    Height: =32
+                    Mode: ="SingleLine"
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Required: =Parent.Required
+                    Tooltip: =Parent.DisplayName
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey2.Y + DataCardKey2.Height + 4
+                    ZIndex: =34
+
+                ErrorMessage1 As Etiqueta:
+                    AutoHeight: =true
+                    Color: =Color.Red
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.Error
+                    Tooltip: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue2.Y + DataCardValue2.Height
+                    ZIndex: =35
+
+                StarVisible1 As Etiqueta:
+                    Alignment: =Align.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey2.Y
+                    ZIndex: =36
+
+            nombre_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="crd9d_nombre"
+                Default: =ThisItem.nombre
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,crd9d_nombre)
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@Usuarios], DataSourceInfo.MaxLength, crd9d_nombre)
+                Required: =false
+                Update: =DataCardValue3.Value
+                Width: =362
+                WidthFit: =true
+                X: =1
+                Y: =0
+                ZIndex: =37
+
+                DataCardKey3 As Etiqueta:
+                    AutoHeight: =true
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =22
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.DisplayName
+                    Tooltip: =Parent.DisplayName
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =10
+                    ZIndex: =38
+
+                "DataCardValue3 As 'Cuadro de texto'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    FontSize: =10.5
+                    Height: =32
+                    Mode: ="SingleLine"
+                    PCFTeamsTheme: ="default"
+                    Required: =Parent.Required
+                    Tooltip: =Parent.DisplayName
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey3.Y + DataCardKey3.Height + 4
+                    ZIndex: =39
+
+                ErrorMessage2 As Etiqueta:
+                    AutoHeight: =true
+                    Color: =Color.Red
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.Error
+                    Tooltip: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue3.Y + DataCardValue3.Height
+                    ZIndex: =40
+
+                StarVisible2 As Etiqueta:
+                    Alignment: =Align.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey3.Y
+                    ZIndex: =41
+
+            rol_DataCard1 As typedDataCard.pcfCoreComboBoxOptionSetSingleEditCard:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="crd9d_rol"
+                Default: =ThisItem.rol
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,crd9d_rol)
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                Required: =false
+                Update: =DataCardValue4.Selected.Value
+                Width: =362
+                WidthFit: =true
+                X: =2
+                Y: =0
+                ZIndex: =42
+
+                DataCardKey4 As Etiqueta:
+                    AutoHeight: =true
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =22
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.DisplayName
+                    Tooltip: =Parent.DisplayName
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =10
+                    ZIndex: =43
+
+                DataCardValue4 As combobox:
+                    AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obligatorio.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                    BorderColor: =App.Theme.Colors.Darker40
+                    ChevronBackground: =App.Theme.Colors.Primary
+                    ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                    ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                    ChevronFill: =App.Theme.Colors.PrimaryForeground
+                    ChevronHoverBackground: =App.Theme.Colors.Darker10
+                    ChevronHoverFill: =App.Theme.Colors.PrimaryForeground
+                    DefaultSelectedItems: =[Parent.Default]
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Font: =App.Theme.Font
+                    Height: =32
+                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverFill: =App.Theme.Colors.Lighter70
+                    IsSearchable: =false
+                    Items: =Choices('rol (Usuarios)')
+                    PressedColor: =App.Theme.Colors.PrimaryForeground
+                    PressedFill: =App.Theme.Colors.Darker30
+                    SearchFields: =["Value"]
+                    SearchItems: =[]
+                    SelectionColor: =App.Theme.Colors.PrimaryForeground
+                    SelectionFill: =App.Theme.Colors.Primary
+                    SelectMultiple: =false
+                    Size: =10.5
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey4.Y + DataCardKey4.Height + 4
+                    ZIndex: =44
+
+                ErrorMessage3 As Etiqueta:
+                    AutoHeight: =true
+                    Color: =Color.Red
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.Error
+                    Tooltip: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue4.Y + DataCardValue4.Height
+                    ZIndex: =45
+
+                StarVisible3 As Etiqueta:
+                    Alignment: =Align.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =20
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: ="*"
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey4.Y
+                    ZIndex: =46
+
+            matricula_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="crd9d_matricula"
+                Default: =ThisItem.matricula
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,crd9d_matricula)
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@Usuarios], DataSourceInfo.MaxLength, crd9d_matricula)
+                Required: =false
+                Update: =DataCardValue5.Value
+                Width: =362
+                WidthFit: =true
+                X: =0
+                Y: =1
+                ZIndex: =47
+
+                DataCardKey5 As Etiqueta:
+                    AutoHeight: =true
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =22
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.DisplayName
+                    Tooltip: =Parent.DisplayName
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =10
+                    ZIndex: =48
+
+                "DataCardValue5 As 'Cuadro de texto'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    FontSize: =10.5
+                    Height: =32
+                    Mode: ="SingleLine"
+                    PCFTeamsTheme: ="default"
+                    Required: =Parent.Required
+                    Tooltip: =Parent.DisplayName
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey5.Y + DataCardKey5.Height + 4
+                    ZIndex: =49
+
+                ErrorMessage4 As Etiqueta:
+                    AutoHeight: =true
+                    Color: =Color.Red
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.Error
+                    Tooltip: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue5.Y + DataCardValue5.Height
+                    ZIndex: =50
+
+                StarVisible4 As Etiqueta:
+                    Alignment: =Align.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey5.Y
+                    ZIndex: =51
+
+        TopBottomDivider1 As rectangle:
+            BorderColor: =App.Theme.Colors.Darker40
+            Fill: =varStyle.dividerFill
+            Height: =1
+            Width: =Parent.Width
+            Y: =TopBar_RightContainer1.Height
+            ZIndex: =28
+
+    Container15 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =156
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1085
+        X: =281
+        Y: =84
+        ZIndex: =5
+
+        ButtonCanvas6 As Botón:
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Icon: ="Filter"
+            PCFTeamsTheme: ="default"
+            Text: ="Filtrar"
+            Width: =121
+            X: =932
+            Y: =60
+            ZIndex: =1
+
+        "ComboboxCanvas6 As 'Cuadro combinado'.pcfdataset":
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Items: =Usuarios
+            PCFTeamsTheme: ="default"
+            Required: =false
+            Width: =250
+            X: =30
+            Y: =60
+            ZIndex: =2
+
+            "'id usuario3' As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn":
+                FieldDisplayName: ="id usuario"
+                FieldName: ="crd9d_idusuario"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =2
+                ZIndex: =52
+
+            correo3 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
+                FieldDisplayName: ="correo"
+                FieldName: ="crd9d_correo"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =3
+                ZIndex: =53
+
+            nombre4 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
+                FieldDisplayName: ="nombre"
+                FieldName: ="crd9d_nombre"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =4
+                ZIndex: =54
+
+            rol3 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
+                FieldDisplayName: ="rol"
+                FieldName: ="crd9d_rol"
+                FieldType: ="l"
+                FieldVariantName: ="textualColumn"
+                Order: =6
+                ZIndex: =55
+
+            matricula3 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
+                FieldDisplayName: ="matricula"
+                FieldName: ="crd9d_matricula"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =1
+                ZIndex: =56
+
+        TextCanvas38 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            PCFTeamsTheme: ="default"
+            Text: ="Matrícula"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =250
+            X: =30
+            Y: =28
+            ZIndex: =3
+
+        "TextInputCanvas3 As 'Entrada de texto'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            PCFTeamsTheme: ="default"
+            Width: =320
+            X: =322
+            Y: =60
+            ZIndex: =4
+
+        TextCanvas38_1 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            PCFTeamsTheme: ="default"
+            Text: ="Nombre de Usuario"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =320
+            X: =322
+            Y: =28
+            ZIndex: =5
+
+        TextCanvas38_2 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            PCFTeamsTheme: ="default"
+            Text: ="Nombre de Usuario"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =174
+            X: =665
+            Y: =28
+            ZIndex: =6
+
+        "ComboboxCanvas7 As 'Cuadro combinado'.pcfdataset":
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Items: =["Todos", "Administrador", "Proveedor", "Usuario"]
+            PCFTeamsTheme: ="default"
+            Required: =false
+            SelectMultiple: =true
+            Width: =174
+            X: =665
+            Y: =60
+            ZIndex: =7
+
+    Toolbar2_3 As Toolbar.pcfdataset:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =21
+        Height: =54
+        Items: |-
+            =Table(
+                {
+                    ItemKey: "back",
+                    ItemDisplayName: "Atrás",
+                    ItemIconName: "ArrowLeft",
+                    ItemAppearance: "Subtle",
+                    ItemIconStyle: "Regular",
+                    ItemTooltip: "Regresar"
+                },
+                {
+                    ItemKey: "home",
+                    ItemDisplayName: "Edit",
+                    ItemIconName: "Home",
+                    ItemAppearance: "Subtle",
+                    ItemIconStyle: "Filled",
+                    ItemTooltip: "Volver a Casa"
+                }
+            )
+        Layout: ='Toolbar.Layout'.IconOnly
+        OnSelect: |-
+            =Switch(
+                Self.Selected.ItemKey,/* Action for Key 'new' */
+                "back",
+                Back(),/* Action for 'edit' */
+                "home",
+                Navigate(Principal),/* Action for 'delete' */
+                "delete",
+                Notify("Delete clicked"),/* Action for 'info' */
+                "info",
+                Notify("Info clicked"),/* Default action */
+                Notify("Unrecognized button clicked")
+            )
+        PCFTeamsTheme: ="default"
+        Width: =100
+        X: =0
+        Y: =85
+        ZIndex: =6
+

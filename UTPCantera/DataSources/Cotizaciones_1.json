@@ -1,0 +1,119 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_cotizacioneses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_cotizaciones",
+    "MaxGetRowsCount": 500,
+    "Name": "Cotizaciones_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_cotizaciones_AsyncOperations": "Trabajos del sistema",
+      "crd9d_cotizaciones_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_cotizaciones_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_cotizaciones_ProcessSession": "Sesiones de proceso",
+      "crd9d_cotizacionesid": "Cotizaciones",
+      "crd9d_estado": "estado",
+      "crd9d_fecha_envio": "fecha_envio",
+      "crd9d_id_proveedor": "id_proveedor",
+      "crd9d_id_proyecto": "id_proyecto",
+      "crd9d_idcotizacion": "id cotizacion",
+      "crd9d_monto": "monto",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Cotizaciones_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Cotizaciones_1 (Vistas)",
+    "Name": "_crd9d_cotizaciones_views",
+    "RelatedEntityName": "Cotizaciones_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1a412644-01ff-411c-8020-96d123f61c9c": "Cotizaciones inactivo",
+      "2d0aec0b-0f9d-4c42-b3d5-c92064f86e7e": "Cotizaciones activo",
+      "37e15832-578e-4076-a2b9-296caf715312": "Vista asociada de Cotizaciones",
+      "b690eb8d-ef64-4c62-b701-5d61398dffb5": "Vista de búsqueda avanzada de Cotizaciones",
+      "e66267d5-68a0-4635-bb9e-3f43dad13b2f": "Vista de búsqueda de Cotizaciones"
+    }
+  },
+  {
+    "DisplayName": "estado (Cotizaciones_1)",
+    "Name": "crd9d_cotizaciones_crd9d_estado",
+    "OptionSetInfoNameMapping": {
+      "0": "Pendiente",
+      "1": "Aceptada",
+      "2": "Rechazada"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd9d_estado",
+        "OptionSetReferenceEntityName": "Cotizaciones_1"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crd9d_estado",
+    "RelatedEntityName": "Cotizaciones_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado (Cotizaciones_1)",
+    "Name": "crd9d_cotizaciones_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Cotizaciones_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Cotizaciones_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Cotizaciones_1)",
+    "Name": "crd9d_cotizaciones_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Cotizaciones_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Cotizaciones_1",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "3c7ead2e-58eb-42d1-9d77-9584699dcd05",
+    "Name": "SubirRequerimientos",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "8bf62a5d-2682-ef11-ac20-00224837c536"
+  }
+]

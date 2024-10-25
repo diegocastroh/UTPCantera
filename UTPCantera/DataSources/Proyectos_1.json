@@ -1,0 +1,129 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_proyectoses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_proyectos",
+    "MaxGetRowsCount": 500,
+    "Name": "Proyectos_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_codigo_proyecto": "codigo_proyecto",
+      "crd9d_costo_estimado": "costo_estimado",
+      "crd9d_Cotizaciones_id_proyecto_crd9d_Proyectos": "Cotizaciones",
+      "crd9d_descripcion": "descripcion",
+      "crd9d_estado": "estado",
+      "crd9d_fecha_aceptacion": "fecha_aceptacion",
+      "crd9d_fecha_fin": "fecha_fin",
+      "crd9d_fecha_inicio": "fecha_inicio",
+      "crd9d_id_categoria": "id_categoria",
+      "crd9d_id_orden": "id_orden",
+      "crd9d_id_usuario_aceptante": "id_usuario_aceptante",
+      "crd9d_id_usuario_responsable": "id_usuario_responsable",
+      "crd9d_idproyecto": "id proyecto",
+      "crd9d_margen_acep": "margen_acep",
+      "crd9d_nombre_proyecto": "nombre_proyecto",
+      "crd9d_proyectos_AsyncOperations": "Trabajos del sistema",
+      "crd9d_proyectos_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_proyectos_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_proyectos_ProcessSession": "Sesiones de proceso",
+      "crd9d_proyectosid": "Proyectos",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Proyectos_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Proyectos_1 (Vistas)",
+    "Name": "_crd9d_proyectos_views",
+    "RelatedEntityName": "Proyectos_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0b44cede-07d5-4925-9f4a-223c4555ef0f": "Vista asociada de Proyectos",
+      "3e3679a9-25e2-4864-bafa-42de6b1d8068": "Proyectos activo",
+      "40b0cd59-138c-4978-8968-3f217199afd3": "Proyectos inactivo",
+      "4beabb2c-724a-4403-96c3-6b48aabebf61": "Vista de búsqueda de Proyectos",
+      "6753f226-5c41-4a6c-a534-ba8d394c3101": "Vista de búsqueda avanzada de Proyectos"
+    }
+  },
+  {
+    "DisplayName": "estado (Proyectos_1)",
+    "Name": "crd9d_proyectos_crd9d_estado",
+    "OptionSetInfoNameMapping": {
+      "0": "Pendiente",
+      "1": "En Proceso",
+      "2": "Finalizado",
+      "3": "Detenido"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd9d_estado",
+        "OptionSetReferenceEntityName": "Proyectos_1"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crd9d_estado",
+    "RelatedEntityName": "Proyectos_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado (Proyectos_1)",
+    "Name": "crd9d_proyectos_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Proyectos_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Proyectos_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Proyectos_1)",
+    "Name": "crd9d_proyectos_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Proyectos_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Proyectos_1",
+    "Type": "OptionSetInfo"
+  }
+]

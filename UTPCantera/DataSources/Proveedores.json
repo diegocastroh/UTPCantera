@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_proveedoreses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_proveedores",
+    "MaxGetRowsCount": 500,
+    "Name": "Proveedores",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_codigo_proveedor": "codigo_proveedor",
+      "crd9d_contacto": "contacto",
+      "crd9d_Cotizaciones_id_proveedor_crd9d_Proveedores": "Cotizaciones",
+      "crd9d_direccion": "direccion",
+      "crd9d_email": "email",
+      "crd9d_idproveedor": "id proveedor",
+      "crd9d_nombre_proveedor": "nombre_proveedor",
+      "crd9d_Notificaciones_id_proveedor_crd9d_Proveedores": "Notificaciones",
+      "crd9d_Portafolio_id_proveedor_crd9d_Proveedores": "Portafolios",
+      "crd9d_proveedores_AsyncOperations": "Trabajos del sistema",
+      "crd9d_proveedores_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_proveedores_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_proveedores_ProcessSession": "Sesiones de proceso",
+      "crd9d_proveedoresid": "Proveedores",
+      "crd9d_ruc": "ruc",
+      "crd9d_telefono": "telefono",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Proveedores",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Proveedores (Vistas)",
+    "Name": "_crd9d_proveedores_views",
+    "RelatedEntityName": "Proveedores",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1f43e14c-3621-4343-b126-1638e6df5d13": "Vista asociada de Proveedores",
+      "2ffddabd-8da6-4009-81fa-aa8fee7669ad": "Vista de búsqueda de Proveedores",
+      "a68a6aa5-c8bb-4b77-a72e-4e80573d4c1b": "Proveedores activo",
+      "b53551e7-f9d6-4863-83a5-867c59d7c7f7": "Vista de búsqueda avanzada de Proveedores",
+      "beeb4e7e-d70d-4e96-b866-e194357955ef": "Proveedores inactivo"
+    }
+  },
+  {
+    "DisplayName": "Estado (Proveedores)",
+    "Name": "crd9d_proveedores_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Proveedores"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Proveedores",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Proveedores)",
+    "Name": "crd9d_proveedores_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Proveedores"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Proveedores",
+    "Type": "OptionSetInfo"
+  }
+]

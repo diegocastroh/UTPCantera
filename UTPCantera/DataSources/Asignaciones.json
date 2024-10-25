@@ -1,0 +1,94 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_asignacioneses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_asignaciones",
+    "MaxGetRowsCount": 500,
+    "Name": "Asignaciones",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_asignaciones_AsyncOperations": "Trabajos del sistema",
+      "crd9d_asignaciones_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_asignaciones_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_asignaciones_ProcessSession": "Sesiones de proceso",
+      "crd9d_asignacionesid": "Asignaciones",
+      "crd9d_fecha_asignacion": "fecha_asignacion",
+      "crd9d_idasignacion": "id asignacion",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Asignaciones",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Asignaciones (Vistas)",
+    "Name": "_crd9d_asignaciones_views",
+    "RelatedEntityName": "Asignaciones",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "71e06b81-67c9-44b8-91d2-9e128d6ea9ac": "Vista de búsqueda de Asignaciones",
+      "78e4e58a-62e7-4d0c-af4f-f069752bc172": "Asignaciones activo",
+      "986acf8d-65fe-4084-9f42-bf642dcd37fa": "Vista asociada de Asignaciones",
+      "9e25f7e7-4a14-48a9-abfa-67622ae93a71": "Vista de búsqueda avanzada de Asignaciones",
+      "ba2e2d75-e6c6-4c3c-a38d-e9e01beb889d": "Asignaciones inactivo"
+    }
+  },
+  {
+    "DisplayName": "Estado (Asignaciones)",
+    "Name": "crd9d_asignaciones_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Asignaciones"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Asignaciones",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Asignaciones)",
+    "Name": "crd9d_asignaciones_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Asignaciones"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Asignaciones",
+    "Type": "OptionSetInfo"
+  }
+]

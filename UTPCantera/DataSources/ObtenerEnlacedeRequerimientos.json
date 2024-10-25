@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "54fb3a6f-6db9-46e0-b491-d15a325cc3bd",
+    "Name": "ObtenerEnlacedeRequerimientos",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "7e919a31-2e82-ef11-ac20-00224837c536"
+  }
+]

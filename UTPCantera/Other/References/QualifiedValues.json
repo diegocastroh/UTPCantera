@@ -1,0 +1,91 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crd9d_asignaciones_forms",
+      "Namespace": "Asignaciones (Formularios)",
+      "Values": {
+        "Información": "59d3385e-d1b0-4ac5-9291-9cb6261e5eaf"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_categorias_forms",
+      "Namespace": "Categorias (Formularios)",
+      "Values": {
+        "Información": "2d568dbe-97a4-4a98-b898-855a7e66202d"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_notificaciones_forms",
+      "Namespace": "Notificaciones (Formularios)",
+      "Values": {
+        "Información": "e63141af-715d-4b68-91e9-912995af6521"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_portafolio_forms",
+      "Namespace": "Portafolios (Formularios)",
+      "Values": {
+        "Información": "50f9e5f1-e2c8-4347-a9c2-f119b6462fdb"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_proyectos_forms",
+      "Namespace": "Proyectos_1 (Formularios)",
+      "Values": {
+        "Información": "5570b324-eda0-450f-b2c9-7cc7e531374d"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_proveedores_forms",
+      "Namespace": "Proveedores (Formularios)",
+      "Values": {
+        "Información": "d4c7e63c-d6c1-4470-ba2d-f5f74df39642"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_cotizaciones_forms",
+      "Namespace": "Cotizaciones_1 (Formularios)",
+      "Values": {
+        "Información": "c8497e6f-31d2-4f11-ab71-d43f5ad0e54f"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_usuarios_forms",
+      "Namespace": "Usuarios (Formularios)",
+      "Values": {
+        "Información": "d4666be6-891c-4844-9a64-dd0a7cfa8f73"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_ordenes_forms",
+      "Namespace": "Ordenes (Formularios)",
+      "Values": {
+        "Información": "7a2528c0-cae2-439e-bdbb-ee67701b3210"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Usuarios_1 (Formularios)",
+      "Values": {
+        "Formulario de ventana de jerarquía de usuarios": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452",
+        "Información": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "Usuario": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "Usuario de la aplicación": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8"
+      }
+    },
+    {
+      "Kind": "7a8da5ec-959a-e6c4-9df5-1fb150fc02e9_crd9d_proveedores_forms",
+      "Namespace": "Proveedores (Formularios)1",
+      "Values": {
+        "Información": "6682e82e-a946-49c8-96b5-f2bd316ce133"
+      }
+    },
+    {
+      "Kind": "default.cds_crd9d_proveedores_forms",
+      "Namespace": "Proveedores (Formularios)11",
+      "Values": {
+        "Información": "d4c7e63c-d6c1-4470-ba2d-f5f74df39642"
+      }
+    }
+  ]
+}

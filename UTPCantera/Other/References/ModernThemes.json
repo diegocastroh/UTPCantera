@@ -1,0 +1,21 @@
+{
+  "Themes": [
+    {
+      "EntityName": "PowerAppsTheme",
+      "ThemeName": "PowerAppsTheme"
+    },
+    {
+      "BasePaletteColor": "#ffffff",
+      "EntityName": "White",
+      "Font": "Segoe UI",
+      "HueTorsion": 100,
+      "ThemeName": "White",
+      "ThemePrimaryColorLocked": false,
+      "Vibrancy": 100
+    },
+    {
+      "EntityName": "SharePointTheme",
+      "ThemeName": "SharePointTheme"
+    }
+  ]
+}

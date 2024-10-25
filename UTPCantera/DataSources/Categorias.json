@@ -1,0 +1,96 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd9d_categoriases",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd9d_categorias",
+    "MaxGetRowsCount": 500,
+    "Name": "Categorias",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "crd9d_categorias_AsyncOperations": "Trabajos del sistema",
+      "crd9d_categorias_BulkDeleteFailures": "Errores de eliminación en masa",
+      "crd9d_categorias_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "crd9d_categorias_ProcessSession": "Sesiones de proceso",
+      "crd9d_categoriasid": "Categorias",
+      "crd9d_descripcion": "descripcion",
+      "crd9d_id_categoria": "id categoria",
+      "crd9d_nombre_categoria": "nombre_categoria",
+      "crd9d_proyectos_id_categoria_crd9d_categorias": "Proyectos",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Categorias",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Categorias (Vistas)",
+    "Name": "_crd9d_categorias_views",
+    "RelatedEntityName": "Categorias",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "026e157b-8f9e-40ec-8774-2035bd119924": "Vista de búsqueda avanzada de Categorias",
+      "1ab9d910-3536-4331-92ee-c1997aecb3c4": "Categorias inactivo",
+      "750f31e3-dc76-4ff5-8291-1b31c92550f4": "Vista de búsqueda de Categorias",
+      "fc379b19-3f48-402d-b580-ec2a588a6669": "Vista asociada de Categorias",
+      "fd8c72b8-8a08-4640-a76b-afec315c33a2": "Categorias activo"
+    }
+  },
+  {
+    "DisplayName": "Estado (Categorias)",
+    "Name": "crd9d_categorias_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Categorias"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Categorias",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Categorias)",
+    "Name": "crd9d_categorias_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Categorias"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Categorias",
+    "Type": "OptionSetInfo"
+  }
+]

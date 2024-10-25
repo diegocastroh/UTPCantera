@@ -1,0 +1,299 @@
+Principal As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: =Principal
+
+    HF_Principal As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =1
+
+        Header_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Semilight
+            Height: =80
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            ZIndex: =1
+
+            Image1_1 As image:
+                BorderColor: =App.Theme.Colors.Darker40
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Height: =80
+                Image: =logo
+                Width: =187
+                X: =20
+                ZIndex: =1
+
+            Avatar1_1 As Avatar:
+                DisplayMode: =DisplayMode.Edit
+                Height: =56
+                Image: =User().Image
+                Name: =User().FullName
+                PCFTeamsTheme: ="default"
+                Width: =64
+                X: =1278
+                Y: =12
+                ZIndex: =2
+
+            TextCanvas1_1 As Texto:
+                Align: ='TextCanvas.Align'.End
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Text: =Proper(User().FullName)
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =449
+                X: =811
+                Y: =0
+                ZIndex: =3
+
+            TextCanvas5_1 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: ="|"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =24
+                X: =227
+                Y: =0
+                ZIndex: =4
+
+            TextCanvas6_1 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: =App.ActiveScreen.Name
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =468
+                X: =251
+                Y: =0
+                ZIndex: =5
+
+        Footer_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =60
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            Y: =708
+            ZIndex: =2
+
+            TextCanvas3_2 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =60
+                PCFTeamsTheme: ="default"
+                Text: ="Version "& App.StudioVersion
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =311
+                X: =20
+                Y: =0
+                ZIndex: =1
+
+            TextCanvas3_3 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =60
+                PCFTeamsTheme: ="default"
+                Text: ="Copyrigth "& Year(Today()) &"© | Todos los derechos reservados "
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =355
+                X: =1009
+                Y: =0
+                ZIndex: =2
+
+    btn_Cotizaciones As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =241
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =184
+        X: =211
+        Y: =263
+        ZIndex: =2
+
+        Button1_1 As Botón:
+            DisplayMode: =DisplayMode.Edit
+            FillColor: =RGBA(255, 255, 255, 1)
+            Height: =241
+            OnChange: =false
+            PCFTeamsTheme: ="default"
+            Text: =
+            Width: =183
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        TextCanvas7_1 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =81
+            PCFTeamsTheme: ="default"
+            Text: ="Cotizaciones"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =183
+            X: =0
+            Y: =160
+            ZIndex: =2
+
+        Image2 As image:
+            BorderColor: =App.Theme.Colors.Darker40
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Image: ='Cotización Icon'
+            X: =41
+            Y: =41
+            ZIndex: =3
+
+    btn_Servicios As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =241
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =184
+        X: =461
+        Y: =263
+        ZIndex: =3
+
+        Button1_2 As Botón:
+            DisplayMode: =DisplayMode.Edit
+            FillColor: =RGBA(255, 255, 255, 1)
+            Height: =241
+            OnChange: =false
+            PCFTeamsTheme: ="default"
+            Text: =
+            Width: =183
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        TextCanvas7_2 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =81
+            PCFTeamsTheme: ="default"
+            Text: ="Servicios"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =183
+            X: =0
+            Y: =160
+            ZIndex: =2
+
+        Image2_1 As image:
+            BorderColor: =App.Theme.Colors.Darker40
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Image: =Servicios
+            X: =41
+            Y: =41
+            ZIndex: =3
+
+    btn_Proyectos As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =241
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =184
+        X: =712
+        Y: =263
+        ZIndex: =4
+
+        Button1_3 As Botón:
+            DisplayMode: =DisplayMode.Edit
+            FillColor: =RGBA(255, 255, 255, 1)
+            Height: =241
+            OnChange: =false
+            OnSelect: =Navigate('Tabla Proyectos')
+            PCFTeamsTheme: ="default"
+            Text: =
+            Width: =183
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        TextCanvas7_3 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =81
+            PCFTeamsTheme: ="default"
+            Text: ="Proyectos"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =183
+            X: =0
+            Y: =160
+            ZIndex: =2
+
+        Image2_2 As image:
+            BorderColor: =App.Theme.Colors.Darker40
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Image: =Proyectos
+            X: =41
+            Y: =41
+            ZIndex: =3
+
+    btn_Proyectos_1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =241
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =184
+        X: =970
+        Y: =263
+        ZIndex: =5
+
+        Button1_4 As Botón:
+            DisplayMode: =DisplayMode.Edit
+            FillColor: =RGBA(255, 255, 255, 1)
+            Height: =241
+            OnChange: =false
+            PCFTeamsTheme: ="default"
+            Text: =
+            Width: =183
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        TextCanvas7_4 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =81
+            PCFTeamsTheme: ="default"
+            Text: ="Configuración"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =183
+            X: =0
+            Y: =160
+            ZIndex: =2
+
+        Image2_3 As image:
+            BorderColor: =App.Theme.Colors.Darker40
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Image: ='configuracion-del-navegador'
+            X: =41
+            Y: =41
+            ZIndex: =3
+

@@ -1,0 +1,160 @@
+"'No Autorizado' As screen":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    "'Header and Footer_5' As groupContainer.manualLayoutContainer":
+        DropShadow: =DropShadow.Light
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =1
+
+        Header_6 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Semilight
+            Height: =80
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =1366
+            ZIndex: =1
+
+            Image1_6 As image:
+                BorderColor: =App.Theme.Colors.Darker40
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Height: =80
+                Image: =logo
+                Width: =187
+                X: =20
+                ZIndex: =2
+
+            TextCanvas5_6 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: ="|"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =24
+                X: =227
+                Y: =0
+                ZIndex: =3
+
+            TextCanvas6_6 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: =App.ActiveScreen.Name
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =468
+                X: =251
+                Y: =0
+                ZIndex: =4
+
+            TextCanvas1_6 As Texto:
+                Align: ='TextCanvas.Align'.End
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Text: =Proper(User().FullName)
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =449
+                X: =811
+                Y: =0
+                ZIndex: =5
+
+            Avatar1_6 As Avatar:
+                DisplayMode: =DisplayMode.Edit
+                Height: =56
+                Image: =User().Image
+                Name: =User().FullName
+                PCFTeamsTheme: ="default"
+                Width: =64
+                X: =1278
+                Y: =12
+                ZIndex: =6
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =7
+
+        Rectangle1 As rectangle:
+            BorderColor: =App.Theme.Colors.Darker40
+            Fill: =RGBA(0,0,0,25%)
+            Height: =768
+            Visible: =false
+            Width: =1366
+            ZIndex: =4
+
+        Container10 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =515
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Visible: =false
+            Width: =471
+            X: =448
+            Y: =127
+            ZIndex: =6
+
+            Rectangle6 As rectangle:
+                BorderColor: =App.Theme.Colors.Darker40
+                Fill: =RGBA(255,255,255,1)
+                Height: =515
+                Width: =471
+                ZIndex: =1
+
+            TextCanvas25 As Texto:
+                Align: ='TextCanvas.Align'.Center
+                DisplayMode: =DisplayMode.Edit
+                Height: =80
+                PCFTeamsTheme: ="default"
+                Size: =21
+                Text: ="Solicitar Acceso"
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =471
+                X: =0
+                Y: =0
+                ZIndex: =2
+
+            Icon2 As Icono:
+                DisplayMode: =DisplayMode.Edit
+                Height: =202
+                Icon: ="DismissCircle"
+                PCFTeamsTheme: ="default"
+                Width: =273
+                X: =99
+                Y: =112
+                ZIndex: =3
+
+            ButtonCanvas2 As Botón:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Text: ="Solicitar Acceso"
+                Width: =143
+                X: =164
+                Y: =441
+                ZIndex: =4
+
+            TextCanvas53 As Texto:
+                Align: ='TextCanvas.Align'.Center
+                DisplayMode: =DisplayMode.Edit
+                Height: =74
+                PCFTeamsTheme: ="default"
+                Text: ="No te hemos encontrado con permisos para acceder al aplicativo."
+                Width: =332
+                X: =69
+                Y: =340
+                ZIndex: =5
+
