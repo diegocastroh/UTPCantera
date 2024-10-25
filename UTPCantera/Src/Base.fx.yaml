@@ -133,15 +133,3 @@ Base As screen:
         Y: =348
         ZIndex: =5
 
-    Toggle1 As Alternancia:
-        Checked: =popup_visible && Respuesta = 100 || Respuesta = 2
-        DisplayMode: =DisplayMode.Edit
-        Height: =35
-        OnCheck: =false
-        OnUncheck: =false
-        PCFTeamsTheme: ="default"
-        Width: =113
-        X: =156
-        Y: =192
-        ZIndex: =6
-
