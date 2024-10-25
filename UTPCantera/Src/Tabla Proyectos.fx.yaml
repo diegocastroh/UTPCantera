@@ -182,7 +182,7 @@
         Height: =55
         PCFTeamsTheme: ="default"
         Size: =18
-        Text: ="Tabla de Cotizaciones"
+        Text: ="Tabla de Proyectos"
         Weight: ='TextCanvas.Weight'.Semibold
         Width: =606
         X: =286
@@ -225,7 +225,19 @@
                     ItemIconStyle: "Regular"
                 }
             )
-        OnSelect: =Switch(Self.Selected.ItemKey,/* Action for Key 'new' */"new",Notify("New clicked"),/* Action for 'edit' */"edit",Notify("Edit clicked"),/* Action for 'delete' */ "delete",Notify("Delete clicked"),/* Action for 'info' */ "info",Notify("Info clicked"), /* Default action */  Notify("Unrecognized button clicked"))
+        OnSelect: |-
+            =Switch(
+                Self.Selected.ItemKey,/* Action for Key 'new' */
+                "new",
+                Navigate('Nuevo Proyecto'),/* Action for 'edit' */
+                "edit",
+                Notify("Edit clicked"),/* Action for 'delete' */
+                "delete",
+                Notify("Delete clicked"),/* Action for 'info' */
+                "info",
+                Notify("Info clicked"),/* Default action */
+                Notify("Unrecognized button clicked")
+            )
         PCFTeamsTheme: ="default"
         Visible: =user_in.rol = 'rol (Usuarios)'.ADMI
         Width: =446
@@ -588,7 +600,7 @@
                 Items: |
                     =Filter(
                         Proyectos_1,
-                        IsBlank(ComboboxCanvas8_1.SelectedItems)|| id_categoria in ComboboxCanvas8_1.SelectedItems.nombre_categoria
+                        IsBlank(ComboboxCanvas8_1.SelectedItems)|| id_categoria in ComboboxCanvas8_1.SelectedItems
                     )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
