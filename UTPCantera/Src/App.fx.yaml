@@ -1,5 +1,6 @@
 App As appinfo:
     BackEnabled: =true
+    OnStart: =Set(user_in, LookUp(Usuarios, correo = User().Email))
     Theme: =White
 
     Host As hostControl.DefaultHostControlVariant:
