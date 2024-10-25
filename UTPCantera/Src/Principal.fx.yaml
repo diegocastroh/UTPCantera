@@ -151,8 +151,8 @@ Principal As screen:
             ZIndex: =4
 
         ButtonCanvas20 As Botón:
-            Appearance: ='ButtonCanvas.Appearance'.Subtle
-            BasePaletteColor: =RGBA(189, 178, 176, 50%)
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            BasePaletteColor: =RGBA(189, 178, 176, 0.5)
             DisplayMode: =DisplayMode.Edit
             Height: =241
             PCFTeamsTheme: ="default"
