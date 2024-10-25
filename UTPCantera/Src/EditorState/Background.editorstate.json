@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Component3": {
+    "Background": {
       "AllowAccessToGlobals": false,
       "ControlPropertyState": [
         "Fill",
@@ -32,7 +32,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Component3",
+      "Name": "Background",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
@@ -72,5 +72,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Component3"
+  "TopParentName": "Background"
 }

@@ -1,4 +1,4 @@
-Component3 As CanvasComponent:
+Background As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
     Width: =1366

@@ -5,7 +5,7 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Component3",
+    "Name": "Background",
     "TemplateGuid": "3dba40ba2a454fdf954df05d1dcbe2b4"
   },
   "ComponentType": "CanvasComponent",
