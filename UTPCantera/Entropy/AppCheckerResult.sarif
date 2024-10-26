@@ -434,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Principal.btn_Cotizaciones.ButtonCanvas20.AccessibleLabel"
+                  "fullyQualifiedName": "Principal.btn_Cotizaciones.ButtonCanvas18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Principal.btn_Cotizaciones.ButtonCanvas20.AccessibleLabel",
+                  "fullyQualifiedName": "Principal.btn_Cotizaciones.ButtonCanvas18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Principal",
-                "type": "Principal.btn_Cotizaciones.ButtonCanvas20"
+                "type": "Principal.btn_Cotizaciones.ButtonCanvas18"
               }
             }
           ],

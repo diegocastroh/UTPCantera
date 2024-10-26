@@ -139,6 +139,7 @@ Principal As screen:
 
         ButtonCanvas19 As Botón:
             Appearance: ='ButtonCanvas.Appearance'.Subtle
+            BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =100
             Icon: =
@@ -150,12 +151,10 @@ Principal As screen:
             Y: =141
             ZIndex: =4
 
-        ButtonCanvas20 As Botón:
+        ButtonCanvas18 As Botón:
             Appearance: ='ButtonCanvas.Appearance'.Subtle
-            BasePaletteColor: =RGBA(189, 178, 176, 0.5)
             DisplayMode: =DisplayMode.Edit
             Height: =241
-            OnSelect: =Navigate(Cotizaciones)
             PCFTeamsTheme: ="default"
             Text: =
             Width: =184

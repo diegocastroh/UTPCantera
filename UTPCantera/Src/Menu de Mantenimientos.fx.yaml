@@ -1,0 +1,8 @@
+"'Menu de Mantenimientos' As screen":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Background_2 As Background:
+        Back: ="Texto"
+        Home: ="Texto"
+

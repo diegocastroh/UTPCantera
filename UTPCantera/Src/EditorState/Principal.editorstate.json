@@ -1021,7 +1021,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "ButtonCanvas19": {
+    "ButtonCanvas18": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "PCFTeamsTheme",
@@ -1035,24 +1035,15 @@
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Text",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Appearance",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Icon",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Layout",
+          "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -1066,16 +1057,11 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "ButtonCanvas19",
+      "Name": "ButtonCanvas18",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
-        {
-          "Category": "Data",
-          "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
-        },
         {
           "Category": "Data",
           "PropertyName": "Appearance",
@@ -1083,13 +1069,8 @@
         },
         {
           "Category": "Data",
-          "PropertyName": "Icon",
-          "RuleProviderType": "User"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "Layout",
-          "RuleProviderType": "User"
+          "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1130,7 +1111,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "ButtonCanvas20": {
+    "ButtonCanvas19": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "PCFTeamsTheme",
@@ -1156,19 +1137,20 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
+        "Icon",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
-          "InvariantPropertyName": "BasePaletteColor",
+          "InvariantPropertyName": "Layout",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "false",
-          "InvariantPropertyName": "OnSelect",
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "BasePaletteColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -1182,9 +1164,9 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "ButtonCanvas20",
+      "Name": "ButtonCanvas19",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1199,8 +1181,18 @@
         },
         {
           "Category": "Data",
-          "PropertyName": "BasePaletteColor",
+          "PropertyName": "Icon",
           "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Layout",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "BasePaletteColor",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1236,11 +1228,6 @@
           "Category": "Design",
           "PropertyName": "ZIndex",
           "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Behavior",
-          "PropertyName": "OnSelect",
-          "RuleProviderType": "User"
         }
       ],
       "StyleName": "",
