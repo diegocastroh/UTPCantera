@@ -6,8 +6,3 @@
         Back: ="Texto"
         Home: ="Texto"
 
-    btnInteract_1 As btnInteract:
-        X: =172
-        Y: =263
-        ZIndex: =2
-
