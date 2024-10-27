@@ -1,8 +1,0 @@
-"'Portafolio Proveedor' As screen":
-    Fill: =Color.White
-    LoadingSpinnerColor: =App.Theme.Colors.Primary
-
-    Background_3 As Background:
-        Back: ="Texto"
-        Home: ="Texto"
-
