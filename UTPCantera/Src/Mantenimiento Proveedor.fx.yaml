@@ -1111,63 +1111,12 @@
             Y: =60
             ZIndex: =1
 
-        "ComboboxCanvas6_1 As 'Cuadro combinado'.pcfdataset":
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            Items: =Usuarios
-            PCFTeamsTheme: ="default"
-            Required: =false
-            Width: =250
-            X: =30
-            Y: =60
-            ZIndex: =2
-
-            "'id usuario3_1' As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn":
-                FieldDisplayName: ="id usuario"
-                FieldName: ="crd9d_idusuario"
-                FieldType: ="s"
-                FieldVariantName: ="textualColumn"
-                Order: =2
-                ZIndex: =52
-
-            correo3_1 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
-                FieldDisplayName: ="correo"
-                FieldName: ="crd9d_correo"
-                FieldType: ="s"
-                FieldVariantName: ="textualColumn"
-                Order: =3
-                ZIndex: =53
-
-            nombre4_1 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
-                FieldDisplayName: ="nombre"
-                FieldName: ="crd9d_nombre"
-                FieldType: ="s"
-                FieldVariantName: ="textualColumn"
-                Order: =4
-                ZIndex: =54
-
-            rol3_1 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
-                FieldDisplayName: ="rol"
-                FieldName: ="crd9d_rol"
-                FieldType: ="l"
-                FieldVariantName: ="textualColumn"
-                Order: =6
-                ZIndex: =55
-
-            matricula3_1 As PowerApps_CoreControls_ComboboxCanvasTemplate_dataField.textualColumn:
-                FieldDisplayName: ="matricula"
-                FieldName: ="crd9d_matricula"
-                FieldType: ="s"
-                FieldVariantName: ="textualColumn"
-                Order: =1
-                ZIndex: =56
-
         TextCanvas38_5 As Texto:
             Align: ='TextCanvas.Align'.Center
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
-            Text: ="Matrícula"
+            Text: ="Código de Proveedor"
             Weight: ='TextCanvas.Weight'.Semibold
             Width: =250
             X: =30
@@ -1188,7 +1137,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
-            Text: ="Nombre de Usuario"
+            Text: ="Razón Social"
             Weight: ='TextCanvas.Weight'.Semibold
             Width: =320
             X: =322
@@ -1215,4 +1164,13 @@
             X: =665
             Y: =60
             ZIndex: =7
+
+        "TextInputCanvas10 As 'Entrada de texto'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            PCFTeamsTheme: ="default"
+            Width: =250
+            X: =30
+            Y: =60
+            ZIndex: =8
 
