@@ -198,6 +198,18 @@
                     Width: =Parent.Width
                     ZIndex: =9
 
+        TextCanvas60 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Height: =64
+            PCFTeamsTheme: ="default"
+            Text: ="No se han encontrado registros"
+            Visible: =BrowseGallery2.AllItemsCount>1
+            Width: =138
+            X: =71
+            Y: =304
+            ZIndex: =6
+
     LeftRightDivider2 As rectangle:
         BorderColor: =App.Theme.Colors.Darker40
         Fill: =varStyle.dividerFill
