@@ -16,6 +16,8 @@
       "crd9d_asignaciones_ProcessSession": "Sesiones de proceso",
       "crd9d_asignacionesid": "Asignaciones",
       "crd9d_fecha_asignacion": "fecha_asignacion",
+      "crd9d_id_proveedor": "id_proveedor",
+      "crd9d_id_proyectos": "id_proyectos",
       "crd9d_idasignacion": "id asignacion",
       "createdby": "Autor",
       "createdon": "Fecha de creación",

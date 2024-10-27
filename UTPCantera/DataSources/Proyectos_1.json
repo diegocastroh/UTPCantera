@@ -10,6 +10,7 @@
     "Name": "Proyectos_1",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
+      "crd9d_Asignaciones_id_proyectos_crd9d_Proyectos": "Asignaciones",
       "crd9d_codigo_proyecto": "codigo_proyecto",
       "crd9d_costo_estimado": "costo_estimado",
       "crd9d_Cotizaciones_id_proyecto_crd9d_Proyectos": "Cotizaciones",

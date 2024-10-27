@@ -115,6 +115,59 @@
                 Y: =0
                 ZIndex: =2
 
+        Container8_4 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =131
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            X: =712
+            Y: =508
+            ZIndex: =3
+
+            Rectangle2_4 As rectangle:
+                BorderColor: =App.Theme.Colors.Darker40
+                Fill: =App.Theme.Colors.Primary
+                Height: =40
+                Width: =500
+                ZIndex: =9
+
+            TextCanvas15_4 As Texto:
+                Align: ='TextCanvas.Align'.Center
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =40
+                PCFTeamsTheme: ="default"
+                Text: ="Proyectos"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =500
+                X: =0
+                Y: =0
+                ZIndex: =11
+
+            TextCanvas9_7 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Text: ="Participaciones"
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =150
+                X: =12
+                Y: =61
+                ZIndex: =13
+
+            ButtonCanvas20 As Botón:
+                DisplayMode: |
+                    =If(CountRows(Filter(Asignaciones, id_proveedor = proveedor.id))>0, DisplayMode.Edit,DisplayMode.Disabled)
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Text: =CountRows(Filter(Asignaciones, id_proveedor = proveedor.id)) & " proyectos en colaboración."
+                Width: =297
+                X: =162
+                Y: =61
+                ZIndex: =14
+
     Container8_2 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Height: =462
@@ -345,7 +398,7 @@
 
     Container8_3 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
-        Height: =462
+        Height: =298
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -369,7 +422,7 @@
             Appearance: ='TextInputCanvas.Appearance'.FilledDarker
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
-            Height: =107
+            Height: =48
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
             Width: =320
@@ -384,7 +437,7 @@
             Text: ="Descripción"
             Width: =150
             X: =12
-            Y: =246
+            Y: =182
             ZIndex: =5
 
         Rectangle2_3 As rectangle:
@@ -431,11 +484,11 @@
 
         "TextInputCanvas15_1 As 'Entrada de texto'":
             DisplayMode: =DisplayMode.Edit
-            Height: =154
+            Height: =95
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
             Width: =320
             X: =167
-            Y: =246
+            Y: =182
             ZIndex: =15
 
