@@ -9,7 +9,7 @@
     btnInteract_1 As btnInteract:
         btnNombre: ="Proveedores"
         Imagen: ='wholesale (1)'
-        setAction: ="Texto"
+        setAction: =Navigate('Mantenimiento Proveedor')
         X: =167
         Y: =259
         ZIndex: =2
@@ -17,7 +17,7 @@
     btnInteract_2 As btnInteract:
         btnNombre: ="Usuarios"
         Imagen: =group
-        setAction: ="Texto"
+        setAction: =Navigate('Mantenimiento Usuarios')
         X: =587
         Y: =259
         ZIndex: =3
@@ -25,7 +25,7 @@
     btnInteract_3 As btnInteract:
         btnNombre: ="Categoria"
         Imagen: =categorization
-        setAction: ="Texto"
+        setAction: =Navigate('Mantenimiento Categoría')
         X: =1008
         Y: =259
         ZIndex: =4
