@@ -4,6 +4,10 @@
     OnVisible: |-
         =UpdateContext({ varStyle: { topBarHeight:52, topBarTitleSize:12, topBarTitleLeftPadding:12, topBarIconRightPadding:12, topBarTitleLeftPaddingWithButton:8, iconSize:16, largeIconSize:50, iconPadding:12, spaceBetweenIcons:8, deletePageSideMargins:200, galleryBarHeight:70, searchBarHeight:32, deleteTextHeight:120, deleteConfirmButtonHeight:40, iconButtonFill:RGBA(0,0,0,0.2), iconButtonSmallWidth:30, iconFill: ColorValue("#6264A7"), dividerFill: ColorValue("#EAE9E8"), formLabelFontSize: 10.5, focusBorderColor: ColorValue("#000000"), focusBorderThickness: 2, borderStyle: BorderStyle.Dashed }});
 
+    Background_4 As Background:
+        Back: ="Texto"
+        Home: ="Texto"
+
     LeftContainer2 As groupContainer:
         DropShadow: =DropShadow.Light
         Height: =569
@@ -22,7 +26,13 @@
             DelayItemLoading: =true
             DisplayMode: =If(Or(newMode,editMode,deleteMode), DisplayMode.Disabled, DisplayMode.Edit)
             Height: =Parent.Height - 2 * varStyle.topBarHeight
-            Items: =Proveedores
+            Items: |-
+                =Filter(
+                    Proveedores,
+                    IsBlank(TextInputCanvas10.Value) || TextInputCanvas10.Value in codigo_proveedor,
+                    IsBlank(TextInputCanvas3_3.Value) || TextInputCanvas3_3.Value in nombre_proveedor,
+                    IsBlank(TextInputCanvas9.Value) || TextInputCanvas9.Value in ruc 
+                )
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             OnSelect: |-
@@ -1082,11 +1092,6 @@
             Y: =TopBar_RightContainer2.Height
             ZIndex: =28
 
-    Background_4 As Background:
-        Back: ="Texto"
-        Home: ="Texto"
-        ZIndex: =5
-
     Container15_2 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Height: =156
@@ -1097,7 +1102,7 @@
         Width: =1085
         X: =281
         Y: =84
-        ZIndex: =6
+        ZIndex: =5
 
         ButtonCanvas6_2 As Botón:
             Appearance: ='ButtonCanvas.Appearance'.Primary
