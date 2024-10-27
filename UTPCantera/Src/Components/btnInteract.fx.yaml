@@ -1,0 +1,40 @@
+btnInteract As CanvasComponent:
+    btnNombre: ="Texto"
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =241
+    Imagen: =SampleImage
+    Width: =184
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    TextCanvas59 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Height: =91
+        PCFTeamsTheme: ="default"
+        Text: |
+            =btnInteract.btnNombre
+        Width: =184
+        X: =0
+        Y: =150
+        ZIndex: =1
+
+    Image5 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Image: =btnInteract.Imagen
+        X: =40
+        Y: =40
+        ZIndex: =2
+
+    Rectangle15 As rectangle:
+        BorderColor: =App.Theme.Colors.Darker40
+        Fill: =RGBA(0,0,0,0)
+        Height: =241
+        HoverFill: =RGBA(0,0,0,25%)
+        PressedFill: =RGBA(0,0,0,40%)
+        Width: =184
+        ZIndex: =3
+
