@@ -2533,19 +2533,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Mantenimiento Proveedor'.'Header and Footer_9'.Header_10.Avatar1_10.AccessibleLabel"
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.TextInputCanvas3_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Mantenimiento Proveedor'.'Header and Footer_9'.Header_10.Avatar1_10.AccessibleLabel",
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.TextInputCanvas3_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Mantenimiento Proveedor",
-                "type": "'Mantenimiento Proveedor'.'Header and Footer_9'.Header_10.Avatar1_10"
+                "type": "'Mantenimiento Proveedor'.Container15_2.TextInputCanvas3_3"
               }
             }
           ],
@@ -2563,19 +2563,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Toolbar2_7.AccessibleLabel"
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.TextInputCanvas9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Toolbar2_7.AccessibleLabel",
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.TextInputCanvas9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Mantenimiento Proveedor",
-                "type": "'Mantenimiento Proveedor'.Toolbar2_7"
+                "type": "'Mantenimiento Proveedor'.Container15_2.TextInputCanvas9"
               }
             }
           ],
@@ -4526,6 +4526,66 @@
                 "member": "AccessibleLabel",
                 "module": "Nuevo Proyecto",
                 "type": "'Nuevo Proyecto'.Container7_1.Container19.ButtonCanvas10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.ComboboxCanvas6_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.ComboboxCanvas6_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Mantenimiento Proveedor",
+                "type": "'Mantenimiento Proveedor'.Container15_2.ComboboxCanvas6_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.ButtonCanvas6_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mantenimiento Proveedor'.Container15_2.ButtonCanvas6_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Mantenimiento Proveedor",
+                "type": "'Mantenimiento Proveedor'.Container15_2.ButtonCanvas6_2"
               }
             }
           ],
