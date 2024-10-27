@@ -6,3 +6,27 @@
         Back: ="Texto"
         Home: ="Texto"
 
+    btnInteract_1 As btnInteract:
+        btnNombre: ="Proveedores"
+        Imagen: ='wholesale (1)'
+        setAction: ="Texto"
+        X: =167
+        Y: =259
+        ZIndex: =2
+
+    btnInteract_2 As btnInteract:
+        btnNombre: ="Usuarios"
+        Imagen: =group
+        setAction: ="Texto"
+        X: =587
+        Y: =259
+        ZIndex: =3
+
+    btnInteract_3 As btnInteract:
+        btnNombre: ="Categoria"
+        Imagen: =categorization
+        setAction: ="Texto"
+        X: =1008
+        Y: =259
+        ZIndex: =4
+
