@@ -204,7 +204,7 @@
             Height: =64
             PCFTeamsTheme: ="default"
             Text: ="No se han encontrado registros"
-            Visible: =BrowseGallery2.AllItemsCount>1
+            Visible: =BrowseGallery2.AllItemsCount=0
             Width: =138
             X: =71
             Y: =304
