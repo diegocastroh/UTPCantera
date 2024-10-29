@@ -123,15 +123,3 @@ Base As screen:
         Visible: =popup_visible
         ZIndex: =4
 
-    ButtonCanvas17 As Botón:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        OnSelect: |-
-            =UpdateContext({popup_visible: true})
-        PCFTeamsTheme: ="default"
-        Width: =96
-        X: =244
-        Y: =348
-        ZIndex: =5
-

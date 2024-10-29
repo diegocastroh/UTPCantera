@@ -10,6 +10,7 @@
     "Name": "Proveedores",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
+      "crd9d_asignaciones_id_proveedor_crd9d_proveedores": "Asignaciones",
       "crd9d_codigo_proveedor": "codigo_proveedor",
       "crd9d_contacto": "contacto",
       "crd9d_Cotizaciones_id_proveedor_crd9d_Proveedores": "Cotizaciones",

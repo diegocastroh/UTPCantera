@@ -629,10 +629,10 @@
                 DataField: ="crd9d_ruc"
                 Default: =ThisItem.ruc
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Proveedores],DataSourceInfo.DisplayName,crd9d_ruc)
+                DisplayName: =DataSourceInfo([@Proveedores],DataSourceInfo.DisplayName,ruc)
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =70
-                MaxLength: =DataSourceInfo([@Proveedores], DataSourceInfo.MaxLength, crd9d_ruc)
+                MaxLength: =DataSourceInfo([@Proveedores], DataSourceInfo.MaxLength, ruc)
                 Required: =false
                 Update: =DataCardValue16.Value
                 Width: =362
