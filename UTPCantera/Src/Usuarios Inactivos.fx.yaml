@@ -24,6 +24,15 @@
         Y: =172
         ZIndex: =2
 
+        Estado1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="Estado"
+            FieldName: ="statecode"
+            FieldType: ="l"
+            FieldVariantName: ="textualColumn"
+            Order: =6
+            Width: =0
+            ZIndex: =0
+
         "'id usuario4' As PowerAppsOneGridTemplate_dataField.textualColumn":
             FieldDisplayName: ="id usuario"
             FieldName: ="crd9d_idusuario"
@@ -69,21 +78,14 @@
             Width: =0
             ZIndex: =5
 
-        estado1 As PowerAppsOneGridTemplate_dataField.textualColumn:
-            FieldDisplayName: ="estado"
-            FieldName: ="crd9d_estado"
-            FieldType: ="l"
-            FieldVariantName: ="textualColumn"
-            Order: =7
-            Width: =0
-            ZIndex: =6
-
     ButtonCanvas21 As Botón:
         BasePaletteColor: =RGBA(249, 83, 109, 1)
         DisplayMode: =DisplayMode.Edit
         Height: =32
         Icon: ="Delete"
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: |-
+            =UpdateContext({popup_delete_all:true})
         PCFTeamsTheme: ="default"
         Text: ="Borrar todos"
         Width: =149
@@ -106,9 +108,11 @@
 
     PopUp_2 As PopUp:
         Aceptar: ="Texto"
-        Cancelar: ="Texto"
+        Cancelar: |-
+            =UpdateContext({popup_delete_all:false})
         Descripcion: ="Estás apunto de eliminar todos los Usuarios inactivos. La acción es irreversible, proceder al estar seguro de la acción"
         Imagen: =alarm_1
         Titulo: ="¿Estás seguro que deseas continuar?"
+        Visible: =popup_delete_all
         ZIndex: =5
 

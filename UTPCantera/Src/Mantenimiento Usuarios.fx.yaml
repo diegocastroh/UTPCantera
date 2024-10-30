@@ -1253,6 +1253,7 @@
             Height: =32
             Icon: ="People"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: =Navigate('Usuarios Inactivos')
             PCFTeamsTheme: ="default"
             Text: ="Usuarios Inactivos"
             Width: =189
