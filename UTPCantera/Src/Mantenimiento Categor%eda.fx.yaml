@@ -640,7 +640,8 @@
                                     deleteMode: false
                                 }
                             )
-                        );
+                        ),
+                        Notify("La categoría se encuentra en uso", NotificationType.Warning)
                         
                     )
                 RadiusBottomLeft: =3
