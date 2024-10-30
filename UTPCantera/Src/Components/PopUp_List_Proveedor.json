@@ -3585,7 +3585,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638658776941871495",
+    "LastModifiedTimestamp": "638658777565371359",
     "Name": "PopUp_List_Proveedor",
     "Rules": [
       {
@@ -3602,7 +3602,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "Gallery3_2.Sele",
+        "InvariantScript": "Gallery3_2.Selecte",
         "Property": "proveedor",
         "RuleProviderType": "System"
       },
@@ -3728,7 +3728,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658776941871495",
+  "LastModifiedTimestamp": "638658777565371359",
   "Name": "d2171d78a1114993bcd7630509589f82",
   "OverridableProperties": {},
   "TemplateOriginalName": "9bc85487de7344ec8cdfe34ceffdac48",
