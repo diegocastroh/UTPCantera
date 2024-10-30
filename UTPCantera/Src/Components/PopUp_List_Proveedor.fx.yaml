@@ -96,7 +96,7 @@ PopUp_List_Proveedor As CanvasComponent:
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =428
-                    Items: =Filter(PopUp_List_Proveedor.listado_proveedores, TextInputCanvas17.Value in codigo_proveedor, TextInputCanvas17_1.Value in nombre_proveedor, TextInputCanvas17_2.Value in ruc)
+                    Items: =Filter(PopUp_List_Proveedor.listado_proveedores, IsBlank(TextInputCanvas17.Value) || TextInputCanvas17.Value in codigo_proveedor, IsBlank(TextInputCanvas17_1.Value) || TextInputCanvas17_1.Value in nombre_proveedor, IsBlank(TextInputCanvas17_2.Value) || TextInputCanvas17_2.Value in ruc)
                     Layout: =Layout.Vertical
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplateSize: =74
@@ -273,7 +273,7 @@ PopUp_List_Proveedor As CanvasComponent:
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                X: =40
+                Width: =283
                 ZIndex: =1
 
                 TextCanvas61 As Texto:

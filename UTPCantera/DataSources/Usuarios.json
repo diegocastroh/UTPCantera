@@ -78,26 +78,6 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "estado (Usuarios)",
-    "Name": "crd9d_usuarios_crd9d_estado",
-    "OptionSetInfoNameMapping": {
-      "0": "Inactivo",
-      "1": "Activo"
-    },
-    "OptionSetIsBooleanValued": true,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "crd9d_estado",
-        "OptionSetReferenceEntityName": "Usuarios"
-      }
-    },
-    "OptionSetTypeKey": "BooleanType",
-    "RelatedColumnInvariantName": "crd9d_estado",
-    "RelatedEntityName": "Usuarios",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "rol (Usuarios)",
     "Name": "crd9d_usuarios_crd9d_rol",
     "OptionSetInfoNameMapping": {
