@@ -143,7 +143,7 @@ Principal As screen:
     btnInteract_7 As btnInteract:
         btnNombre: ="Cotizaciones"
         Imagen: ='Cotización Icon'
-        setAction: ="Texto"
+        setAction: =Navigate(Cotizaciones)
         X: =187
         Y: =258
         ZIndex: =9
