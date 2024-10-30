@@ -24,15 +24,6 @@
         Y: =172
         ZIndex: =2
 
-        Estado1 As PowerAppsOneGridTemplate_dataField.textualColumn:
-            FieldDisplayName: ="Estado"
-            FieldName: ="statecode"
-            FieldType: ="l"
-            FieldVariantName: ="textualColumn"
-            Order: =6
-            Width: =0
-            ZIndex: =0
-
         "'id usuario4' As PowerAppsOneGridTemplate_dataField.textualColumn":
             FieldDisplayName: ="id usuario"
             FieldName: ="crd9d_idusuario"
@@ -77,6 +68,15 @@
             Order: =6
             Width: =0
             ZIndex: =5
+
+        Estado1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="Estado"
+            FieldName: ="statecode"
+            FieldType: ="l"
+            FieldVariantName: ="textualColumn"
+            Order: =6
+            Width: =0
+            ZIndex: =6
 
     ButtonCanvas21 As Botón:
         BasePaletteColor: =RGBA(249, 83, 109, 1)

@@ -10,6 +10,7 @@
     "Name": "Usuarios",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
+      "crd9d_bloqueado": "Bloqueado",
       "crd9d_correo": "correo",
       "crd9d_estado": "estado",
       "crd9d_idusuario": "id usuario",
@@ -56,6 +57,26 @@
       "b00755bd-191e-4398-bd95-bdc8fea2b828": "Vista de búsqueda avanzada de Usuarios",
       "c66ccd77-0abe-40c2-ac9f-8de91e236490": "Vista asociada de Usuarios"
     }
+  },
+  {
+    "DisplayName": "Bloqueado (Usuarios)",
+    "Name": "crd9d_usuarios_crd9d_bloqueado",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd9d_bloqueado",
+        "OptionSetReferenceEntityName": "Usuarios"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crd9d_bloqueado",
+    "RelatedEntityName": "Usuarios",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "estado (Usuarios)",

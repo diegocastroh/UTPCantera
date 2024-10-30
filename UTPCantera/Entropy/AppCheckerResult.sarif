@@ -2495,19 +2495,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'No Autorizado'.'Header and Footer_5'.Header_6.Avatar1_6.AccessibleLabel"
+                  "fullyQualifiedName": "'No Autorizado'.ButtonCanvas18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'No Autorizado'.'Header and Footer_5'.Header_6.Avatar1_6.AccessibleLabel",
+                  "fullyQualifiedName": "'No Autorizado'.ButtonCanvas18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "No Autorizado",
-                "type": "'No Autorizado'.'Header and Footer_5'.Header_6.Avatar1_6"
+                "type": "'No Autorizado'.ButtonCanvas18"
               }
             }
           ],
@@ -4505,6 +4505,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'No Autorizado'.Avatar1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'No Autorizado'.Avatar1_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "No Autorizado",
+                "type": "'No Autorizado'.Avatar1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Detalle Proveedor'.'Header and Footer_10'.Header_11.Avatar1_11.AccessibleLabel"
                 }
               ],
@@ -4966,6 +4996,96 @@
               },
               "properties": {
                 "member": "WhatsApp Image 2024-08-31 at 7.41.43 PM",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Imagen1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Imagen1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Imagen1",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Imagen2"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Imagen2",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Imagen2",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Imagen3"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Imagen3",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Imagen3",
                 "module": "App",
                 "type": "App"
               }

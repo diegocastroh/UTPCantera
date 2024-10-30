@@ -683,7 +683,7 @@
                 DataField: ="statecode"
                 Default: =ThisItem.Estado
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,'statecode')
+                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,Estado)
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =70
                 Required: =false
