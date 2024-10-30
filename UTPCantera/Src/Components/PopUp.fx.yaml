@@ -46,7 +46,7 @@ PopUp As CanvasComponent:
             Align: ='TextCanvas.Align'.Center
             AutoHeight: =false
             DisplayMode: =DisplayMode.Edit
-            Height: =45
+            Height: =97
             PCFTeamsTheme: ="default"
             Size: =30
             Text: =PopUp.Titulo
@@ -106,7 +106,7 @@ PopUp As CanvasComponent:
             PCFTeamsTheme: ="default"
             Size: =18
             Text: =PopUp.Descripcion
-            VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
             Width: =387
             X: =37
             Y: =305
@@ -120,6 +120,6 @@ PopUp As CanvasComponent:
         Image: =PopUp.Imagen
         Width: =130
         X: =657
-        Y: =241
+        Y: =267
         ZIndex: =3
 

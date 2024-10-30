@@ -107,7 +107,8 @@
     PopUp_2 As PopUp:
         Aceptar: ="Texto"
         Cancelar: ="Texto"
-        Descripcion: ="Esta acción es irreversible, proceder al estar seguro de la acción"
+        Descripcion: ="Estás apunto de eliminar todos los Usuarios inactivos. La acción es irreversible, proceder al estar seguro de la acción"
+        Imagen: =alarm_1
         Titulo: ="¿Estás seguro que deseas continuar?"
         ZIndex: =5
 

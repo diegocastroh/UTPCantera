@@ -770,7 +770,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Imagen",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "SampleImage",
+          "InvariantPropertyName": "Imagen",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Respuesta",
         "Aceptar",
         "Cancelar"
@@ -807,7 +814,7 @@
         {
           "Category": "Data",
           "PropertyName": "Imagen",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
