@@ -5,10 +5,8 @@ PopUp_List_Proveedor As CanvasComponent:
     Cancelar():
         ThisProperty:
             Default: ="Texto"
-    Descripcion: ="Texto"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
-    Imagen: =SampleImage
     listado_proveedores: =listado_proveedores
     proveedor: |-
         ={SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true}
@@ -86,7 +84,6 @@ PopUp_List_Proveedor As CanvasComponent:
 
             Container3_2 As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
-                FillPortions: =0
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 RadiusBottomLeft: =4

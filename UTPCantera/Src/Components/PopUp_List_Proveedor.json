@@ -2,7 +2,7 @@
   "ComponentAllowCustomization": true,
   "ComponentChangedSinceFileImport": true,
   "ComponentDefinitionInfo": {
-    "AllowAccessToGlobals": true,
+    "AllowAccessToGlobals": false,
     "Children": [
       {
         "AllowAccessToGlobals": true,
@@ -2203,7 +2203,7 @@
                     "PropertyName": "FillPortions",
                     "Rule": {
                       "Category": "Design",
-                      "InvariantScript": "0",
+                      "InvariantScript": "1",
                       "Property": "FillPortions",
                       "RuleProviderType": "Unknown"
                     }
@@ -3566,8 +3566,6 @@
       "Y",
       "ZIndex",
       "Titulo",
-      "Descripcion",
-      "Imagen",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -3580,25 +3578,13 @@
       "Cancelar",
       "proveedor"
     ],
-    "LastModifiedTimestamp": "638658769699650054",
+    "LastModifiedTimestamp": "638658772601400929",
     "Name": "PopUp_List_Proveedor",
     "Rules": [
       {
         "Category": "Data",
         "InvariantScript": "\"Texto\"",
         "Property": "Titulo",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Data",
-        "InvariantScript": "\"Texto\"",
-        "Property": "Descripcion",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Data",
-        "InvariantScript": "SampleImage",
-        "Property": "Imagen",
         "RuleProviderType": "System"
       },
       {
@@ -3664,7 +3650,7 @@
     ]
   },
   "ComponentManifest": {
-    "AllowAccessToGlobals": true,
+    "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
     "Name": "PopUp_List_Proveedor",
@@ -3681,24 +3667,6 @@
       "PropertyDataTypeKey": "String",
       "Tooltip": "Propiedad personalizada",
       "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "Descripcion",
-      "Hidden": false,
-      "Name": "Descripcion",
-      "PropertyDataTypeKey": "String",
-      "Tooltip": "Propiedad personalizada",
-      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "Imagen",
-      "Hidden": false,
-      "Name": "Imagen",
-      "PropertyDataTypeKey": "Image",
-      "Tooltip": "Propiedad personalizada",
-      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]}}"
     },
     {
       "Category": 2,
@@ -3753,7 +3721,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658769699650054",
+  "LastModifiedTimestamp": "638658772601400929",
   "Name": "d2171d78a1114993bcd7630509589f82",
   "OverridableProperties": {},
   "TemplateOriginalName": "9bc85487de7344ec8cdfe34ceffdac48",

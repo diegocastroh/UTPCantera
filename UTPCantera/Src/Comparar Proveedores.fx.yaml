@@ -647,3 +647,11 @@
         Visible: =popup_proveedor_1
         ZIndex: =9
 
+    PopUp_List_Proveedor_2 As PopUp_List_Proveedor:
+        Aceptar: |-
+            =UpdateContext({popup_proveedor_2: false})
+        Cancelar: |-
+            =UpdateContext({popup_proveedor_2: false})
+        Visible: =popup_proveedor_2
+        ZIndex: =10
+

@@ -1591,7 +1591,7 @@
       "Type": "ControlInfo"
     },
     "PopUp_List_Proveedor": {
-      "AllowAccessToGlobals": true,
+      "AllowAccessToGlobals": false,
       "ControlPropertyState": [
         "Fill",
         {
@@ -1614,8 +1614,6 @@
         "Y",
         "ZIndex",
         "Titulo",
-        "Descripcion",
-        "Imagen",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -1644,16 +1642,6 @@
         {
           "Category": "Data",
           "PropertyName": "Titulo",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "Descripcion",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "Imagen",
           "RuleProviderType": "System"
         },
         {
