@@ -3127,7 +3127,7 @@
                     "Rules": [
                       {
                         "Category": "Data",
-                        "InvariantScript": "Filter(PopUp_List_Proveedor.listado_proveedores, IsBlank(TextInputCanvas17.Value) || TextInputCanvas17.Value in codigo_proveedor, IsBlank(TextInputCanvas17_1.Value) || TextInputCanvas17_1.Value in nombre_proveedor, IsBlank(TextInputCanvas17_2.Value) || TextInputCanvas17_2.Value in ruc)",
+                        "InvariantScript": "Filter(\n    PopUp_List_Proveedor.listado_proveedores,\n    IsBlank(TextInputCanvas17.Value) || TextInputCanvas17.Value in codigo_proveedor,\n    IsBlank(TextInputCanvas17_1.Value) || TextInputCanvas17_1.Value in nombre_proveedor,\n    IsBlank(TextInputCanvas17_2.Value) || TextInputCanvas17_2.Value in ruc\n)",
                         "Property": "Items",
                         "RuleProviderType": "Unknown"
                       },
@@ -4727,7 +4727,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638658796627747722",
+    "LastModifiedTimestamp": "638658797670935252",
     "Name": "PopUp_List_Proveedor",
     "Rules": [
       {
@@ -4870,7 +4870,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658796627747722",
+  "LastModifiedTimestamp": "638658797670935252",
   "Name": "d2171d78a1114993bcd7630509589f82",
   "OverridableProperties": {},
   "TemplateOriginalName": "9bc85487de7344ec8cdfe34ceffdac48",
