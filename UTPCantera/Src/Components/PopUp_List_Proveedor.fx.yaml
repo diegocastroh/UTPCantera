@@ -249,7 +249,7 @@ PopUp_List_Proveedor As CanvasComponent:
             Height: =32
             Icon: ="Checkmark"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
-            OnSelect: =PopUp_List_Proveedor.Aceptar()
+            OnSelect: =Set(proveedor, Gallery3_2.Selected)
             PCFTeamsTheme: ="default"
             Text: ="Aceptar"
             Width: =100

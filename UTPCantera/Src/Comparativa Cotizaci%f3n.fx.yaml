@@ -533,7 +533,8 @@
         DisplayMode: =DisplayMode.Edit
         Height: =32
         Icon: ="ArrowSort"
-        OnSelect: =Navigate('Comparar Proveedores')
+        OnSelect: |-
+            =Navigate('Comparar Proveedores', ScreenTransition.Fade, {list_proveedor: ForAll(Gallery2.AllItems As cotizacion, Collect(listado,cotizacion.id_proveedor))})
         PCFTeamsTheme: ="default"
         Text: ="Comparar Proveedores"
         Width: =211
