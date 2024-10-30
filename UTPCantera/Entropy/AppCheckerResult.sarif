@@ -5645,6 +5645,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PopUp_List_Proveedor",
+                "type": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PopUp_List_Proveedor",
+                "type": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PopUp_List_Proveedor",
+                "type": "PopUp_List_Proveedor.Container20_1.Container27.TextInputCanvas17_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.WhatsApp Image 2024-08-31 at 7.41.43 PM"
                 }
               ],
