@@ -898,6 +898,206 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 22,
+                  "snippet": {
+                    "text": ".proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 32,
+                  "snippet": {
+                    "text": ".ruc"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.proveedor"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PopUp_List_Proveedor.proveedor",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": ".S"
+                  }
+                }
+              },
+              "properties": {
+                "member": "proveedor",
+                "module": "PopUp_List_Proveedor",
+                "type": "PopUp_List_Proveedor"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "S"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.PopUp_List_Proveedor_1.proveedor"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.PopUp_List_Proveedor_1.proveedor",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": ".S"
+                  }
+                }
+              },
+              "properties": {
+                "member": "proveedor",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.PopUp_List_Proveedor_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "S"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.PopUp_List_Proveedor_2.proveedor"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.PopUp_List_Proveedor_2.proveedor",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": ".S"
+                  }
+                }
+              },
+              "properties": {
+                "member": "proveedor",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.PopUp_List_Proveedor_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "S"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "btnInteract.Container21.Rectangle15.AccessibleLabel"
                 }
               ],

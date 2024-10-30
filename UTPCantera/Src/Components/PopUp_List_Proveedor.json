@@ -3576,9 +3576,16 @@
       },
       "Aceptar",
       "Cancelar",
-      "proveedor"
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
+        "InvariantPropertyName": "proveedor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
-    "LastModifiedTimestamp": "638658772601400929",
+    "LastModifiedTimestamp": "638658776270407801",
     "Name": "PopUp_List_Proveedor",
     "Rules": [
       {
@@ -3595,7 +3602,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
+        "InvariantScript": "Gallery3_2.S",
         "Property": "proveedor",
         "RuleProviderType": "System"
       },
@@ -3721,7 +3728,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658772601400929",
+  "LastModifiedTimestamp": "638658776270407801",
   "Name": "d2171d78a1114993bcd7630509589f82",
   "OverridableProperties": {},
   "TemplateOriginalName": "9bc85487de7344ec8cdfe34ceffdac48",
