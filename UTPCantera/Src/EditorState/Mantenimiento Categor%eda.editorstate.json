@@ -1727,7 +1727,14 @@
         "Width",
         "Height",
         "ZIndex",
-        "OnSelect",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Remove(Categorias, selectedRecord); If(IsEmpty(Errors(Categorias, selectedRecord)), UpdateContext( { CurrentItem: First(Categorias), itemSelected:false, editMode:false, newMode:false, deleteMode:false}));",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "RadiusTopLeft",
         "RadiusBottomRight",
         "RadiusTopRight",
@@ -1913,7 +1920,7 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnSelect",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         }
       ],
       "StyleName": "invertedBackgroundRectangleStyle",
@@ -3422,7 +3429,14 @@
         "ZIndex",
         "BorderThickness",
         "FocusedBorderThickness",
-        "OnSelect",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "SubmitForm(EditForm3)",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Visible",
         "PaddingLeft",
         "PaddingRight",
@@ -3602,7 +3616,7 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnSelect",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         }
       ],
       "StyleName": "defaultIconStyle",

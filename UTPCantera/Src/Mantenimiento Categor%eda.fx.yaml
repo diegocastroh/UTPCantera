@@ -505,7 +505,17 @@
                 FocusedBorderThickness: =varStyle.focusBorderThickness
                 Height: =varStyle.largeIconSize
                 Icon: =Icon.Check
-                OnSelect: =SubmitForm(EditForm3)
+                OnSelect: |-
+                    =SubmitForm(EditForm3);
+                    If(!editMode,
+                        Notify(
+                            "Se ha registrado una categoría correctamente",
+                            NotificationType.Success
+                        ),Notify(
+                            "Se ha editado la categoría correctamente",
+                            NotificationType.Success
+                        )
+                        )
                 PaddingBottom: =varStyle.iconPadding
                 PaddingLeft: =varStyle.iconPadding
                 PaddingRight: =varStyle.iconPadding
@@ -603,7 +613,36 @@
                 FocusedBorderThickness: =varStyle.focusBorderThickness
                 Height: =32
                 OnSelect: |-
-                    =Remove(Categorias, selectedRecord); If(IsEmpty(Errors(Categorias, selectedRecord)), UpdateContext( { CurrentItem: First(Categorias), itemSelected:false, editMode:false, newMode:false, deleteMode:false}));
+                    =If(
+                        IsBlank(
+                            LookUp(
+                                Proyectos_1,
+                                id_categoria.'id categoria' = selectedRecord.'id categoria'
+                            )
+                        ),
+                        Remove(
+                            Categorias,
+                            selectedRecord
+                        );
+                        If(
+                            IsEmpty(
+                                Errors(
+                                    Categorias,
+                                    selectedRecord
+                                )
+                            ),
+                            UpdateContext(
+                                {
+                                    CurrentItem: First(Categorias),
+                                    itemSelected: false,
+                                    editMode: false,
+                                    newMode: false,
+                                    deleteMode: false
+                                }
+                            )
+                        );
+                        
+                    )
                 RadiusBottomLeft: =3
                 RadiusBottomRight: =3
                 RadiusTopLeft: =3
