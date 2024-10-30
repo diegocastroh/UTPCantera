@@ -1977,7 +1977,7 @@
         {
           "Category": "Data",
           "PropertyName": "listado_proveedores",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

@@ -1616,7 +1616,14 @@
         "Titulo",
         "Descripcion",
         "Imagen",
-        "listado_proveedores",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "list_proveedor",
+          "InvariantPropertyName": "listado_proveedores",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Aceptar",
         "Cancelar",
         "proveedor"

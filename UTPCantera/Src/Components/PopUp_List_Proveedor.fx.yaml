@@ -9,8 +9,7 @@ PopUp_List_Proveedor As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
     Imagen: =SampleImage
-    listado_proveedores: |-
-        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+    listado_proveedores: =listado_proveedores
     proveedor: |-
         ={SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true}
     Titulo: ="Texto"
