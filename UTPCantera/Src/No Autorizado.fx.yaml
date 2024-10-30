@@ -53,7 +53,7 @@
     ButtonCanvas18 As Botón:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
-        Height: =32
+        Height: =40
         PCFTeamsTheme: ="default"
         Text: ="Solicitar Acceso"
         Width: =139
