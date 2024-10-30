@@ -486,8 +486,8 @@ Cotizaciones As screen:
                     ItemIconStyle: "Filled"
                 },
                 {
-                    ItemKey: "comparativa",
-                    ItemDisplayName: "Comparar",
+                    ItemKey: "detalle_proveedor",
+                    ItemDisplayName: "Ver detalle de Proveedor",
                     ItemIconName: "Info",
                     ItemAppearance: "Subtle",
                     ItemIconStyle: "Regular"
@@ -514,15 +514,12 @@ Cotizaciones As screen:
                 Notify("Delete clicked"),/* Action for 'info' */
                 "info",
                 Notify("Info clicked"),/* Default action */
-                "comparativa",
+                "detalle_proveedor",
                 Navigate(
-                    'Comparativa Cotización',
+                    'Detalle Proveedor',
                     Transition.Push,
                     {
-                        comparar_cotizaciones: Filter(
-                            Gallery3.AllItems,
-                            CheckboxCanvas1.Checked = true
-                        )
+                        proveedor: Gallery3.Selected.id_proveedor
                     }
                 ),/* Default action */
                 Notify("Unrecognized button clicked")

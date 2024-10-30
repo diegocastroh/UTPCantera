@@ -106,7 +106,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 6,
+    "BindingErrorCount": 16,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -152,6 +152,7 @@
     "Screen1",
     "Mantenimiento Proveedor",
     "Detalle Proveedor",
+    "Comparar Proveedores",
     "Comparativa Cotización",
     "Menu de Mantenimientos",
     "Usuarios Inactivos"

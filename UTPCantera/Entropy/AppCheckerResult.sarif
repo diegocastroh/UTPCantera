@@ -263,46 +263,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "proveedor"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Detalle Proveedor",
-                "type": "'Detalle Proveedor'.'Header and Footer_10'.Container8_4.ButtonCanvas20"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "proveedor"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Proveedor'.'Header and Footer_10'.Container8_4.ButtonCanvas20.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Proveedor'.'Header and Footer_10'.Container8_4.ButtonCanvas20.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 3,
                   "charOffset": 55,
                   "snippet": {
@@ -319,15 +279,15 @@
           ],
           "message": {
             "arguments": [
-              "Error"
+              "id"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -368,7 +328,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -408,47 +368,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Proveedor'.'Header and Footer_10'.Container8_4.ButtonCanvas20.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Proveedor'.'Header and Footer_10'.Container8_4.ButtonCanvas20.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 49,
-                  "snippet": {
-                    "text": "proveedor"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "Detalle Proveedor",
-                "type": "'Detalle Proveedor'.'Header and Footer_10'.Container8_4.ButtonCanvas20"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "proveedor"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -480,15 +400,15 @@
           ],
           "message": {
             "arguments": [
-              "Error"
+              "id"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -529,7 +449,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -569,7 +489,651 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 46,
+                  "snippet": {
+                    "text": "proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": ".id"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 44,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 31,
+                  "snippet": {
+                    "text": "id_proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "id_proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 49,
+                  "snippet": {
+                    "text": "proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 58,
+                  "snippet": {
+                    "text": ".id"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 47,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 34,
+                  "snippet": {
+                    "text": "id_proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "id_proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 46,
+                  "snippet": {
+                    "text": "proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": ".id"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 44,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 31,
+                  "snippet": {
+                    "text": "id_proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "id_proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 49,
+                  "snippet": {
+                    "text": "proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 58,
+                  "snippet": {
+                    "text": ".id"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 47,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 34,
+                  "snippet": {
+                    "text": "id_proveedor"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "id_proveedor"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -4565,6 +5129,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Comparar Proveedores'.'Header and Footer_12'.Header_13.Avatar1_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.'Header and Footer_12'.Header_13.Avatar1_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.'Header and Footer_12'.Header_13.Avatar1_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.Container8_5.ButtonCanvas20_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Toolbar2_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Toolbar2_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Toolbar2_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Detalle Proveedor'.'Header and Footer_10'.Header_11.Avatar1_11.AccessibleLabel"
                 }
               ],
@@ -5015,6 +5669,396 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.Container8_6.ButtonCanvas20_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas15_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas15_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.TextInputCanvas15_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_7.TextInputCanvas2_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas15_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas15_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas15_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.Container8_8.TextInputCanvas2_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.ButtonCanvas23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.ButtonCanvas23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.ButtonCanvas23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Comparar Proveedores'.ButtonCanvas23_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Comparar Proveedores'.ButtonCanvas23_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Comparar Proveedores",
+                "type": "'Comparar Proveedores'.ButtonCanvas23_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.WhatsApp Image 2024-08-31 at 7.41.43 PM"
                 }
               ],
@@ -5193,20 +6237,6 @@
               }
             },
             {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "The '.' operator cannot be used on {0} values."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
               "messageStrings": {
                 "issue": {
@@ -5239,6 +6269,20 @@
                   "Try moving your data to a different data source."
                 ],
                 "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "The '.' operator cannot be used on {0} values."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
