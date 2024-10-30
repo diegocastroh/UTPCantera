@@ -220,6 +220,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =LookUp(Portafolios, PopUp_List_Proveedor_2.proveedor.'id proveedor' = id_proveedor.'id proveedor').certificaciones
             Width: =320
             X: =167
             Y: =228
@@ -229,7 +230,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
-            Text: ="Razón Social"
+            Text: ="Proyectos Realizados"
             Weight: ='TextCanvas.Weight'.Semibold
             Width: =150
             X: =12
@@ -243,6 +244,7 @@
             Height: =48
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
+            Value: =LookUp(Portafolios, PopUp_List_Proveedor_2.proveedor.'id proveedor' = id_proveedor.'id proveedor').proyectos_realizados
             Width: =320
             X: =167
             Y: =281
@@ -263,6 +265,7 @@
             Height: =46
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
+            Value: =LookUp(Portafolios, PopUp_List_Proveedor_2.proveedor.'id proveedor' = id_proveedor.'id proveedor').descripcion
             Width: =320
             X: =167
             Y: =349
@@ -283,7 +286,7 @@
                     =If(CountRows(Filter(Asignaciones, id_proveedor = proveedor.id))>0, DisplayMode.Edit,DisplayMode.Disabled)
                 Height: =32
                 PCFTeamsTheme: ="default"
-                Text: =CountRows(Filter(Asignaciones, id_proveedor = proveedor.id)) & " proyectos en colaboración."
+                Text: =CountRows(Filter(Asignaciones, id_proveedor.'id proveedor' = PopUp_List_Proveedor_2.proveedor.'id proveedor')) & " proyectos en colaboración."
                 Width: =297
                 X: =162
                 Y: =61
@@ -380,6 +383,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =PopUp_List_Proveedor_2.proveedor.nombre_proveedor
             Width: =320
             X: =167
             Y: =114
@@ -434,6 +438,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =LookUp(Portafolios, PopUp_List_Proveedor_1.proveedor.'id proveedor' = id_proveedor.'id proveedor').certificaciones
             Width: =320
             X: =167
             Y: =228
@@ -457,6 +462,7 @@
             Height: =48
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
+            Value: =LookUp(Portafolios, PopUp_List_Proveedor_1.proveedor.'id proveedor' = id_proveedor.'id proveedor').certificaciones
             Width: =320
             X: =167
             Y: =281
@@ -477,6 +483,7 @@
             Height: =46
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
+            Value: =LookUp(Portafolios, PopUp_List_Proveedor_1.proveedor.'id proveedor' = id_proveedor.'id proveedor').certificaciones
             Width: =320
             X: =167
             Y: =349
@@ -497,7 +504,7 @@
                     =If(CountRows(Filter(Asignaciones, id_proveedor = proveedor.id))>0, DisplayMode.Edit,DisplayMode.Disabled)
                 Height: =32
                 PCFTeamsTheme: ="default"
-                Text: =CountRows(Filter(Asignaciones, id_proveedor = proveedor.id)) & " proyectos en colaboración."
+                Text: =CountRows(Filter(Asignaciones, id_proveedor.'id proveedor' = PopUp_List_Proveedor_1.proveedor.'id proveedor')) & " proyectos en colaboración."
                 Width: =297
                 X: =162
                 Y: =61
@@ -571,6 +578,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =PopUp_List_Proveedor_1.proveedor.codigo_proveedor
             Width: =320
             X: =167
             Y: =61
@@ -593,6 +601,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =PopUp_List_Proveedor_1.proveedor.nombre_proveedor
             Width: =320
             X: =167
             Y: =114
