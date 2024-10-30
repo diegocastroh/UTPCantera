@@ -106,7 +106,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 31,
+    "BindingErrorCount": 16,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -124,7 +124,7 @@
     "ManualOfflineProfileId": "",
     "Name": "UTP CanteraProv",
     "OriginatingVersion": "1.343",
-    "ParserErrorCount": 1,
+    "ParserErrorCount": 0,
     "ShowStatusBar": true
   },
   "PublishInfo": {

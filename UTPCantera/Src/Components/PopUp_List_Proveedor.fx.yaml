@@ -52,7 +52,7 @@ PopUp_List_Proveedor As CanvasComponent:
             Height: =30
             Icon: ="Dismiss"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
-            OnSelect: =PopUp_4.Cancelar()
+            OnSelect: =PopUp_List_Proveedor.Cancelar()
             PCFTeamsTheme: ="default"
             Text: =
             Width: =30
@@ -66,7 +66,7 @@ PopUp_List_Proveedor As CanvasComponent:
             Height: =32
             Icon: ="Dismiss"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
-            OnSelect: =PopUp_4.Cancelar()
+            OnSelect: =PopUp_List_Proveedor.Cancelar()
             PCFTeamsTheme: ="default"
             Text: ="Cancelar"
             Width: =100
@@ -117,7 +117,7 @@ PopUp_List_Proveedor As CanvasComponent:
                         RadiusBottomRight: =4
                         RadiusTopLeft: =4
                         RadiusTopRight: =4
-                        Width: =1190
+                        Width: =576
                         ZIndex: =1
 
                         TextCanvas2_18 As Texto:
@@ -125,9 +125,9 @@ PopUp_List_Proveedor As CanvasComponent:
                             DisplayMode: =DisplayMode.Edit
                             Height: =67
                             PCFTeamsTheme: ="default"
-                            Text: =ThisItem.
+                            Text: =ThisItem.codigo_proveedor
                             Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =109
+                            Width: =100
                             X: =0
                             Y: =0
                             ZIndex: =1
@@ -137,10 +137,10 @@ PopUp_List_Proveedor As CanvasComponent:
                             DisplayMode: =DisplayMode.Edit
                             Height: =67
                             PCFTeamsTheme: ="default"
-                            Text: =ThisItem.fecha_envio
+                            Text: =ThisItem.nombre_proveedor
                             Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =107
-                            X: =156
+                            Width: =163
+                            X: =100
                             Y: =0
                             ZIndex: =3
 
@@ -149,7 +149,7 @@ PopUp_List_Proveedor As CanvasComponent:
                             DisplayMode: =DisplayMode.Edit
                             Height: =67
                             PCFTeamsTheme: ="default"
-                            Text: =ThisItem.id_proyecto.codigo_proyecto
+                            Text: =ThisItem.ruc
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =136
                             X: =263
@@ -161,72 +161,12 @@ PopUp_List_Proveedor As CanvasComponent:
                             DisplayMode: =DisplayMode.Edit
                             Height: =67
                             PCFTeamsTheme: ="default"
-                            Text: =ThisItem.id_proyecto.nombre_proyecto
+                            Text: =ThisItem.direccion
                             Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =136
+                            Width: =179
                             X: =401
                             Y: =0
                             ZIndex: =5
-
-                        TextCanvas2_22 As Texto:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =67
-                            PCFTeamsTheme: ="default"
-                            Text: =ThisItem.id_proyecto.fecha_inicio
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =134
-                            X: =537
-                            Y: =0
-                            ZIndex: =6
-
-                        TextCanvas2_23 As Texto:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =67
-                            PCFTeamsTheme: ="default"
-                            Text: =ThisItem.id_proyecto.fecha_fin
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =141
-                            X: =671
-                            Y: =0
-                            ZIndex: =7
-
-                        TextCanvas2_24 As Texto:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =67
-                            PCFTeamsTheme: ="default"
-                            Text: =ThisItem.id_proveedor.codigo_proveedor
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =133
-                            X: =812
-                            Y: =0
-                            ZIndex: =8
-
-                        TextCanvas2_25 As Texto:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =67
-                            PCFTeamsTheme: ="default"
-                            Text: =ThisItem.estado
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =119
-                            X: =TextCanvas2_24.X+TextCanvas2_24.Width
-                            Y: =0
-                            ZIndex: =9
-
-                        TextCanvas2_26 As Texto:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =67
-                            PCFTeamsTheme: ="default"
-                            Text: =ThisItem.id_proyecto.id_usuario_responsable.matricula
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =126
-                            X: =1064
-                            Y: =0
-                            ZIndex: =10
 
                 Container4_2 As groupContainer.manualLayoutContainer:
                     DropShadow: =DropShadow.Light
@@ -236,7 +176,7 @@ PopUp_List_Proveedor As CanvasComponent:
                     RadiusBottomRight: =4
                     RadiusTopLeft: =4
                     RadiusTopRight: =4
-                    Width: =1200
+                    Width: =586
                     ZIndex: =2
 
                     TextCanvas8_23 As Texto:
@@ -250,7 +190,7 @@ PopUp_List_Proveedor As CanvasComponent:
                         PCFTeamsTheme: ="default"
                         Text: ="Código"
                         Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =101
+                        Width: =105
                         X: =0
                         Y: =0
                         ZIndex: =1
@@ -264,10 +204,10 @@ PopUp_List_Proveedor As CanvasComponent:
                         FontColor: =RGBA(255, 255, 255, 1)
                         Height: =60
                         PCFTeamsTheme: ="default"
-                        Text: ="Fecha máxima"
+                        Text: ="Razón Social"
                         Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =113
-                        X: =157
+                        Width: =165
+                        X: =105
                         Y: =0
                         ZIndex: =3
 
@@ -280,7 +220,7 @@ PopUp_List_Proveedor As CanvasComponent:
                         FontColor: =RGBA(255, 255, 255, 1)
                         Height: =60
                         PCFTeamsTheme: ="default"
-                        Text: ="Proyecto"
+                        Text: ="Ruc"
                         Weight: ='TextCanvas.Weight'.Semibold
                         Width: =136
                         X: =270
@@ -296,92 +236,12 @@ PopUp_List_Proveedor As CanvasComponent:
                         FontColor: =RGBA(255, 255, 255, 1)
                         Height: =60
                         PCFTeamsTheme: ="default"
-                        Text: ="Nombre del Proyecto"
+                        Text: ="Dirección"
                         Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =136
+                        Width: =179
                         X: =406
                         Y: =0
                         ZIndex: =5
-
-                    TextCanvas8_27 As Texto:
-                        Align: ='TextCanvas.Align'.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        BorderThickness: =1
-                        DisplayMode: =DisplayMode.Edit
-                        FontColor: =RGBA(255, 255, 255, 1)
-                        Height: =60
-                        PCFTeamsTheme: ="default"
-                        Text: ="Fecha Inicio"
-                        Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =136
-                        X: =542
-                        Y: =0
-                        ZIndex: =6
-
-                    TextCanvas8_28 As Texto:
-                        Align: ='TextCanvas.Align'.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        BorderThickness: =1
-                        DisplayMode: =DisplayMode.Edit
-                        FontColor: =RGBA(255, 255, 255, 1)
-                        Height: =60
-                        PCFTeamsTheme: ="default"
-                        Text: ="Fecha Fin"
-                        Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =136
-                        X: =678
-                        Y: =0
-                        ZIndex: =7
-
-                    TextCanvas8_29 As Texto:
-                        Align: ='TextCanvas.Align'.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        BorderThickness: =1
-                        DisplayMode: =DisplayMode.Edit
-                        FontColor: =RGBA(255, 255, 255, 1)
-                        Height: =60
-                        PCFTeamsTheme: ="default"
-                        Text: ="Proveedor"
-                        Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =136
-                        X: =814
-                        Y: =0
-                        ZIndex: =8
-
-                    TextCanvas8_30 As Texto:
-                        Align: ='TextCanvas.Align'.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        BorderThickness: =1
-                        DisplayMode: =DisplayMode.Edit
-                        FontColor: =RGBA(255, 255, 255, 1)
-                        Height: =60
-                        PCFTeamsTheme: ="default"
-                        Text: ="Estado"
-                        Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =118
-                        X: =950
-                        Y: =0
-                        ZIndex: =9
-
-                    TextCanvas8_31 As Texto:
-                        Align: ='TextCanvas.Align'.Center
-                        BorderColor: =RGBA(0, 0, 0, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        BorderThickness: =1
-                        DisplayMode: =DisplayMode.Edit
-                        FontColor: =RGBA(255, 255, 255, 1)
-                        Height: =60
-                        PCFTeamsTheme: ="default"
-                        Text: ="Usuario Responsable"
-                        Weight: ='TextCanvas.Weight'.Semibold
-                        Width: =132
-                        X: =1068
-                        Y: =0
-                        ZIndex: =10
 
         ButtonCanvas15_1 As Botón:
             BasePaletteColor: =RGBA(5, 102, 178, 1)
@@ -389,7 +249,7 @@ PopUp_List_Proveedor As CanvasComponent:
             Height: =32
             Icon: ="Checkmark"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
-            OnSelect: =PopUp_4.Aceptar()
+            OnSelect: =PopUp_List_Proveedor.Aceptar()
             PCFTeamsTheme: ="default"
             Text: ="Aceptar"
             Width: =100
