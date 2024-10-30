@@ -535,7 +535,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "5",
+                "InvariantScript": "0",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
@@ -941,7 +941,7 @@
       "Icon",
       "setAction"
     ],
-    "LastModifiedTimestamp": "638658634137565018",
+    "LastModifiedTimestamp": "638658655625516143",
     "Name": "btnInteract",
     "Rules": [
       {
@@ -1080,7 +1080,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658634137565018",
+  "LastModifiedTimestamp": "638658655625516143",
   "Name": "cd9184bf410a43bda8014aebcb0c3718",
   "OverridableProperties": {},
   "Version": "1.0"

@@ -506,16 +506,21 @@
                 Height: =varStyle.largeIconSize
                 Icon: =Icon.Check
                 OnSelect: |-
-                    =SubmitForm(EditForm3);
-                    If(!editMode,
-                        Notify(
-                            "Se ha registrado una categoría correctamente",
-                            NotificationType.Success
-                        ),Notify(
-                            "Se ha editado la categoría correctamente",
-                            NotificationType.Success
+                    =If(
+                        IsBlank(LookUp(Categorias, nombre_categoria = DataCardValue9.Value)),
+                        SubmitForm(EditForm3);
+                        If(
+                            !editMode,
+                            Notify(
+                                "Se ha registrado una categoría correctamente",
+                                NotificationType.Success
+                            ),
+                            Notify(
+                                "Se ha editado la categoría correctamente",
+                                NotificationType.Success
+                            )
                         )
-                        )
+                    )
                 PaddingBottom: =varStyle.iconPadding
                 PaddingLeft: =varStyle.iconPadding
                 PaddingRight: =varStyle.iconPadding
