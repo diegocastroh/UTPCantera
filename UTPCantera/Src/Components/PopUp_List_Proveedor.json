@@ -3330,7 +3330,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(proveedor, Gallery3_2.Selected)",
+                "InvariantScript": "Set(proveedor, Gallery3_2.Selected);\r\nPopUp_List_Proveedor.Aceptar()",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -3585,7 +3585,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638658780626625708",
+    "LastModifiedTimestamp": "638658783291469286",
     "Name": "PopUp_List_Proveedor",
     "Rules": [
       {
@@ -3728,7 +3728,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658780626625708",
+  "LastModifiedTimestamp": "638658783291469286",
   "Name": "d2171d78a1114993bcd7630509589f82",
   "OverridableProperties": {},
   "TemplateOriginalName": "9bc85487de7344ec8cdfe34ceffdac48",

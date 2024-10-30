@@ -654,5 +654,6 @@
             =UpdateContext({popup_proveedor_1: false})
         Cancelar: |-
             =UpdateContext({popup_proveedor_1: false})
+        Visible: =popup_proveedor_1
         ZIndex: =11
 

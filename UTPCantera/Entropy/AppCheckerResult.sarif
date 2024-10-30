@@ -6117,36 +6117,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Comparar Proveedores'.popup_proveedor_1"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Comparar Proveedores'.popup_proveedor_1",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "popup_proveedor_1",
-                "module": "Comparar Proveedores",
-                "type": "'Comparar Proveedores'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "PopUp_List_Proveedor.proveedor"
                 }
               ],
