@@ -471,8 +471,8 @@ Cotizaciones As screen:
                     ItemTooltip: "Add new item"
                 },
                 {
-                    ItemKey: "edit",
-                    ItemDisplayName: "Revisar Proveedor",
+                    ItemKey: "revisar",
+                    ItemDisplayName: "Revisar Cotizaciones",
                     ItemIconName: "Eye",
                     ItemAppearance: "Subtle",
                     ItemIconStyle: "Regular"
@@ -498,14 +498,33 @@ Cotizaciones As screen:
                 Self.Selected.ItemKey,/* Action for Key 'new' */
                 "new",
                 Notify("New clicked"),/* Action for 'edit' */
-                "edit",
-                Notify("Edit clicked"),/* Action for 'delete' */
+                "revisar",
+                Navigate(
+                    'Comparativa Cotización',
+                    Transition.Push,
+                    {
+                        comparar_cotizaciones: Filter(
+                            Gallery3.AllItems,
+                            CheckboxCanvas1.Checked = true
+                        )
+                    }
+                ),/* Default action */
+            /* Action for 'delete' */
                 "delete",
                 Notify("Delete clicked"),/* Action for 'info' */
                 "info",
                 Notify("Info clicked"),/* Default action */
                 "comparativa",
-                Navigate('Comparativa Cotización', Transition.Push, {comparar_cotizaciones: Filter(Gallery3.AllItems, CheckboxCanvas1.Checked = true)}),/* Default action */
+                Navigate(
+                    'Comparativa Cotización',
+                    Transition.Push,
+                    {
+                        comparar_cotizaciones: Filter(
+                            Gallery3.AllItems,
+                            CheckboxCanvas1.Checked = true
+                        )
+                    }
+                ),/* Default action */
                 Notify("Unrecognized button clicked")
             )
         PCFTeamsTheme: ="default"
