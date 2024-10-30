@@ -157,6 +157,7 @@ Cotizaciones As screen:
 
                 Container5 As groupContainer.manualLayoutContainer:
                     DropShadow: =DropShadow.Light
+                    Fill: =If(ThisItem.IsSelected,RGBA(0, 0, 0, 10%), RGBA(0, 0, 0, 0))
                     Height: =70
                     RadiusBottomLeft: =4
                     RadiusBottomRight: =4

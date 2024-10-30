@@ -1,6 +1,8 @@
 "'Detalle Proveedor' As screen":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: |-
+        =UpdateContext({portafolio: LookUp(Portafolios,  proveedor.'id proveedor' = id_proveedor.'id proveedor')})
 
     "'Header and Footer_10' As groupContainer.manualLayoutContainer":
         DropShadow: =DropShadow.Light
@@ -159,10 +161,10 @@
 
             ButtonCanvas20 As Botón:
                 DisplayMode: |
-                    =If(CountRows(Filter(Asignaciones, id_proveedor = proveedor.id))>0, DisplayMode.Edit,DisplayMode.Disabled)
+                    =If(CountRows(Filter(Asignaciones, id_proveedor.'id proveedor' = proveedor.'id proveedor'))>0, DisplayMode.Edit,DisplayMode.Disabled)
                 Height: =32
                 PCFTeamsTheme: ="default"
-                Text: =CountRows(Filter(Asignaciones, id_proveedor = proveedor.id)) & " proyectos en colaboración."
+                Text: =CountRows(Filter(Asignaciones,  proveedor.'id proveedor' = id_proveedor.'id proveedor')) & " proyectos en colaboración."
                 Width: =297
                 X: =162
                 Y: =61
@@ -196,6 +198,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =proveedor.nombre_proveedor
             Width: =320
             X: =167
             Y: =114
@@ -279,6 +282,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =proveedor.codigo_proveedor
             Width: =320
             X: =167
             Y: =61
@@ -288,6 +292,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =proveedor.contacto
             Width: =320
             X: =167
             Y: =228
@@ -297,6 +302,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =proveedor.email
             Width: =320
             X: =167
             Y: =284
@@ -316,6 +322,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =proveedor.direccion
             Width: =320
             X: =167
             Y: =345
@@ -335,6 +342,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =proveedor.telefono
             Width: =320
             X: =167
             Y: =400
@@ -411,7 +419,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
-            Text: ="Razón Social"
+            Text: ="Proyectos realizados"
             Weight: ='TextCanvas.Weight'.Semibold
             Width: =150
             X: =12
@@ -425,6 +433,7 @@
             Height: =48
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
+            Value: =portafolio.proyectos_realizados
             Width: =320
             X: =167
             Y: =114
@@ -477,6 +486,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
+            Value: =portafolio.certificaciones
             Width: =320
             X: =167
             Y: =61
@@ -487,6 +497,7 @@
             Height: =95
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
+            Value: =""
             Width: =320
             X: =167
             Y: =182
