@@ -1,0 +1,99 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": true,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "PopUp_List_Proveedor",
+    "TemplateGuid": "d2171d78a1114993bcd7630509589f82"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "Titulo",
+      "Hidden": false,
+      "Name": "Titulo",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Descripcion",
+      "Hidden": false,
+      "Name": "Descripcion",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Imagen",
+      "Hidden": false,
+      "Name": "Imagen",
+      "PropertyDataTypeKey": "Image",
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "Aceptar",
+      "Hidden": false,
+      "Name": "Aceptar",
+      "PropertyDataTypeKey": "String",
+      "PropertyScopeKey": {
+        "PropertyScopeRuleNamespaceKey": "933",
+        "PropertyScopeRulesKey": []
+      },
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "Cancelar",
+      "Hidden": false,
+      "Name": "Cancelar",
+      "PropertyDataTypeKey": "String",
+      "PropertyScopeKey": {
+        "PropertyScopeRuleNamespaceKey": "933",
+        "PropertyScopeRulesKey": []
+      },
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "proveedor",
+      "Hidden": true,
+      "Name": "proveedor",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "listado_proveedores",
+      "Hidden": false,
+      "Name": "listado_proveedores",
+      "PropertyDataTypeKey": "Table",
+      "Tooltip": "Propiedad personalizada",
+      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638658758504122103",
+  "Name": "d2171d78a1114993bcd7630509589f82",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "9bc85487de7344ec8cdfe34ceffdac48",
+  "Version": "1.0"
+}

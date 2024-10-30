@@ -1,6 +1,8 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(user_in, LookUp(Usuarios, correo = User().Email))
+    OnStart: |-
+        =Set(user_in, LookUp(Usuarios, correo = User().Email));
+        Collect(listado_proveedores, Proveedores)
     Theme: =White
 
     Host As hostControl.DefaultHostControlVariant:
