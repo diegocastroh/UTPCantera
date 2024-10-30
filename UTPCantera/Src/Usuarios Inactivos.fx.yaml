@@ -116,3 +116,10 @@
         Visible: =popup_delete_all
         ZIndex: =5
 
+    PopUp_3 As PopUp:
+        Aceptar: ="Texto"
+        Cancelar: ="Texto"
+        Descripcion: ="Estás apunto de eliminar al usuario "& Table1.Selected.matricula & ". Esta acción es irreversible."
+        Titulo: ="¿Estás seguro que deseas continuar?"
+        ZIndex: =6
+
