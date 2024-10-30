@@ -335,7 +335,7 @@
             ZIndex: =2
 
         "NumberInput2_1 As 'Entrada numérica'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             Max: =10000000000
             PCFTeamsTheme: ="default"
@@ -348,7 +348,7 @@
             ZIndex: =3
 
         "DatePickerCanvas5_1 As 'Selector de fecha'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Format: ='DatePickerCanvas.Format'.Short
             Height: =32
             PCFTeamsTheme: ="default"
@@ -527,4 +527,16 @@
             X: =168
             Y: =163
             ZIndex: =8
+
+    ButtonCanvas22 As Botón:
+        BasePaletteColor: =RGBA(8, 222, 8, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Icon: ="ArrowSort"
+        PCFTeamsTheme: ="default"
+        Text: ="Comparar Proveedores"
+        Width: =211
+        X: =288
+        Y: =668
+        ZIndex: =8
 
