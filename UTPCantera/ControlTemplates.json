@@ -375,6 +375,20 @@
     "OverridableProperties": {},
     "Version": "1.5.0"
   },
+  "PowerAppsOneGridTemplate_dataField": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/PowerAppsOneGridTemplate_dataField",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGridTemplate_dataField",
+    "OverridableProperties": {},
+    "Version": "1.5.0"
+  },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -417,6 +431,21 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Selector de fecha",
     "Version": "0.0.34"
+  },
+  "Tabla": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerAppsOneGrid",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGrid",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Tabla",
+    "Version": "1.0.234"
   },
   "Teams": {
     "CustomGroupControlTemplateName": "",

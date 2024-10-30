@@ -30,8 +30,8 @@ PopUp As CanvasComponent:
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =551
-        X: =407
+        Width: =469
+        X: =488
         Y: =117
         ZIndex: =2
 
@@ -39,20 +39,20 @@ PopUp As CanvasComponent:
             BorderColor: =App.Theme.Colors.Darker40
             Fill: =RGBA(255,255,255,1)
             Height: =534
-            Width: =551
+            Width: =469
             ZIndex: =1
 
         TextCanvas57 As Texto:
             Align: ='TextCanvas.Align'.Center
-            AutoHeight: =true
+            AutoHeight: =false
             DisplayMode: =DisplayMode.Edit
-            Height: =60
+            Height: =45
             PCFTeamsTheme: ="default"
             Size: =30
             Text: =PopUp.Titulo
             Weight: ='TextCanvas.Weight'.Bold
-            Width: =551
-            X: =0
+            Width: =387
+            X: =37
             Y: =20
             ZIndex: =2
 
@@ -60,15 +60,15 @@ PopUp As CanvasComponent:
             Appearance: ='ButtonCanvas.Appearance'.Subtle
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
-            Height: =32
+            Height: =30
             Icon: ="Dismiss"
             IconStyle: ='ButtonCanvas.IconStyle'.Filled
             OnSelect: =PopUp.Cancelar()
             PCFTeamsTheme: ="default"
             Text: =
-            Width: =37
-            X: =505
-            Y: =10
+            Width: =30
+            X: =424
+            Y: =14
             ZIndex: =3
 
         ButtonCanvas15 As Botón:
@@ -81,7 +81,7 @@ PopUp As CanvasComponent:
             PCFTeamsTheme: ="default"
             Text: ="Aceptar"
             Width: =100
-            X: =424
+            X: =324
             Y: =484
             ZIndex: =4
 
@@ -104,10 +104,10 @@ PopUp As CanvasComponent:
             DisplayMode: =DisplayMode.Edit
             Height: =126
             PCFTeamsTheme: ="default"
-            Size: =16
+            Size: =18
             Text: =PopUp.Descripcion
             VerticalAlign: ='TextCanvas.VerticalAlign'.Top
-            Width: =475
+            Width: =387
             X: =37
             Y: =305
             ZIndex: =6
@@ -116,8 +116,10 @@ PopUp As CanvasComponent:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =130
         Image: =PopUp.Imagen
-        X: =633
-        Y: =264
+        Width: =130
+        X: =657
+        Y: =241
         ZIndex: =3
 

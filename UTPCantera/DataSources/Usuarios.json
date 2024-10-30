@@ -11,6 +11,7 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
       "crd9d_correo": "correo",
+      "crd9d_estado": "estado",
       "crd9d_idusuario": "id usuario",
       "crd9d_matricula": "matricula",
       "crd9d_nombre": "nombre",
@@ -55,6 +56,26 @@
       "b00755bd-191e-4398-bd95-bdc8fea2b828": "Vista de búsqueda avanzada de Usuarios",
       "c66ccd77-0abe-40c2-ac9f-8de91e236490": "Vista asociada de Usuarios"
     }
+  },
+  {
+    "DisplayName": "estado (Usuarios)",
+    "Name": "crd9d_usuarios_crd9d_estado",
+    "OptionSetInfoNameMapping": {
+      "0": "Inactivo",
+      "1": "Activo"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd9d_estado",
+        "OptionSetReferenceEntityName": "Usuarios"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crd9d_estado",
+    "RelatedEntityName": "Usuarios",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "rol (Usuarios)",

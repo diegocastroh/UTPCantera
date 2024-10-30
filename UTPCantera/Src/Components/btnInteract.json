@@ -11,11 +11,25 @@
             "AllowAccessToGlobals": true,
             "Children": [],
             "ControlPropertyState": [
-              "Height",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "Height",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "PCFTeamsTheme",
               "X",
               "Y",
-              "Width",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "Width",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "DisplayMode",
               "ZIndex",
               {
@@ -65,7 +79,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "91",
+                "InvariantScript": "90",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -83,13 +97,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "150",
+                "InvariantScript": "155",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "184",
+                "InvariantScript": "180",
                 "Property": "Width",
                 "RuleProviderType": "Unknown"
               },
@@ -209,13 +223,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "42",
+                "InvariantScript": "40",
                 "Property": "X",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "38",
+                "InvariantScript": "43",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
@@ -421,8 +435,22 @@
               "DisplayMode",
               "X",
               "Y",
-              "Width",
-              "Height",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "Width",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "Height",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "ZIndex",
               "BorderThickness",
               "FocusedBorderThickness",
@@ -507,19 +535,19 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "0",
+                "InvariantScript": "5",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "184",
+                "InvariantScript": "180",
                 "Property": "Width",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "241",
+                "InvariantScript": "240",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -608,13 +636,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "42",
+                "InvariantScript": "47",
                 "Property": "X",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "38",
+                "InvariantScript": "43",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
@@ -674,8 +702,22 @@
           "Fill",
           "X",
           "Y",
-          "Width",
-          "Height",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Width",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "DisplayMode",
           "LayoutMode",
           "LayoutDirection",
@@ -735,7 +777,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "3",
+            "InvariantScript": "5",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -747,13 +789,13 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "500",
+            "InvariantScript": "180",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "241",
+            "InvariantScript": "240",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -899,7 +941,7 @@
       "Icon",
       "setAction"
     ],
-    "LastModifiedTimestamp": "638658590124631953",
+    "LastModifiedTimestamp": "638658603300390996",
     "Name": "btnInteract",
     "Rules": [
       {
@@ -1038,7 +1080,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658590124631953",
+  "LastModifiedTimestamp": "638658603300390996",
   "Name": "cd9184bf410a43bda8014aebcb0c3718",
   "OverridableProperties": {},
   "Version": "1.0"

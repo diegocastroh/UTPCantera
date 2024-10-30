@@ -1,0 +1,113 @@
+"'Usuarios Inactivos' As screen":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Background_3 As Background:
+        Back: ="Texto"
+        Home: ="Texto"
+
+    Table1 As Tabla.pcfdataset:
+        DateOnlyFormat: ='PowerAppsOneGrid.DateOnlyFormat'.ShortDate
+        DateTimeFormat: ='PowerAppsOneGrid.DateTimeFormat'.ShortDateTime
+        DisplayMode: =DisplayMode.Edit
+        Height: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
+        Items: =Filter(Usuarios, Estado = 'Estado (Usuarios)'.Inactivo)
+        onCellValueChange: =false
+        onFilter: =false
+        onNavigate: =false
+        onRowSelect: =false
+        onSave: =false
+        OnSelect: =false
+        PCFTeamsTheme: ="default"
+        Width: =1227
+        X: =76
+        Y: =172
+        ZIndex: =2
+
+        "'id usuario4' As PowerAppsOneGridTemplate_dataField.textualColumn":
+            FieldDisplayName: ="id usuario"
+            FieldName: ="crd9d_idusuario"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            Width: =0
+            ZIndex: =1
+
+        correo4 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="correo"
+            FieldName: ="crd9d_correo"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =2
+            Width: =0
+            ZIndex: =2
+
+        nombre5 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="nombre"
+            FieldName: ="crd9d_nombre"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =3
+            Width: =0
+            ZIndex: =3
+
+        rol4 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="rol"
+            FieldName: ="crd9d_rol"
+            FieldType: ="l"
+            FieldVariantName: ="textualColumn"
+            Order: =4
+            Width: =0
+            ZIndex: =4
+
+        matricula4 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="matricula"
+            FieldName: ="crd9d_matricula"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =6
+            Width: =0
+            ZIndex: =5
+
+        estado1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+            FieldDisplayName: ="estado"
+            FieldName: ="crd9d_estado"
+            FieldType: ="l"
+            FieldVariantName: ="textualColumn"
+            Order: =7
+            Width: =0
+            ZIndex: =6
+
+    ButtonCanvas21 As Botón:
+        BasePaletteColor: =RGBA(249, 83, 109, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Icon: ="Delete"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        PCFTeamsTheme: ="default"
+        Text: ="Borrar todos"
+        Width: =149
+        X: =1120
+        Y: =128
+        ZIndex: =3
+
+    ButtonCanvas17_1 As Botón:
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Icon: ="Eraser"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        PCFTeamsTheme: ="default"
+        Text: ="Borrar selección"
+        Width: =167
+        X: =930
+        Y: =128
+        ZIndex: =4
+
+    PopUp_2 As PopUp:
+        Aceptar: ="Texto"
+        Cancelar: ="Texto"
+        Descripcion: ="Esta acción es irreversible, proceder al estar seguro de la acción"
+        Titulo: ="¿Estás seguro que deseas continuar?"
+        ZIndex: =5
+

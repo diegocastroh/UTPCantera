@@ -15,25 +15,26 @@ btnInteract As CanvasComponent:
 
     Container21 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Regular
-        Height: =241
+        Height: =240
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        X: =3
+        Width: =180
+        X: =5
         Y: =5
         ZIndex: =4
 
         TextCanvas59 As Texto:
             Align: ='TextCanvas.Align'.Center
             DisplayMode: =DisplayMode.Edit
-            Height: =91
+            Height: =90
             PCFTeamsTheme: ="default"
             Text: |
                 =btnInteract.btnNombre
-            Width: =184
+            Width: =180
             X: =0
-            Y: =150
+            Y: =155
             ZIndex: =1
 
         Image5 As image:
@@ -42,8 +43,8 @@ btnInteract As CanvasComponent:
             DisabledFill: =RGBA(244, 244, 244, 1)
             Image: =btnInteract.Imagen
             Visible: =!btnInteract.setIcon
-            X: =42
-            Y: =38
+            X: =40
+            Y: =43
             ZIndex: =2
 
         Icon4 As Icono:
@@ -52,17 +53,18 @@ btnInteract As CanvasComponent:
             PCFTeamsTheme: ="default"
             Visible: =btnInteract.setIcon
             Width: =100
-            X: =42
-            Y: =38
+            X: =47
+            Y: =43
             ZIndex: =3
 
         Rectangle15 As rectangle:
             BorderColor: =App.Theme.Colors.Darker40
             Fill: =RGBA(0,0,0,0)
-            Height: =241
+            Height: =240
             HoverFill: =RGBA(0,0,0,10%)
             OnSelect: =btnInteract.setAction()
             PressedFill: =RGBA(0,0,0,25%)
-            Width: =184
+            Width: =180
+            Y: =5
             ZIndex: =4
 
