@@ -1918,8 +1918,22 @@
         "Y",
         "ZIndex",
         "Titulo",
-        "listado_proveedores",
-        "Aceptar",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "list_proveedor",
+          "InvariantPropertyName": "listado_proveedores",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Texto\"",
+          "InvariantPropertyName": "Aceptar",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -1928,12 +1942,11 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "proveedor",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
+          "AutoRuleBindingString": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
+          "InvariantPropertyName": "proveedor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -1965,7 +1978,7 @@
         {
           "Category": "Data",
           "PropertyName": "listado_proveedores",
-          "RuleProviderType": "User"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Data",
@@ -2003,14 +2016,9 @@
           "RuleProviderType": "Unknown"
         },
         {
-          "Category": "Design",
-          "PropertyName": "Visible",
-          "RuleProviderType": "User"
-        },
-        {
           "Category": "Behavior",
           "PropertyName": "Aceptar",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Behavior",
