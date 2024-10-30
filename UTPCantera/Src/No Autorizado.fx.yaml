@@ -11,6 +11,54 @@
         Width: =571
         X: =445
         Y: =157
+        ZIndex: =3
+
+    TextCanvas62 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        PCFTeamsTheme: ="default"
+        Size: =20
+        Text: ="Hola " &Left(User().FullName,Find(" ", User().FullName)-1)&"!"
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =139
+        X: =668
+        Y: =238
+        ZIndex: =4
+
+    TextCanvas63 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Height: =87
+        PCFTeamsTheme: ="default"
+        Size: =16
+        Text: ="No te encontramos registrado en nuestra base de datos."
+        Width: =296
+        X: =583
+        Y: =302
+        ZIndex: =5
+
+    TextCanvas64 As Texto:
+        DisplayMode: =DisplayMode.Edit
+        Height: =33
+        PCFTeamsTheme: ="default"
+        Size: =18
+        Text: ="Si necesitas acceso, ¡haz click aquí!"
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =299
+        X: =581
+        Y: =421
+        ZIndex: =6
+
+    ButtonCanvas18 As Botón:
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        PCFTeamsTheme: ="default"
+        Text: ="Solicitar Acceso"
+        Width: =139
+        X: =654
+        Y: =490
         ZIndex: =7
 
     Group2 As group:
@@ -26,7 +74,7 @@
             Height: =768
             Visible: =false
             Width: =1366
-            ZIndex: =4
+            ZIndex: =1
 
         Container10 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -39,7 +87,7 @@
             Width: =471
             X: =448
             Y: =127
-            ZIndex: =6
+            ZIndex: =2
 
             Rectangle6 As rectangle:
                 BorderColor: =App.Theme.Colors.Darker40
@@ -92,52 +140,47 @@
                 Y: =340
                 ZIndex: =5
 
-    TextCanvas62 As Texto:
-        Align: ='TextCanvas.Align'.Center
-        DisplayMode: =DisplayMode.Edit
-        Height: =35
-        PCFTeamsTheme: ="default"
-        Size: =20
-        Text: ="Hola " &Left(User().FullName,Find(" ", User().FullName)-1)&"!"
-        Weight: ='TextCanvas.Weight'.Bold
-        Width: =139
-        X: =668
-        Y: =238
+    Image1_6 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =80
+        Image: =logo
+        Width: =198
+        X: =22
+        Y: =688
         ZIndex: =8
 
-    TextCanvas63 As Texto:
-        Align: ='TextCanvas.Align'.Center
+    TextCanvas1_6 As Texto:
+        Align: ='TextCanvas.Align'.End
         DisplayMode: =DisplayMode.Edit
-        Height: =87
+        Height: =80
         PCFTeamsTheme: ="default"
-        Size: =16
-        Text: ="No te encontramos registrado en nuestra base de datos."
-        Width: =296
-        X: =583
-        Y: =302
+        Text: =Proper(User().FullName)
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =449
+        X: =817
+        Y: =0
         ZIndex: =9
 
-    TextCanvas64 As Texto:
+    Avatar1_6 As Avatar:
         DisplayMode: =DisplayMode.Edit
-        Height: =33
+        Height: =56
+        Image: =User().Image
+        Name: =User().FullName
         PCFTeamsTheme: ="default"
-        Size: =18
-        Text: ="Si necesitas acceso, ¡haz click aquí!"
-        Weight: ='TextCanvas.Weight'.Semibold
-        Width: =299
-        X: =581
-        Y: =421
+        Width: =64
+        X: =1284
+        Y: =12
         ZIndex: =10
 
-    ButtonCanvas18 As Botón:
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        PCFTeamsTheme: ="default"
-        Text: ="Solicitar Acceso"
-        Width: =139
-        X: =654
-        Y: =490
+    Circle1 As circle:
+        BorderColor: =App.Theme.Colors.Darker40
+        Fill: =App.Theme.Colors.Primary
+        Height: =35
+        Width: =212
+        X: =288
+        Y: =592
         ZIndex: =11
 
     Image9 As image:
@@ -150,38 +193,4 @@
         X: =192
         Y: =191
         ZIndex: =12
-
-    Image1_6 As image:
-        BorderColor: =App.Theme.Colors.Darker40
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =80
-        Image: =logo
-        Width: =198
-        X: =22
-        Y: =688
-        ZIndex: =13
-
-    TextCanvas1_6 As Texto:
-        Align: ='TextCanvas.Align'.End
-        DisplayMode: =DisplayMode.Edit
-        Height: =80
-        PCFTeamsTheme: ="default"
-        Text: =Proper(User().FullName)
-        Weight: ='TextCanvas.Weight'.Semibold
-        Width: =449
-        X: =817
-        Y: =0
-        ZIndex: =14
-
-    Avatar1_6 As Avatar:
-        DisplayMode: =DisplayMode.Edit
-        Height: =56
-        Image: =User().Image
-        Name: =User().FullName
-        PCFTeamsTheme: ="default"
-        Width: =64
-        X: =1284
-        Y: =12
-        ZIndex: =15
 
