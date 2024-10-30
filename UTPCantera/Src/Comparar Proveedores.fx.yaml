@@ -357,7 +357,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             PCFTeamsTheme: ="default"
-            Value: =PopUp_List_Proveedor_2.proveedor.ruc
+            Value: =PopUp_List_Proveedor_2.proveedor.
             Width: =320
             X: =167
             Y: =61
