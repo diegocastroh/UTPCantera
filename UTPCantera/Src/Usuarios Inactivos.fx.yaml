@@ -99,6 +99,8 @@
         Height: =32
         Icon: ="Eraser"
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: |-
+            =UpdateContext({popup_delete_one: true})
         PCFTeamsTheme: ="default"
         Text: ="Borrar selección"
         Width: =167
@@ -118,8 +120,11 @@
 
     PopUp_3 As PopUp:
         Aceptar: ="Texto"
-        Cancelar: ="Texto"
+        Cancelar: |-
+            =UpdateContext({popup_delete_one: false})
         Descripcion: ="Estás apunto de eliminar al usuario "& Table1.Selected.matricula & ". Esta acción es irreversible."
-        Titulo: ="¿Estás seguro que deseas continuar?"
+        Imagen: =alarm
+        Titulo: ="¿Desea eliminar el usuario seleccionado?"
+        Visible: =popup_delete_one
         ZIndex: =6
 

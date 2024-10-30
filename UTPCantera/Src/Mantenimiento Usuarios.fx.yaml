@@ -504,10 +504,16 @@
                             NotificationType.Error
                         ),
                         SubmitForm(EditForm1);
+                        If(!editMode,
                         Notify(
                             "Se ha registrado un usuario correctamente",
                             NotificationType.Success
+                        ),Notify(
+                            "Se ha editado el usuario correctamente",
+                            NotificationType.Success
                         )
+                        )
+                        
                     )
                 PaddingBottom: =varStyle.iconPadding
                 PaddingLeft: =varStyle.iconPadding
