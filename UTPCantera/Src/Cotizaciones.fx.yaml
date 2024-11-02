@@ -467,7 +467,7 @@ Cotizaciones As screen:
                     ZIndex: =10
 
     Toolbar1 As Toolbar.pcfdataset:
-        DisplayMode: =DisplayMode.Edit
+        DisplayMode: =If(IsEmpty(Filter(Gallery3.AllItems,CheckboxCanvas1.Checked = false)), DisplayMode.Disabled,DisplayMode.Edit)
         Height: =55
         Items: |-
             =Table(
