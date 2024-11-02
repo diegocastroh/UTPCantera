@@ -1,0 +1,8 @@
+"'Listado de Proveedores Participantes' As screen":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Background_5 As Background:
+        Back: ="Texto"
+        Home: ="Texto"
+
