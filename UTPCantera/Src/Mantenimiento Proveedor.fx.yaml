@@ -544,6 +544,104 @@
             Y: =TopBar_RightContainer2.Y + TopBar_RightContainer2.Height
             ZIndex: =21
 
+            id_usuario_DataCard1 As typedDataCard.pcfCoreComboBoxEditCard:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="crd9d_id_usuario"
+                Default: =ThisItem.id_usuario
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@Proveedores],DataSourceInfo.DisplayName,'crd9d_id_usuario')
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                Required: =false
+                Update: =DataCardValue7.Selected
+                Width: =362
+                WidthFit: =true
+                X: =2
+                Y: =2
+                ZIndex: =1
+
+                DataCardKey7 As Etiqueta:
+                    AutoHeight: =true
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =22
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.DisplayName
+                    Tooltip: =Parent.DisplayName
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue7 As combobox:
+                    AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obligatorio.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                    BorderColor: =App.Theme.Colors.Darker40
+                    ChevronBackground: =App.Theme.Colors.Primary
+                    ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                    ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                    ChevronFill: =App.Theme.Colors.PrimaryForeground
+                    ChevronHoverBackground: =App.Theme.Colors.Darker10
+                    ChevronHoverFill: =App.Theme.Colors.PrimaryForeground
+                    DefaultSelectedItems: =Parent.Default
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayFields: =["crd9d_idusuario"]
+                    DisplayMode: =Parent.DisplayMode
+                    Font: =App.Theme.Font
+                    Height: =32
+                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverFill: =App.Theme.Colors.Lighter70
+                    Items: =Choices([@Proveedores].'crd9d_id_usuario')
+                    PressedColor: =App.Theme.Colors.PrimaryForeground
+                    PressedFill: =App.Theme.Colors.Darker30
+                    SearchFields: =["crd9d_matricula"]
+                    SearchItems: =Search(Choices([@Proveedores].'crd9d_id_usuario'),DataCardValue7.SearchText,crd9d_matricula)
+                    SelectionColor: =App.Theme.Colors.PrimaryForeground
+                    SelectionFill: =App.Theme.Colors.Primary
+                    SelectMultiple: =false
+                    Size: =10.5
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey7.Y + DataCardKey7.Height + 4
+                    ZIndex: =2
+
+                ErrorMessage16 As Etiqueta:
+                    AutoHeight: =true
+                    Color: =Color.Red
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =9
+                    Height: =30
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: =Parent.Error
+                    Tooltip: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue7.Y + DataCardValue7.Height
+                    ZIndex: =3
+
+                StarVisible16 As Etiqueta:
+                    Alignment: =Align.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =20
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Text: ="*"
+                    VerticalAlignment: =VerticalAlign.Bottom
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey7.Y
+                    ZIndex: =4
+
             codigo_proveedor_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
                 BorderColor: =App.Theme.Colors.Darker40
                 BorderStyle: =BorderStyle.Solid

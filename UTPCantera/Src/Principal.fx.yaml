@@ -117,7 +117,13 @@ Principal As screen:
                 ZIndex: =2
 
     btnInteract_4 As btnInteract:
-        btnNombre: ="Configuración"
+        btnNombre: |-
+            =If(user_in.rol = 'rol (Usuarios)'.PROV,
+            
+            "Perfil del Proveedor",
+            
+            "Configuración"
+            )
         Imagen: ='configuracion-del-navegador'
         setAction: =Navigate('Menu de Mantenimientos')
         X: =980
@@ -133,7 +139,13 @@ Principal As screen:
         ZIndex: =7
 
     btnInteract_7 As btnInteract:
-        btnNombre: ="Cotizaciones"
+        btnNombre: |-
+            =If(user_in.rol = 'rol (Usuarios)'.PROV,
+            
+            "Mis Cotizaciones",
+            
+            "Cotizaciones"
+            )
         Imagen: ='Cotización Icon'
         setAction: =Navigate(Cotizaciones)
         X: =187

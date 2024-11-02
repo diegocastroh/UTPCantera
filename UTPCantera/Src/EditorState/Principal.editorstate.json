@@ -160,7 +160,7 @@
         {
           "Category": "Data",
           "PropertyName": "btnNombre",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -430,7 +430,7 @@
         {
           "Category": "Data",
           "PropertyName": "btnNombre",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
