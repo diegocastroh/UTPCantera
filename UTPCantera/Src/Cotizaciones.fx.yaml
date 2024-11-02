@@ -749,3 +749,15 @@ Cotizaciones As screen:
         Y: =85
         ZIndex: =6
 
+    TextCanvas67 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Height: =45
+        PCFTeamsTheme: ="default"
+        Text: ="No se han encontrado registros"
+        Visible: =Gallery3.AllItemsCount = 0
+        Width: =261
+        X: =679
+        Y: =411
+        ZIndex: =7
+
