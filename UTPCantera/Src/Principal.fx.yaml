@@ -128,17 +128,9 @@ Principal As screen:
         btnNombre: ="Proyectos"
         Imagen: =Proyectos
         setAction: =Navigate('Tabla Proyectos')
-        X: =715
+        X: =583
         Y: =258
         ZIndex: =7
-
-    btnInteract_6 As btnInteract:
-        btnNombre: ="Servicios"
-        Imagen: =Servicios
-        setAction: ="Texto"
-        X: =451
-        Y: =258
-        ZIndex: =8
 
     btnInteract_7 As btnInteract:
         btnNombre: ="Cotizaciones"

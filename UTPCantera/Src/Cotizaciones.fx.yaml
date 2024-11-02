@@ -143,10 +143,18 @@ Cotizaciones As screen:
                 BorderColor: =App.Theme.Colors.Darker40
                 DelayItemLoading: =true
                 Height: =473
-                Items: |
-                    =Filter(
-                        Cotizaciones_1,
-                        IsBlank(ComboboxCanvas9.SelectedItems) || estado in ComboboxCanvas9.SelectedItems
+                Items: |-
+                    =If(
+                        user_in.rol = 'rol (Usuarios)'.PROV,
+                        Filter(
+                            Cotizaciones_1,
+                            IsBlank(ComboboxCanvas9.SelectedItems) || estado in ComboboxCanvas9.SelectedItems,
+                            id_proveedor.'id proveedor'= LookUp(Proveedores, id_usuario.'id usuario' = user_in.'id usuario').'id proveedor'
+                        ),
+                        Filter(
+                            Cotizaciones_1,
+                            IsBlank(ComboboxCanvas9.SelectedItems) || estado in ComboboxCanvas9.SelectedItems
+                        )
                     )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
