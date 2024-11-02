@@ -3,6 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(user_in, LookUp(Usuarios, correo = User().Email));
         Collect(listado_proveedores, Proveedores)
+    StartScreen: =If(IsBlank(LookUp(Usuarios, correo = User().Email)), 'No Autorizado', Principal)
     Theme: =White
 
     Host As hostControl.DefaultHostControlVariant:
