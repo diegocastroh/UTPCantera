@@ -195,7 +195,7 @@
         "TextInputCanvas2_4 As 'Entrada de texto'":
             Appearance: ='TextInputCanvas.Appearance'.FilledDarker
             BasePaletteColor: =
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =proveedor.nombre_proveedor
@@ -279,7 +279,7 @@
         "TextInputCanvas2_3 As 'Entrada de texto'":
             Appearance: ='TextInputCanvas.Appearance'.FilledDarker
             BasePaletteColor: =
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =proveedor.codigo_proveedor
@@ -289,7 +289,7 @@
             ZIndex: =14
 
         "TextInputCanvas15 As 'Entrada de texto'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =proveedor.contacto
@@ -299,7 +299,7 @@
             ZIndex: =15
 
         "TextInputCanvas16 As 'Entrada de texto'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =proveedor.email
@@ -319,7 +319,7 @@
             ZIndex: =17
 
         "TextInputCanvas16_1 As 'Entrada de texto'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =proveedor.direccion
@@ -339,7 +339,7 @@
             ZIndex: =19
 
         "TextInputCanvas16_2 As 'Entrada de texto'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =proveedor.telefono
@@ -429,7 +429,7 @@
         "TextInputCanvas2_6 As 'Entrada de texto'":
             Appearance: ='TextInputCanvas.Appearance'.FilledDarker
             BasePaletteColor: =
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =48
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"
@@ -483,7 +483,7 @@
         "TextInputCanvas2_5 As 'Entrada de texto'":
             Appearance: ='TextInputCanvas.Appearance'.FilledDarker
             BasePaletteColor: =
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =32
             PCFTeamsTheme: ="default"
             Value: =portafolio.certificaciones
@@ -493,7 +493,7 @@
             ZIndex: =14
 
         "TextInputCanvas15_1 As 'Entrada de texto'":
-            DisplayMode: =DisplayMode.Edit
+            DisplayMode: =DisplayMode.View
             Height: =95
             Mode: ='TextInputCanvas.Mode'.Multiline
             PCFTeamsTheme: ="default"

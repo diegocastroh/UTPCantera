@@ -125,7 +125,13 @@ Principal As screen:
             "Configuración"
             )
         Imagen: ='configuracion-del-navegador'
-        setAction: =Navigate('Menu de Mantenimientos')
+        setAction: |-
+            =If(user_in.rol = 'rol (Usuarios)'.PROV,
+            
+            Navigate('Detalle Proveedor'),
+            
+            Navigate('Menu de Mantenimientos',Transition.Pop, {proveedor: LookUp(Proveedores, id_usuario.'id usuario' = user_in.'id usuario')})
+            )
         X: =980
         Y: =258
         ZIndex: =6

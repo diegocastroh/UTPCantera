@@ -9359,6 +9359,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Menu de Mantenimientos'.proveedor"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Menu de Mantenimientos'.proveedor",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "proveedor",
+                "module": "Menu de Mantenimientos",
+                "type": "'Menu de Mantenimientos'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Listado de Proveedores Participantes'.Container1_3.Container3_3.Gallery3_3.Container5_3.TextCanvas2_28.Text"
                 }
               ],
