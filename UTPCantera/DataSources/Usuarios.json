@@ -15,6 +15,7 @@
       "crd9d_idusuario": "id usuario",
       "crd9d_matricula": "matricula",
       "crd9d_nombre": "nombre",
+      "crd9d_proveedores_id_usuario_crd9d_usuarios": "Proveedores",
       "crd9d_Proyectos_id_usuario_aceptante_crd9d_Usuarios": "Proyectos (crd9d_Proyectos_id_usuario_aceptante_crd9d_Usuarios)",
       "crd9d_Proyectos_id_usuario_responsable_crd9d_Usuarios": "Proyectos (crd9d_Proyectos_id_usuario_responsable_crd9d_Usuarios)",
       "crd9d_rol": "rol",

@@ -613,6 +613,7 @@ Cotizaciones As screen:
             PCFTeamsTheme: ="default"
             Required: =false
             SelectMultiple: =true
+            TriggerOutput: ="Keypress"
             Width: =200
             X: =28
             Y: =197
@@ -688,6 +689,7 @@ Cotizaciones As screen:
             Items: =['estado (Cotizaciones_1)'.Pendiente,'estado (Cotizaciones_1)'.Aceptada,'estado (Cotizaciones_1)'.Rechazada]
             PCFTeamsTheme: ="default"
             Required: =false
+            TriggerOutput: ="Keypress"
             Width: =200
             X: =28
             Y: =346

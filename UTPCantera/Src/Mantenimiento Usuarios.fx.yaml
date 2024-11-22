@@ -782,7 +782,7 @@
                 DataField: ="crd9d_bloqueado"
                 Default: =ThisItem.Bloqueado
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,'crd9d_bloqueado')
+                DisplayName: =DataSourceInfo([@Usuarios],DataSourceInfo.DisplayName,Bloqueado)
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =70
                 Required: =false
@@ -1247,6 +1247,7 @@
             Items: =Usuarios
             PCFTeamsTheme: ="default"
             Required: =false
+            TriggerOutput: ="Keypress"
             Width: =250
             X: =30
             Y: =60
@@ -1344,6 +1345,7 @@
             PCFTeamsTheme: ="default"
             Required: =false
             SelectMultiple: =true
+            TriggerOutput: ="Keypress"
             Width: =174
             X: =665
             Y: =60

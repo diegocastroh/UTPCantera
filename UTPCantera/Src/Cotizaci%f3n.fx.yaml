@@ -201,6 +201,7 @@ Cotización As screen:
                 Items: =Usuarios
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =320
                 X: =167
                 Y: =395
@@ -255,6 +256,7 @@ Cotización As screen:
                 Items: =Usuarios
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =320
                 X: =167
                 Y: =333
@@ -530,6 +532,7 @@ Cotización As screen:
                 Items: =Proveedores
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =320
                 X: =173
                 Y: =307

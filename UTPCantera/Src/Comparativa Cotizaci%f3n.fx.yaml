@@ -446,6 +446,7 @@
             Items: =Proveedores
             PCFTeamsTheme: ="default"
             Required: =false
+            TriggerOutput: ="Keypress"
             Width: =200
             X: =168
             Y: =65

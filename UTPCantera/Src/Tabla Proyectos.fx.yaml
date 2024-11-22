@@ -318,6 +318,7 @@
             PCFTeamsTheme: ="default"
             Required: =false
             SelectMultiple: =true
+            TriggerOutput: ="Keypress"
             Width: =200
             X: =28
             Y: =197
@@ -382,6 +383,7 @@
             Items: =["Pendiente", "Aceptado", "Rechazado"]
             PCFTeamsTheme: ="default"
             Required: =false
+            TriggerOutput: ="Keypress"
             Width: =200
             X: =28
             Y: =346

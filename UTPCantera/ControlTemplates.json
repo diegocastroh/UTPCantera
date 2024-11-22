@@ -55,7 +55,7 @@
     "Name": "PowerApps_CoreControls_ButtonCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Botón",
-    "Version": "0.0.42"
+    "Version": "0.0.43"
   },
   "button": {
     "CustomGroupControlTemplateName": "",
@@ -142,7 +142,7 @@
     "Name": "PowerApps_CoreControls_ComboboxCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Cuadro combinado",
-    "Version": "0.0.45"
+    "Version": "0.0.47"
   },
   "Cuadro de texto": {
     "CustomGroupControlTemplateName": "",
@@ -172,7 +172,7 @@
     "Name": "PowerApps_CoreControls_DropdownCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Desplegable",
-    "Version": "0.0.42"
+    "Version": "0.0.44"
   },
   "Entrada de texto": {
     "CustomGroupControlTemplateName": "",
@@ -187,7 +187,7 @@
     "Name": "PowerApps_CoreControls_TextInputCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Entrada de texto",
-    "Version": "0.0.48"
+    "Version": "0.0.49"
   },
   "Entrada numérica": {
     "CustomGroupControlTemplateName": "",
@@ -444,7 +444,7 @@
     "Name": "PowerApps_CoreControls_DatePickerCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Selector de fecha",
-    "Version": "0.0.34"
+    "Version": "0.0.35"
   },
   "Tabla": {
     "CustomGroupControlTemplateName": "",
@@ -579,7 +579,7 @@
     "Name": "PowerApps_CoreControls_TextCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Texto",
-    "Version": "0.0.42"
+    "Version": "0.0.43"
   },
   "timer": {
     "CustomGroupControlTemplateName": "",

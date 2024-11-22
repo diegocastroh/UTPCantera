@@ -198,6 +198,7 @@
                 Items: =Usuarios
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =320
                 X: =167
                 Y: =395
@@ -251,6 +252,7 @@
                 Items: =Usuarios
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =320
                 X: =167
                 Y: =333
@@ -552,6 +554,7 @@
                 Items: =Ordenes
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =320
                 X: =173
                 Y: =169
@@ -682,6 +685,7 @@
                 Items: =Categorias
                 PCFTeamsTheme: ="default"
                 Required: =false
+                TriggerOutput: ="Keypress"
                 Width: =190
                 X: =20
                 Y: =97

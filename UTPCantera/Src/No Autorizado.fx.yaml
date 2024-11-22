@@ -22,8 +22,8 @@
         Text: ="Hola " &Left(User().FullName,Find(" ", User().FullName)-1)&"!"
         Weight: ='TextCanvas.Weight'.Bold
         Width: =139
-        X: =668
-        Y: =238
+        X: =661
+        Y: =261
         ZIndex: =4
 
     TextCanvas63 As Texto:
@@ -47,18 +47,20 @@
         Weight: ='TextCanvas.Weight'.Semibold
         Width: =299
         X: =581
-        Y: =421
+        Y: =389
         ZIndex: =6
 
     ButtonCanvas18 As Botón:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
-        Height: =40
+        Height: =36
+        Icon: ="Send"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
         PCFTeamsTheme: ="default"
         Text: ="Solicitar Acceso"
-        Width: =139
-        X: =654
-        Y: =490
+        Width: =156
+        X: =652
+        Y: =438
         ZIndex: =7
 
     Group2 As group:
