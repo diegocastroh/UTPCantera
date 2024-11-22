@@ -196,3 +196,32 @@
         Y: =191
         ZIndex: =12
 
+    Container26 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(79, 90, 94, .35)
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =13
+
+        Container29 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =539
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            X: =433
+            Y: =115
+            ZIndex: =1
+
+            Rectangle24 As rectangle:
+                BorderColor: =App.Theme.Colors.Darker40
+                Fill: =Color.White
+                Height: =539
+                Width: =500
+                ZIndex: =1
+
