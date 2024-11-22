@@ -225,3 +225,101 @@
                 Width: =500
                 ZIndex: =1
 
+            ButtonCanvas19 As Botón:
+                Appearance: ='ButtonCanvas.Appearance'.Subtle
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                Icon: ="Dismiss"
+                PCFTeamsTheme: ="default"
+                Text: =
+                Width: =32
+                X: =456
+                Y: =12
+                ZIndex: =2
+
+            TextCanvas68 As Texto:
+                Align: ='TextCanvas.Align'.Center
+                DisplayMode: =DisplayMode.Edit
+                Height: =57
+                PCFTeamsTheme: ="default"
+                Size: =20
+                Text: ="Solicitar Acceso"
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =406
+                X: =47
+                Y: =44
+                ZIndex: =3
+
+            "TextInputCanvas18 As 'Entrada de texto'":
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Width: =320
+                X: =90
+                Y: =167
+                ZIndex: =4
+
+            "TextInputCanvas19 As 'Entrada de texto'":
+                DisplayMode: =DisplayMode.Disabled
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Value: =User().FullName
+                Width: =320
+                X: =90
+                Y: =253
+                ZIndex: =5
+
+            "TextInputCanvas20 As 'Entrada de texto'":
+                DisplayMode: =DisplayMode.Disabled
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Value: =User().Email
+                Width: =320
+                X: =90
+                Y: =335
+                ZIndex: =6
+
+            ButtonCanvas24 As Botón:
+                BasePaletteColor: =RGBA(5, 102, 178, 1)
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                Icon: ="Send"
+                IconStyle: ='ButtonCanvas.IconStyle'.Filled
+                Layout: ='ButtonCanvas.Layout'.IconBefore
+                PCFTeamsTheme: ="default"
+                Text: ="Enviar"
+                Width: =96
+                X: =380
+                Y: =484
+                ZIndex: =7
+
+            TextCanvas69 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Text: ="Matricula"
+                Width: =96
+                X: =90
+                Y: =132
+                ZIndex: =8
+
+            TextCanvas70 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Text: ="Nombre"
+                Width: =96
+                X: =90
+                Y: =221
+                ZIndex: =9
+
+            TextCanvas71 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                PCFTeamsTheme: ="default"
+                Text: ="Correo"
+                Width: =96
+                X: =90
+                Y: =303
+                ZIndex: =10
+
