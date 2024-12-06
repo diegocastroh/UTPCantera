@@ -521,7 +521,7 @@ Cotizaciones As screen:
                 ),/* Default action */
             /* Action for 'delete' */
                 "delete",
-                Notify("Delete clicked"),/* Action for 'info' */
+                ForAll(Filter(Gallery3.AllItems, CheckboxCanvas1.Checked = true) As elemento, Patch(Cotizaciones_1,elemento, {estado: 'estado (Cotizaciones_1)'.Rechazada})),/* Action for 'info' */
                 "info",
                 Notify("Info clicked"),/* Default action */
                 "detalle_proveedor",
