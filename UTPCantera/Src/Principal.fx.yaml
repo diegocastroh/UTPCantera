@@ -158,14 +158,3 @@ Principal As screen:
         Y: =258
         ZIndex: =9
 
-    ButtonCanvas25 As Botón:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        OnSelect: |-
-            =Notify("Acceso denegado: No tienes permisos para acceder a esta sección.",NotificationType.Error)
-        PCFTeamsTheme: ="default"
-        Width: =96
-        X: =828
-        Y: =640
-        ZIndex: =10
-
