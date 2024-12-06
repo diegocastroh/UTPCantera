@@ -507,7 +507,7 @@ Cotizaciones As screen:
             =Switch(
                 Self.Selected.ItemKey,/* Action for Key 'new' */
                 "new",
-                Notify("New clicked"),/* Action for 'edit' */
+                ForAll(Filter(Gallery3.AllItems, CheckboxCanvas1.Checked = true) As elemento, Patch(Cotizaciones_1,elemento, {estado: 'estado (Cotizaciones_1)'.Aceptada})),
                 "revisar",
                 Navigate(
                     'Comparativa Cotización',
