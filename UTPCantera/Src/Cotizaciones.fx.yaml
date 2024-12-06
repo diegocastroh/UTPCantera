@@ -477,7 +477,7 @@ Cotizaciones As screen:
                     ItemIconName: "Checkmark",
                     ItemAppearance: "Primary",
                     ItemIconStyle: "Regular",
-                    ItemTooltip: "Add new item"
+                    ItemTooltip: "Marca las cotizaciones seleccionadas como aceptadas."
                 },
                 {
                     ItemKey: "revisar",
@@ -492,7 +492,8 @@ Cotizaciones As screen:
                     ItemIconName: "Delete",
                     ItemDisabled: true,
                     ItemAppearance: "Subtle",
-                    ItemIconStyle: "Filled"
+                    ItemIconStyle: "Filled",
+                    ItemTooltip: "Marca las cotizaciones seleccionadas como rechazadas."
                 },
                 {
                     ItemKey: "detalle_proveedor",
@@ -534,7 +535,7 @@ Cotizaciones As screen:
                 Notify("Unrecognized button clicked")
             )
         PCFTeamsTheme: ="default"
-        Visible: =true
+        Visible: =user_in.rol = 'rol (Usuarios)'.ADMI
         Width: =696
         X: =642
         Y: =112
@@ -702,7 +703,7 @@ Cotizaciones As screen:
         Size: =18
         Text: ="Tabla de Cotizaciones"
         Weight: ='TextCanvas.Weight'.Semibold
-        Width: =606
+        Width: =356
         X: =286
         Y: =112
         ZIndex: =5
