@@ -56,6 +56,8 @@
         Height: =36
         Icon: ="Send"
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: |-
+            =UpdateContext({popup_autorizado_formulario: true})
         PCFTeamsTheme: ="default"
         Text: ="Solicitar Acceso"
         Width: =156
@@ -204,6 +206,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
+        Visible: =popup_autorizado_formulario
         Width: =1366
         ZIndex: =13
 
@@ -230,6 +233,8 @@
                 DisplayMode: =DisplayMode.Edit
                 Height: =32
                 Icon: ="Dismiss"
+                OnSelect: |-
+                    =UpdateContext({popup_autorizado_formulario: false})
                 PCFTeamsTheme: ="default"
                 Text: =
                 Width: =32
